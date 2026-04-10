@@ -274,7 +274,7 @@ header {
 
     /* Image properties */
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/default-header-bg_plain.png');
+    background-image: url('{{ site.baseurl }}/img/gradient test.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
