@@ -1,7 +1,7 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 2c3e50  # This replaces the yellow with a professional Navy
-  secondary: 1a252f   
+  primary: 3F6E93  # change primary color font
+  secondary: 3F6E93   
   secondary-dark: 333
   muted: 777
 
