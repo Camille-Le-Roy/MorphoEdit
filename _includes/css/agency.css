@@ -350,6 +350,18 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+#services {
+    background-color: #fff; /* Set background color for Services section */
+}
+
+#about {
+    background-color: #f7f7f7; /* Set background color for About section */
+}
+
+#testimonials {
+    background-color: #fff; /* Set background color for About section */
+}
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
