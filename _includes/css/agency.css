@@ -274,7 +274,7 @@ header {
 
     /* FIRST PAGE BACKGROUND IMAGE */
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/gradient test white bottom 2.jpg');
+    background-image: url('{{ site.baseurl }}/img/grey background.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -883,4 +883,28 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+
+/* Mobile View adjustments for the Header text */
+@media (max-width: 767px) {
+    header .intro-text .intro-lead-in:nth-of-type(2) {
+        font-size: 24px !important; /* The "Morpho Editing" text */
+        margin-bottom: 20px !important;
+    }
+
+    header .intro-text .intro-heading {
+        font-size: 30px !important; /* "Your Research, Reshaped." */
+        line-height: 35px !important;
+        margin-bottom: 20px !important;
+    }
+
+    header .intro-text .intro-lead-in:nth-of-type(4) {
+        font-size: 18px !important; /* "Turn your scientific writings..." */
+        line-height: 24px !important;
+    }
+    
+    header .intro-logo img {
+        max-width: 120px !important; /* Smaller logo on mobile */
+    }
 }
