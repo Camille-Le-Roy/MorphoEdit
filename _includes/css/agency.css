@@ -272,9 +272,9 @@ header {
     /* Use a plain color */
     /* background-color: #5c5959;*/
 
-    /* Image properties */
+    /* FIRST PAGE BACKGROUND IMAGE */
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/gradient test.jpg');
+    background-image: url('{{ site.baseurl }}/img/gradient test white bottom 2.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
