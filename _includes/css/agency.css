@@ -274,7 +274,7 @@ header {
 
     /* FIRST PAGE BACKGROUND IMAGE */
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/grey background.jpg');
+    background-image: url('{{ site.baseurl }}/img/anaxibia wing enhanced 2.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
