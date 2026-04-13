@@ -908,3 +908,22 @@ body {
         max-width: 120px !important; /* Smaller logo on mobile */
     }
 }
+
+/* Mobile View adjustments for "I can help box" */
+.help-box-title {
+    font-size: 22px;
+}
+.help-box-list {
+    font-size: 18px;
+}
+
+/* Computer View (Screens wider than 992px) */
+@media (min-width: 992px) {
+    .help-box-title {
+        font-size: 28px; /* Bigger on computer */
+    }
+    .help-box-list {
+        font-size: 22px; /* Bigger on computer */
+        line-height: 1.8; /* Extra breathing room for big screens */
+    }
+}
