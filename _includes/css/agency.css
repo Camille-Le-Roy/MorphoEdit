@@ -942,17 +942,22 @@ body {
     box-shadow: 0 15px 30px rgba(0,0,0,0.3); 
 }
 
-/* --------- For the contact form to show a validation message after sending a message ----------- */
-/* Hide the form and show the success message upon submission */
-.fs-form-success #contactForm {
-    display: none !important;
+/* --------- For the contact form to show a validation message after sending a message----------- */
+/* 1. Hide the messages by default using the data attributes */
+[data-fs-success], [data-fs-error] {
+    display: none;
 }
 
+/* 2. When the library adds the success class, show the message and hide the form */
 .fs-form-success #success {
     display: block !important;
 }
 
-/* Optional: Show error message if something goes wrong */
+.fs-form-success #contactForm {
+    display: none !important;
+}
+
+/* 3. Handle errors similarly */
 .fs-form-error #error {
     display: block !important;
 }
