@@ -941,3 +941,19 @@ body {
     transform: scale(1.1); /* Increased to 1.1 to make the difference obvious */
     box-shadow: 0 15px 30px rgba(0,0,0,0.3); 
 }
+
+/* --------- For the contact form to show a validation message after sending a message ----------- */
+/* Hide success/error messages by default */
+[data-fs-success], [data-fs-error] {
+    display: none;
+}
+
+/* When the form is successful, show the success div */
+.fs-form-success #success {
+    display: block !important;
+}
+
+/* Hide the form fields after a successful send to keep it clean */
+.fs-form-success #contactForm {
+    display: none;
+}
