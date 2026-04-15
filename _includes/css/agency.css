@@ -943,21 +943,20 @@ body {
 }
 
 /* --------- For the contact form to show a validation message after sending a message----------- */
-/* 1. Hide the messages by default using the data attributes */
+/* Default state */
 [data-fs-success], [data-fs-error] {
     display: none;
 }
 
-/* 2. When the library adds the success class, show the message and hide the form */
+/* Success state */
 .fs-form-success #success {
     display: block !important;
 }
-
 .fs-form-success #contactForm {
     display: none !important;
 }
 
-/* 3. Handle errors similarly */
+/* Error state */
 .fs-form-error #error {
     display: block !important;
 }
