@@ -909,7 +909,7 @@ body {
     }
 }
 
-/* Mobile View adjustments for "I can help box" */
+/* Mobile View adjustments for the header page */
 .help-box-title {
     font-size: 22px;
 }
@@ -926,4 +926,18 @@ body {
         font-size: 22px; /* Bigger on computer */
         line-height: 1.8; /* Extra breathing room for big screens */
     }
+}
+
+/* enable "popping out" effect for service card */
+.service-card {
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), 
+                box-shadow 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+
+.service-card:hover {
+    transform: scale(1.1); /* Increased to 1.1 to make the difference obvious */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3); 
 }
