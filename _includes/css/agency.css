@@ -943,17 +943,16 @@ body {
 }
 
 /* --------- For the contact form to show a validation message after sending a message ----------- */
-/* Hide success/error messages by default */
-[data-fs-success], [data-fs-error] {
-    display: none;
+/* Hide the form and show the success message upon submission */
+.fs-form-success #contactForm {
+    display: none !important;
 }
 
-/* When the form is successful, show the success div */
 .fs-form-success #success {
     display: block !important;
 }
 
-/* Hide the form fields after a successful send to keep it clean */
-.fs-form-success #contactForm {
-    display: none;
+/* Optional: Show error message if something goes wrong */
+.fs-form-error #error {
+    display: block !important;
 }
