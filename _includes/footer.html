@@ -1,11 +1,16 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+            <div class="col-md-8 text-left">
+                <span class="copyright">
+                    <img src="{{ "/img/logo black and white.png" | prepend: site.baseurl }}" 
+                         alt="Morpho Editing Logo" 
+                         style="height: 50px; margin-right: 10px; vertical-align: middle;">
+                    Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}
+                </span>
             </div>
             
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <ul class="list-inline social-buttons">
                     {% for network in site.social %}
                     <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
