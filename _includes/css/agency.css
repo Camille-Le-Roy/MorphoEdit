@@ -964,3 +964,25 @@ body {
 .fs-form-error #error {
     display: block !important;
 }
+
+.language-selector a {
+    font-weight: 700 !important;
+    color: #fff !important; /* Use your theme's primary color */
+    border: 1px solid #fff;
+    padding: 5px 10px !important;
+    margin-top: 10px;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.language-selector a:hover {
+    background-color: #fff;
+    color: #fff !important;
+}
+
+/* Adjust for mobile positioning if necessary */
+@media(min-width:768px) {
+    .language-selector {
+        margin-left: 15px;
+    }
+}

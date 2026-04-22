@@ -1,7 +1,11 @@
-<!-- ----------------- Navigation Bar ----------------- -->
+{% assign lang = "en" %}
+{% if page.url contains '/fr/' %}
+  {% assign lang = "fr" %}
+{% endif %}
+{% assign t = site.data.locales[lang] %}
+
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -22,93 +26,61 @@
                     </span>
                 </div>
             </a>
-            </div>
+        </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#services">Services</a>
-                </li>
-
-                <!-- Portfolio section (disabled for now)
-                <li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
-                </li>
-                -->
-
-                <li>
-                    <a class="page-scroll" href="#about">About</a>
-                </li>
-
-                <li>
-                    <a class="page-scroll" href="#testimonials">Testimonials</a>
-                </li>
-  
-
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                <li class="hidden"><a href="#page-top"></a></li>
+                <li><a class="page-scroll" href="#services">{{ t.nav.services }}</a></li>
+                <li><a class="page-scroll" href="#about">{{ t.nav.about }}</a></li>
+                <li><a class="page-scroll" href="#testimonials">{{ t.nav.testimonials }}</a></li>
+                <li><a class="page-scroll" href="#contact">{{ t.nav.contact }}</a></li>
+                
+                <li class="language-selector">
+                    {% if lang == "en" %}
+                        <a href="{{ site.baseurl }}/fr/">FR</a>
+                    {% else %}
+                        <a href="{{ site.baseurl }}/">EN</a>
+                    {% endif %}
                 </li>
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
 </nav>
 
-<!-- ----------------- Header----------------- -->
 <header>
     <div class="container">
         <div class="intro-text">
-            
             <div class="intro-logo">
-                <img src="{{ "/img/logo white grey transparent.png" | prepend: site.baseurl }}" alt="Morpho Editing Logo" style="max-width: 200px; margin-bottom: 50px;">
+                <img src="{{ '/img/logo white grey transparent.png' | prepend: site.baseurl }}" alt="Morpho Editing Logo" style="max-width: 200px; margin-bottom: 50px;">
             </div>
 
             <div class="intro-heading" style="font-family: 'EB Garamond', serif; text-transform: none; font-style: normal;">
-                Your Research, Reshaped.
+                {{ t.header.heading }}
             </div>
 
             <div class="intro-lead-in" style="font-family: 'EB Garamond', serif; text-transform: none; font-style: normal; margin-bottom: 120px;">
-                Turn your scientific writings into clear, compelling narratives.
+                {{ t.header.lead_in }}
             </div>
-<!-- ------- "I can help you if..."-------- -->
-<div class="row">
-    <div class="col-md-8 col-md-offset-2">
-        <div style="font-family: 'EB Garamond', serif; text-align: left; background: rgba(246, 246, 250, 0.05); padding: 30px; border-radius: 8px; border-left: 3px solid #3F6E93;">
-            
-            <p class="help-box-title" style="margin-bottom: 20px; font-weight: 700;">I can help you if you are:</p>
-            
-            <ul class="help-box-list" style="list-style: none; padding-left: 0; line-height: 1.6;">
-                <li style="margin-bottom: 15px; display: flex;">
-                    <i class="fa fa-caret-right" style="color: #2a94bd; margin-right: 15px; margin-top: 5px;"></i>
-                    <span>Thriving in the lab and the data, but transforming your results into a cohesive narrative feels like a daunting hurdle.</span>
-                </li>
-                <li style="margin-bottom: 15px; display: flex;">
-                    <i class="fa fa-caret-right" style="color: #2a94bd; margin-right: 15px; margin-top: 5px;"></i>
-                    <span>Reaching the "final mile" of your dissertation and need expert eyes to ensure your formatting, syntax, and scientific clarity are flawless.</span>
-                </li>
-                <li style="margin-bottom: 0; display: flex;">
-                    <i class="fa fa-caret-right" style="color: #2a94bd; margin-right: 15px; margin-top: 5px;"></i>
-                    <span>Looking to elevate your manuscript to achieve a high-impact, narrative-driven publication.</span>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
 
-            <a href="#services" class="page-scroll btn btn-xl" style="margin-top: 50px;">Get Started</a>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div style="font-family: 'EB Garamond', serif; text-align: left; background: rgba(246, 246, 250, 0.05); padding: 30px; border-radius: 8px; border-left: 3px solid #3F6E93;">
+                        <p class="help-box-title" style="margin-bottom: 20px; font-weight: 700;">{{ t.help_box.title }}</p>
+                        
+                        <ul class="help-box-list" style="list-style: none; padding-left: 0; line-height: 1.6;">
+                            {% for item in t.help_box.items %}
+                            <li style="margin-bottom: 15px; display: flex;">
+                                <i class="fa fa-caret-right" style="color: #2a94bd; margin-right: 15px; margin-top: 5px;"></i>
+                                <span>{{ item }}</span>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#services" class="page-scroll btn btn-xl" style="margin-top: 50px;">{{ t.header.btn }}</a>
         </div>
     </div>
 </header>
-
-<!--
-    {% for page in site.pages %}
-      {% if page.title %}
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      {% endif %}
-    {% endfor %}
--->

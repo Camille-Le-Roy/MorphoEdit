@@ -1,37 +1,43 @@
+{% assign lang = "en" %}
+{% if page.url contains '/fr/' %}
+  {% assign lang = "fr" %}
+{% endif %}
+{% assign t = site.data.locales[lang] %}
+
 <section id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">About Me</h2>
+                <h2 class="section-heading">{{ t.about.heading }}</h2>
             </div>
         </div>
 
         <div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
             
             <div class="col-md-4 text-center">
-                <img class="img-circle img-responsive" src="img/profile picture balcony black and white zoomed.png" alt="Camille" style="border: 7px solid #f1f1f1; margin: 0 auto;">
+                <img class="img-circle img-responsive" src="{{ site.baseurl }}/img/profile picture balcony black and white zoomed.png" alt="Camille" style="border: 7px solid #f1f1f1; margin: 0 auto;">
                 
                 <h3 style="color: #000000; font-family: 'EB Garamond', serif; text-transform: none; margin-top: 20px; font-weight: 700; font-size: 24px;">
-                    Camille Le Roy, PhD
+                    {{ t.about.name }}
                 </h3>
             </div>
 
             <div class="col-md-8">
                 <div class="about-body">
                     <p class="large text-muted" style="font-size: 18px; margin-top: 20px; margin-bottom: 20px;">
-                        Hi, I’m Camille. I am a research scientist, a field biologist, and a biomechanicist — but above all, I am a writer who understands the challenges of an academic career.
+                        {{ t.about.intro }}
                     </p>
                     
                     <p class="large text-muted" style="font-size: 18px; margin-bottom: 20px;">
-                        With a PhD in Evolutionary Biology from the University of Paris and over seven years of interdisciplinary research spanning Ecology and Biophysics, my journey has taken me from the cloud forests of Peru to labs in France and the Netherlands. Along the way, I came to realize a shared struggle among researchers: we excel at the "doing" the experiments, the models, the field expeditions, but we often struggle to hit the "stop button" and immerse ourselves in the writing.
+                        {{ t.about.details_1 }}
                     </p>
 
                     <p class="large text-muted" style="font-size: 18px; margin-bottom: 20px;">
-                        I’ve been on that road. I know that turning years of messy data into a compelling story is a long, eventful adventure. Having authored 8 first-author papers in top-tier journals (including <em>Science</em> and <em>Nature Communications</em>) and served as a reviewer for 12+ multidisciplinary journals, I’ve learned how to bridge the gap between raw results and impactful publication. 
+                        {{ t.about.details_2 }}
                     </p>
 
                     <p class="large text-muted" style="font-size: 18px;">
-                        Today, I dedicate my expertise to helping fellow scholars navigate that "final mile" and transform their research into narratives that truly do justice to their discoveries.
+                        {{ t.about.conclusion }}
                     </p>
                 </div>
             </div>

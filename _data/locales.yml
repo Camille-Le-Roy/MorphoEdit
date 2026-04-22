@@ -1,0 +1,47 @@
+en:
+  nav:
+    services: "Services"
+    about: "About"
+    testimonials: "Testimonials"
+    contact: "Contact"
+  header:
+    heading: "Your Research, Reshaped."
+    lead_in: "Turn your scientific writings into clear, compelling narratives."
+    btn: "Get Started"
+  help_box:
+    title: "I can help you if you are:"
+    items:
+      - "Thriving in the lab and the data, but transforming your results into a cohesive narrative feels like a daunting hurdle."
+      - "Reaching the 'final mile' of your dissertation and need expert eyes to ensure your formatting, syntax, and scientific clarity are flawless."
+      - "Looking to elevate your manuscript to achieve a high-impact, narrative-driven publication."
+  about:
+    heading: "About Me"
+    name: "Camille Le Roy, PhD"
+    intro: "Hi, I’m Camille. I am a research scientist, a field biologist, and a biomechanicist — but above all, I am a writer who understands the challenges of an academic career."
+    details_1: "With a PhD in Evolutionary Biology from the University of Paris and over seven years of interdisciplinary research spanning Ecology and Biophysics, my journey has taken me from the cloud forests of Peru to labs in France and the Netherlands. Along the way, I came to realize a shared struggle among researchers: we excel at the 'doing' the experiments, the models, the field expeditions, but we often struggle to hit the 'stop button' and immerse ourselves in the writing."
+    details_2: "I’ve been on that road. I know that turning years of messy data into a compelling story is a long, eventful adventure. Having authored 8 first-author papers in top-tier journals (including <em>Science</em> and <em>Nature Communications</em>) and served as a reviewer for 12+ multidisciplinary journals, I’ve learned how to bridge the gap between raw results and impactful publication."
+    conclusion: "Today, I dedicate my expertise to helping fellow scholars navigate that 'final mile' and transform their research into narratives that truly do justice to their discoveries."
+
+fr:
+  nav:
+    services: "Services"
+    about: "À propos"
+    testimonials: "Témoignages"
+    contact: "Contact"
+  header:
+    heading: "Votre Recherche, Repensée."
+    lead_in: "Transformez vos écrits scientifiques en récits clairs et percutants."
+    btn: "Commencer"
+  help_box:
+    title: "Je peux vous aider si vous :"
+    items:
+      - "Excellez en laboratoire et dans l'analyse de données, mais transformer vos résultats en un récit cohérent semble être un obstacle de taille."
+      - "Arrivez au bout de votre thèse et avez besoin d'un regard expert pour garantir une syntaxe et une clarté scientifique irréprochables."
+      - "Souhaitez sublimer votre manuscrit pour viser une publication à fort impact axée sur la narration."
+  about:
+    heading: "À propos"
+    name: "Camille Le Roy, PhD"
+    intro: "Bonjour, je suis Camille. Je suis chercheur, biologiste et biomécanicien — mais avant tout, je suis un rédacteur qui comprend les défis d'une carrière universitaire."
+    details_1: "Titulaire d'un doctorat en biologie évolutive de l'Université de Paris et forte de plus de sept ans de recherche interdisciplinaire entre l'écologie et la biophysique, mon parcours m'a menée des forêts de nuages du Pérou aux laboratoires en France et aux Pays-Bas. En chemin, j'ai pris conscience d'une difficulté commune aux chercheurs : nous excellons dans la 'pratique' — les expériences, les modèles, les expéditions sur le terrain — mais nous avons souvent du mal à 'appuyer sur le bouton stop' pour nous immerger dans l'écriture."
+    details_2: "Je suis passé par là. Je sais que transformer des années de données brutes en un récit captivant est une longue aventure. Avec 8 articles en premier auteur dans des revues de haut niveau (notamment <em>Science</em> et <em>Nature Communications</em>) et une expérience de relecture pour plus de 12 revues multidisciplinaires, j'ai appris à combler le fossé entre les résultats bruts et la publication marquante."
+    conclusion: "Aujourd'hui, je consacre mon expertise à aider mes collègues chercheurs à franchir ce 'dernier kilomètre' et à transformer leurs recherches en récits qui rendent véritablement justice à leurs découvertes."
