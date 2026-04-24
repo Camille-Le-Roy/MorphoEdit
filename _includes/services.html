@@ -1,8 +1,14 @@
+{% assign lang = "en" %}
+{% if page.url contains '/fr/' %}
+  {% assign lang = "fr" %}
+{% endif %}
+{% assign t = site.data.locales[lang] %}
+
 <section id="services">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading" style="margin-bottom: 50px;">Services</h2>
+                <h2 class="section-heading" style="margin-bottom: 50px;">{{ t.services.heading }}</h2>
             </div>
         </div>
 
@@ -14,11 +20,11 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-lightbulb-o fa-stack-1x fa-inverse fa-fw"></i>
                     </span>
-                    <h4 class="service-heading">Developmental Editing</h4>
+                    <h4 class="service-heading">{{ t.services.dev_editing.title }}</h4>
                     <p class="large text-muted">
-                        <strong>Transform your research into an impactful story.</strong> Get high-level feedback on your manuscript to improve the general structure, argument and narrative flow.
+                        {{ t.services.dev_editing.desc }}
                     </p>
-                    <div class="price-note">4 cents per word (US$)</div>
+                    <div class="price-note">{{ t.services.dev_editing.price }}</div>
                 </div>
             </div>
 
@@ -28,11 +34,11 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-pencil fa-stack-1x fa-inverse fa-fw"></i>
                     </span>
-                    <h4 class="service-heading">Copy Editing</h4>
+                    <h4 class="service-heading">{{ t.services.copy_editing.title }}</h4>
                     <p class="large text-muted">
-                        <strong>Give your manuscript a professional look.</strong> I refine your writing by focusing on grammar, spelling, punctuation, and consistency. I also ensure that your document meets the journal or university style requirements.
+                        {{ t.services.copy_editing.desc }}
                     </p>
-                    <div class="price-note">3 cents per word (US$)</div>
+                    <div class="price-note">{{ t.services.copy_editing.price }}</div>
                 </div>
             </div>
 
@@ -42,11 +48,11 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-bar-chart fa-stack-1x fa-inverse fa-fw"></i>
                     </span>
-                    <h4 class="service-heading">Figure Design</h4>
+                    <h4 class="service-heading">{{ t.services.figure_design.title }}</h4>
                     <p class="large text-muted">
-                        <strong>Make your results more impactful by elevating your visuals.</strong> I refine your figures to enhance aesthetic and clarity.
+                        {{ t.services.figure_design.desc }}
                     </p>
-                    <div class="price-note">Upon request</div>
+                    <div class="price-note">{{ t.services.figure_design.price }}</div>
                 </div>
             </div>
             
@@ -56,7 +62,7 @@
 
 <div class="row">
     <div class="col-lg-12 text-center" style="margin-top: -60px; margin-bottom: 200px;">
-        <h3 class="large text-muted" style="margin-bottom: 30px; text-transform: none;">Interested in working together? Reach out for more info.</h3>
-        <a href="#contact" class="btn btn-xl">Reach Out</a>
+        <h3 class="large text-muted" style="margin-bottom: 30px; text-transform: none;">{{ t.services.cta }}</h3>
+        <a href="#contact" class="btn btn-xl">{{ t.services.btn }}</a>
     </div>
 </div>

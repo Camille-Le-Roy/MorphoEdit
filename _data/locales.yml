@@ -7,6 +7,7 @@ en:
   header:
     heading: "Your Research, Reshaped"
     lead_in: "Turn your scientific writings into clear, compelling narratives"
+    discuss_btn: "Discuss Your Project"
     btn: "Get Started"
   empathy:
     headline: "I help graduate students and early-career STEM researchers turn their messy drafts into clear, meaningful narratives so they can establish their professional voice and gain confidence."
@@ -15,6 +16,30 @@ en:
     text_3: "With the right guidance, writing doesn’t have to feel this hard. In academia, support around writing is highly uneven. Some people receive thoughtful, detailed feedback, others are left to figure it out on their own."
     text_4: "You don’t have to navigate this alone."
     text_5: "I help you make sense of your work, shape it into a coherent story, and move forward with clarity and confidence."  
+  services:
+    heading: "Services"
+    dev_editing:
+      title: "Developmental Editing"
+      desc: "Transform your research into an impactful story. Get high-level feedback on your manuscript to improve the general structure, argument and narrative flow."
+      price: "4 cents per word (US$)"
+    copy_editing:
+      title: "Copy Editing"
+      desc: "Give your manuscript a professional look. I refine your writing by focusing on grammar, spelling, punctuation, and consistency. I also ensure that your document meets the journal or university style requirements."
+      price: "3 cents per word (US$)"
+    figure_design:
+      title: "Figure Design"
+      desc: "Make your results more impactful by elevating your visuals. I refine your figures to enhance aesthetic and clarity."
+      price: "Upon request"
+    cta: "Interested in working together? Reach out for more info."
+    btn: "Reach Out"
+  testimonials:
+    heading: "What clients say"
+    t1:
+      quote: "With Camille's help, I went from being insecure about writing to genuinely enjoying it. At my current job as a researcher, I write many proposals and reports; my team lead was so impressed by my first report that he immediately alerted the director to my writing skills. Without Camille, I daresay that would not have happened! I would highly recommend Camille as a writing coach."
+      name: "Nina, Entomology Researcher"
+    t2:
+      quote: "Camille was very helpful. Even though my paper was outside his field, he still provided valuable feedback and thoughtful suggestions."
+      name: "Rawda, UNC–Chapel Hill"
   about:
     heading: "About Me"
     name: "Camille Le Roy, PhD"
@@ -22,6 +47,15 @@ en:
     details_1: "With a PhD in Evolutionary Biology from the University of Paris and over seven years of interdisciplinary research spanning Ecology and Biophysics, my journey has taken me from the cloud forests of Peru to labs in France and the Netherlands. Along the way, I came to realize a shared struggle among researchers: we excel at the 'doing' the experiments, the models, the field expeditions, but we often struggle to hit the 'stop button' and immerse ourselves in the writing."
     details_2: "I’ve been on that road. I know that turning years of messy data into a compelling story is a long, eventful adventure. Having authored 8 first-author papers in top-tier journals (including <em>Science</em> and <em>Nature Communications</em>) and served as a reviewer for 12+ multidisciplinary journals, I’ve learned how to bridge the gap between raw results and impactful publication."
     conclusion: "Today, I dedicate my expertise to helping fellow scholars navigate that 'final mile' and transform their research into narratives that truly do justice to their discoveries."
+  contact:
+    heading: "Reach Out"
+    success_title: "Thank you!"
+    success_msg: "Your message has been sent. I will get back to you shortly."
+    error_msg: "Oops! There was a problem submitting your form. Please try again."
+    name_placeholder: "Your Name *"
+    email_placeholder: "Your Email *"
+    message_placeholder: "Your Message *"
+    submit_btn: "Send Message"
 
 fr:
   nav:
@@ -32,14 +66,39 @@ fr:
   header:
     heading: "Donner forme à votre recherche"
     lead_in: "Transformez vos écrits scientifiques en récits clairs et percutants"
+    discuss_btn: "Discuter de votre projet"
     btn: "Commencer"
   empathy:
-    headline: "J'aide les chercheurs STEM en début de carrière à transformer leurs brouillons complexes en récits clairs et significatifs, afin qu'ils puissent affirmer leur voix professionnelle et gagner en confiance."
-    text_1: "La recherche n'est que rarement un long fleuve tranquille. C'est un processus brouillon, itératif, parsemé d'impasses. Pourtant, à l'heure de la rédaction, tout doit paraître avoir été parfaitement planifié."
-    text_2: "En réalité, le sentiment est souvent tout autre : page blanche, réécritures incessantes et frustration de ne pas réussir à rendre ses travaux clairs et convaincants."
-    text_3: "Avec un accompagnement adapté, l'écriture ne doit pas être un calvaire. Dans le milieu académique, le soutien à l'écriture est inégal. Certains reçoivent des retours détaillés, d'autres doivent se débrouiller seuls."
+    headline: "J'aide les étudiants et jeunes chercheurs STEM à passer d'une rédaction fastidieuse à des récits scientifiques percutants, afin qu'ils puissent affirmer leur voix professionnelle et gagner en confiance."
+    text_1: "La recherche n'est que rarement un long fleuve tranquille. C'est un cheminement complexe, itératif, parsemé d'essais et d'erreurs. Pourtant, à l'heure de la rédaction, tout doit paraître parfaitement planifié."
+    text_2: "En réalité, l'expérience de rédaction est souvent tout autre : page blanche, réécritures incessantes et frustration de ne pas réussir à présenter ses résultats de manière claire et convaincante."
+    text_3: "Avec un accompagnement adapté, l'écriture ne doit pas être un calvaire. Dans le milieu académique, le soutien à l'écriture est souvent inégal. Certains reçoivent des retours détaillés, d'autres doivent se débrouiller seuls."
     text_4: "Vous n'avez pas à avancer seul(e)."
-    text_5: "Je vous aide à donner du sens à votre travail, à façonner un récit cohérent et à avancer avec clarté et confiance."  
+    text_5: "Je vous aide à donner du sens à votre travail, à façonner un récit cohérent et à avancer avec clarté et confiance." 
+  services:
+    heading: "Services"
+    dev_editing:
+      title: "Édition développementale"
+      desc: "Transformez votre recherche en un récit percutant. Recevez un retour de haut niveau sur votre manuscrit pour améliorer la structure globale, l'argumentaire et la fluidité narrative."
+      price: "4 cents par mot (US$)"
+    copy_editing:
+      title: "Correction linguistique (Copy Editing)"
+      desc: "Donnez à votre manuscrit un aspect professionnel. Je raffine votre écriture en me concentrant sur la grammaire, l'orthographe, la ponctuation et la cohérence. Je m'assure également que votre document respecte les exigences de style des revues ou de votre université."
+      price: "3 cents par mot (US$)"
+    figure_design:
+      title: "Conception de figures"
+      desc: "Rendez vos résultats plus percutants en améliorant vos visuels. Je retravaille vos figures pour en renforcer l'esthétique et la clarté."
+      price: "Sur demande"
+    cta: "Intéressé(e) par une collaboration ? Contactez-moi pour plus d'informations."
+    btn: "Contactez-moi"
+  testimonials:
+    heading: "Leur expérience"
+    t1:
+      quote: "Grâce à l'aide de Camille, je suis passée de l'insécurité concernant mon écriture au plaisir d'écrire. Dans mon poste actuel de chercheuse, je rédige de nombreux rapports et propositions ; mon responsable a été si impressionné par mon premier rapport qu'il a immédiatement signalé mes compétences rédactionnelles à la direction. Sans Camille, je n'aurais probablement pas vécu cela ! Je recommande vivement Camille comme coach en rédaction."
+      name: "Nina, chercheuse en entomologie"
+    t2:
+      quote: "Camille a été d'une grande aide. Même si mon article était hors de son domaine, il a tout de même fourni des retours précieux et des suggestions pertinentes."
+      name: "Rawda, UNC–Chapel Hill"
   about:
     heading: "À propos"
     name: "Camille Le Roy, PhD"
@@ -47,3 +106,12 @@ fr:
     details_1: "Titulaire d'un doctorat en biologie évolutive de l'Université de Paris et fort de plus de sept ans de recherche interdisciplinaire entre l'écologie et la biophysique, mon parcours m'a menée des forêts de nuages du Pérou aux laboratoires en France et aux Pays-Bas. En chemin, j'ai pris conscience d'une difficulté commune aux chercheurs : nous excellons dans la 'pratique' — les expériences, les modèles, les expéditions sur le terrain — mais nous avons souvent du mal à 'appuyer sur le bouton stop' pour nous immerger dans l'écriture."
     details_2: "Je suis passé par là. Je sais que transformer des années de données brutes en un récit captivant est une longue aventure. Avec 8 articles en premier auteur dans des revues de haut niveau (notamment <em>Science</em> et <em>Nature Communications</em>) et une expérience de relecture pour plus de 12 revues multidisciplinaires, j'ai appris à combler le fossé entre les résultats bruts et la publication marquante."
     conclusion: "Aujourd'hui, je consacre mon expertise à aider mes collègues chercheurs à franchir ce 'dernier kilomètre' et à transformer leurs recherches en récits qui rendent véritablement justice à leurs découvertes."
+  contact:
+    heading: "Contactez-moi"
+    success_title: "Merci !"
+    success_msg: "Votre message a bien été envoyé. Je vous répondrai sous peu."
+    error_msg: "Oups ! Il y a eu un problème lors de l'envoi du formulaire. Veuillez réessayer."
+    name_placeholder: "Votre nom *"
+    email_placeholder: "Votre email *"
+    message_placeholder: "Votre message *"
+    submit_btn: "Envoyer le message"
