@@ -52,35 +52,18 @@
     <div class="container">
         <div class="intro-text">
             <div class="intro-logo">
-                <img src="{{ '/img/logo white grey transparent.png' | prepend: site.baseurl }}" alt="Morpho Editing Logo" style="max-width: 200px; margin-bottom: 50px;">
+                <img src="{{ '/img/logo white grey transparent.png' | prepend: site.baseurl }}" alt="Morpho Editing Logo" style="max-width: 200px; margin-bottom: 80px;">
             </div>
 
-            <div class="intro-heading" style="font-family: 'EB Garamond', serif; text-transform: none; font-style: normal;">
+            <div class="intro-heading" style="font-family: 'EB Garamond', serif; text-transform: none; font-style: normal; margin-bottom: 80px;">
                 {{ t.header.heading }}
             </div>
 
-            <div class="intro-lead-in" style="font-family: 'EB Garamond', serif; text-transform: none; font-style: normal; margin-bottom: 120px;">
+            <div class="intro-lead-in" style="font-family: 'EB Garamond', serif; text-transform: none; font-style: normal; margin-bottom: 110px;">
                 {{ t.header.lead_in }}
             </div>
 
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div style="font-family: 'EB Garamond', serif; text-align: left; background: rgba(246, 246, 250, 0.05); padding: 30px; border-radius: 8px; border-left: 3px solid #3F6E93;">
-                        <p class="help-box-title" style="margin-bottom: 20px; font-weight: 700;">{{ t.help_box.title }}</p>
-                        
-                        <ul class="help-box-list" style="list-style: none; padding-left: 0; line-height: 1.6;">
-                            {% for item in t.help_box.items %}
-                            <li style="margin-bottom: 15px; display: flex;">
-                                <i class="fa fa-caret-right" style="color: #2a94bd; margin-right: 15px; margin-top: 5px;"></i>
-                                <span>{{ item }}</span>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <a href="#services" class="page-scroll btn btn-xl" style="margin-top: 50px;">{{ t.header.btn }}</a>
+            <a href="#services" class="page-scroll btn btn-xl">{{ t.header.btn }}</a>
         </div>
     </div>
 </header>

@@ -5,15 +5,16 @@ en:
     testimonials: "Testimonials"
     contact: "Contact"
   header:
-    heading: "Your Research, Reshaped."
-    lead_in: "Turn your scientific writings into clear, compelling narratives."
+    heading: "Your Research, Reshaped"
+    lead_in: "Turn your scientific writings into clear, compelling narratives"
     btn: "Get Started"
-  help_box:
-    title: "I can help you if you are:"
-    items:
-      - "Thriving in the lab and the data, but transforming your results into a cohesive narrative feels like a daunting hurdle."
-      - "Reaching the 'final mile' of your dissertation and need expert eyes to ensure your formatting, syntax, and scientific clarity are flawless."
-      - "Looking to elevate your manuscript to achieve a high-impact, narrative-driven publication."
+  empathy:
+    headline: "I help graduate students and early-career STEM researchers turn their messy drafts into clear, meaningful narratives so they can establish their professional voice and gain confidence."
+    text_1: "Research rarely happens in a straight line. It’s messy, iterative, full of false starts and dead ends. But when you sit down to write, it’s supposed to read as if it all unfolded perfectly."
+    text_2: "In reality, it often feels like this: a blank page, constant rewrites, and the frustration of trying to make your work sound clear and convincing."
+    text_3: "With the right guidance, writing doesn’t have to feel this hard. In academia, support around writing is highly uneven. Some people receive thoughtful, detailed feedback, others are left to figure it out on their own."
+    text_4: "You don’t have to navigate this alone."
+    text_5: "I help you make sense of your work, shape it into a coherent story, and move forward with clarity and confidence."  
   about:
     heading: "About Me"
     name: "Camille Le Roy, PhD"
@@ -29,19 +30,20 @@ fr:
     testimonials: "Témoignages"
     contact: "Contact"
   header:
-    heading: "Votre Recherche, Repensée."
-    lead_in: "Transformez vos écrits scientifiques en récits clairs et percutants."
+    heading: "Donner forme à votre recherche"
+    lead_in: "Transformez vos écrits scientifiques en récits clairs et percutants"
     btn: "Commencer"
-  help_box:
-    title: "Je peux vous aider si vous :"
-    items:
-      - "Excellez en laboratoire et dans l'analyse de données, mais transformer vos résultats en un récit cohérent semble être un obstacle de taille."
-      - "Arrivez au bout de votre thèse et avez besoin d'un regard expert pour garantir une syntaxe et une clarté scientifique irréprochables."
-      - "Souhaitez sublimer votre manuscrit pour viser une publication à fort impact axée sur la narration."
+  empathy:
+    headline: "J'aide les chercheurs STEM en début de carrière à transformer leurs brouillons complexes en récits clairs et significatifs, afin qu'ils puissent affirmer leur voix professionnelle et gagner en confiance."
+    text_1: "La recherche n'est que rarement un long fleuve tranquille. C'est un processus brouillon, itératif, parsemé d'impasses. Pourtant, à l'heure de la rédaction, tout doit paraître avoir été parfaitement planifié."
+    text_2: "En réalité, le sentiment est souvent tout autre : page blanche, réécritures incessantes et frustration de ne pas réussir à rendre ses travaux clairs et convaincants."
+    text_3: "Avec un accompagnement adapté, l'écriture ne doit pas être un calvaire. Dans le milieu académique, le soutien à l'écriture est inégal. Certains reçoivent des retours détaillés, d'autres doivent se débrouiller seuls."
+    text_4: "Vous n'avez pas à avancer seul(e)."
+    text_5: "Je vous aide à donner du sens à votre travail, à façonner un récit cohérent et à avancer avec clarté et confiance."  
   about:
     heading: "À propos"
     name: "Camille Le Roy, PhD"
     intro: "Bonjour, je suis Camille. Je suis chercheur, biologiste et biomécanicien — mais avant tout, je suis un rédacteur qui comprend les défis d'une carrière universitaire."
-    details_1: "Titulaire d'un doctorat en biologie évolutive de l'Université de Paris et forte de plus de sept ans de recherche interdisciplinaire entre l'écologie et la biophysique, mon parcours m'a menée des forêts de nuages du Pérou aux laboratoires en France et aux Pays-Bas. En chemin, j'ai pris conscience d'une difficulté commune aux chercheurs : nous excellons dans la 'pratique' — les expériences, les modèles, les expéditions sur le terrain — mais nous avons souvent du mal à 'appuyer sur le bouton stop' pour nous immerger dans l'écriture."
+    details_1: "Titulaire d'un doctorat en biologie évolutive de l'Université de Paris et fort de plus de sept ans de recherche interdisciplinaire entre l'écologie et la biophysique, mon parcours m'a menée des forêts de nuages du Pérou aux laboratoires en France et aux Pays-Bas. En chemin, j'ai pris conscience d'une difficulté commune aux chercheurs : nous excellons dans la 'pratique' — les expériences, les modèles, les expéditions sur le terrain — mais nous avons souvent du mal à 'appuyer sur le bouton stop' pour nous immerger dans l'écriture."
     details_2: "Je suis passé par là. Je sais que transformer des années de données brutes en un récit captivant est une longue aventure. Avec 8 articles en premier auteur dans des revues de haut niveau (notamment <em>Science</em> et <em>Nature Communications</em>) et une expérience de relecture pour plus de 12 revues multidisciplinaires, j'ai appris à combler le fossé entre les résultats bruts et la publication marquante."
     conclusion: "Aujourd'hui, je consacre mon expertise à aider mes collègues chercheurs à franchir ce 'dernier kilomètre' et à transformer leurs recherches en récits qui rendent véritablement justice à leurs découvertes."

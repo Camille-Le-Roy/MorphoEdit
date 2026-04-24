@@ -1,0 +1,33 @@
+{% assign lang = "en" %}
+{% if page.url contains '/fr/' %}
+  {% assign lang = "fr" %}
+{% endif %}
+{% assign t = site.data.locales[lang] %}
+
+<section id="empathy" class="bg-light-gray" style="padding: 100px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <p style="font-size: 32px; font-weight: 700; line-height: 1.4; margin-bottom: 50px; color: #777;">
+                    {{ t.empathy.headline }}
+                </h2>
+
+                <p style="font-size: 22px; line-height: 1.8; margin-bottom: 30px; color: #777;">
+                    {{ t.empathy.text_1 }}
+                </p>
+                <p style="font-size: 22px; line-height: 1.8; margin-bottom: 30px; color: #777;">
+                    {{ t.empathy.text_2 }}
+                </p>
+                <p style="font-size: 22px; line-height: 1.8; margin-bottom: 30px; color: #777;">
+                    {{ t.empathy.text_3 }}
+                </p>
+                <p style="font-size: 22px; line-height: 1.8; margin-bottom: 30px; color: #777;">
+                    {{ t.empathy.text_4 }}
+                </p>
+                <p style="font-size: 22px; font-weight: 600; line-height: 1.8; margin-bottom: 30px; color: #777;">
+                    {{ t.empathy.text_5 }}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
