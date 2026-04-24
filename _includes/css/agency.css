@@ -966,18 +966,24 @@ body {
 }
 
 .language-selector a {
-    font-weight: 700 !important;
-    color: #fff !important; /* Use your theme's primary color */
-    border: 1px solid #fff;
-    padding: 5px 10px !important;
-    margin-top: 10px;
-    border-radius: 3px;
-    transition: all 0.3s;
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    /* This padding matches the standard Bootstrap nav links for perfect alignment */
+    padding: 20px 15px !important; 
+    border-bottom: none !important;
+    transition: all 0.3s ease;
+    /* Added display block to ensure it respects the padding */
+    display: block; 
 }
 
 .language-selector a:hover {
-    background-color: #fff;
-    color: #fff !important;
+    color: #{{ site.data.template.color.primary }} !important; 
+    border-bottom: 2px solid #{{ site.data.template.color.primary }};
+    text-decoration: none;
+    /* Keep background transparent on hover */
+    background-color: transparent !important;
 }
 
 /* Adjust for mobile positioning if necessary */
