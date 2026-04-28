@@ -3,8 +3,8 @@ baseurl: /MorphoEdit
 
 # Site settings
 title: Morpho Editing
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: 
+description: "Academic Editing for students and early-career researchers. Turn your messy drafts into clear, meaningful narratives to establish your professional voice and gain confidence."
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
