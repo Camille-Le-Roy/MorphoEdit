@@ -7,8 +7,8 @@ en:
   header:
     heading: "Your Research, Reshaped"
     lead_in: "Turn your scientific writings into clear, compelling narratives"
-    discuss_btn: "Discuss Your Project"
-    btn: "Get Started"
+    schedule_btn: "Schedule a Call"
+    btn: "Message Me"
   empathy:
     question: "Feeling stuck or overwhelmed by your writing?"
     headline: "I help graduate students and early-career researchers in life sciences turn their messy drafts into clear, meaningful narratives so they can establish their professional voice and gain confidence."
@@ -17,6 +17,7 @@ en:
     text_3: "With the right guidance, writing doesn’t have to feel this hard. In academia, support around writing is highly uneven. Some people receive thoughtful, detailed feedback, others are left to figure it out on their own."
     text_4: "You don’t have to navigate this alone."
     text_5: "I help you make sense of your work, shape it into a coherent story, and move forward with clarity and confidence."  
+    get_started_btn: "Get Started"
   services:
     heading: "Services"
     dev_editing:
@@ -32,7 +33,7 @@ en:
       desc: "Make your results more impactful by elevating your visuals. I refine your figures to enhance aesthetic and clarity."
       price: "Upon request"
     cta: "Interested in working together? Reach out for more info."
-    btn: "Reach Out"
+    btn: "Message Me"
   testimonials:
     heading: "What clients say"
     t1:
@@ -70,8 +71,8 @@ fr:
   header:
     heading: "Donner forme à votre recherche"
     lead_in: "Transformez vos écrits scientifiques en récits clairs et percutants"
-    discuss_btn: "Discuter de votre projet"
-    btn: "Commencer"
+    btn: "Envoiez-moi un message"
+    schedule_btn: "Planifier un appel"
   empathy:
     question: "Dépassé(e) par l'écriture de votre manuscript?"
     headline: "J'aide les étudiants et jeunes chercheurs à transformer leurs brouillons en récits scientifiques clairs et percutants, afin qu'ils puissent affirmer leur voix professionnelle et gagner en confiance."
@@ -80,6 +81,7 @@ fr:
     text_3: "Avec un accompagnement adapté, l'écriture ne doit pas être un calvaire. Dans le milieu académique, être bien accompagné pour écrire est loin d’être la norme. Certains reçoivent des retours détaillés, d'autres doivent se débrouiller seuls."
     text_4: "Vous n'avez pas à avancer seul(e)."
     text_5: "Je vous aide à donner du sens à votre travail, à façonner un récit cohérent et à avancer avec clarté et confiance." 
+    get_started_btn: "Commencer"
   services:
     heading: "Services"
     dev_editing:

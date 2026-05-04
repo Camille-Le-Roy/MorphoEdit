@@ -49,8 +49,7 @@
 </nav>
 
 <header>
-    <div class="container">
-        <div class="intro-text">
+    <div class="intro-text">
             <div class="intro-logo">
                 <img src="{{ '/img/logo white grey transparent.png' | prepend: site.baseurl }}" alt="Morpho Editing Logo" style="max-width: 200px; margin-bottom: 80px;">
             </div>
@@ -62,7 +61,21 @@
             <div class="intro-lead-in" style="font-family: 'EB Garamond', serif; text-transform: none; font-style: normal; margin-bottom: 80px;">
                 {{ t.header.lead_in }}
             </div>
-            <a href="#contact" class="page-scroll btn btn-xl">{{ t.services.btn }}</a>
+
+            <!-- Buttons Container -->
+            <div class="header-buttons">
+                <a href="#contact" 
+                    class="page-scroll btn btn-xl" 
+                    style="margin-right: 15px; min-width: 250px;">
+                    {{ t.services.btn }}
+                </a>
+    
+                 <a href="https://tidycal.com/camilleleroy/free-15-minute-call" 
+                    class="btn btn-xl" 
+                    target="_blank" 
+                    style="background-color: #3F6E93; border-color: #3F6E93; min-width: 280px;">
+                    {{ t.header.schedule_btn }}
+                </a>
+            </div>
         </div>
-    </div>
 </header>
