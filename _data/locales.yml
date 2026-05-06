@@ -4,11 +4,15 @@ en:
     about: "About"
     testimonials: "Testimonials"
     contact: "Contact"
+
+
   header:
     heading: "Your Research, Reshaped"
     lead_in: "Turn your scientific writings into clear, compelling narratives"
     schedule_btn: "Schedule a Call"
     btn: "Message Me"
+
+
   empathy:
     question: "Feeling stuck with your writing?"
     headline: "I help graduate students and early-career researchers in life sciences turn their messy drafts into clear, meaningful narratives so they can establish their professional voice and gain confidence."
@@ -18,6 +22,8 @@ en:
     text_4: "You don’t have to navigate this alone."
     text_5: "I help you make sense of your work, shape it into a coherent story, and move forward with clarity and confidence."  
     get_started_btn: "Get Started"
+
+
   services:
     heading: "Services"
     dev_editing:
@@ -34,14 +40,31 @@ en:
       price: "Upon request"
     cta: "Interested in working together? Reach out for more info."
     btn: "Message Me"
+
+
+  workflow:
+    heading: "How we’ll work together:"
+    step1:
+      title: "Contact me"
+      desc: "Share your project and your struggles."
+    step2:
+      title: "Approve the quote"
+      desc: "Know the exact price (per-word rate) and a plan tailored to your needs and calendar."
+    step3:
+      title: "Relax and Wait"
+      desc: "Take time off to disconnect. I’ll polish your manuscript and deliver by the agreed deadline."
+
+
   testimonials:
     heading: "What clients say"
     t1:
       quote: "With Camille's help, I went from being insecure about writing to genuinely enjoying it. At my current job as a researcher, I write many proposals and reports; my team lead was so impressed by my first report that he immediately alerted the director to my writing skills. Without Camille, I daresay that would not have happened! I would highly recommend Camille as a writing coach."
-      name: "Nina, Entomology Researcher"
+      name: "N.T., Entomology Researcher"
     t2:
       quote: "Camille was very helpful. Even though my paper was outside his field, he provided valuable feedback and thoughtful suggestions."
-      name: "Rawda, grad student at UNC–Chapel Hill"
+      name: "R.D., grad student at UNC–Chapel Hill"
+
+
   about:
     heading: "About Me"
     name: "Camille Le Roy, PhD"
@@ -49,6 +72,8 @@ en:
     details_1: "With a PhD in Evolutionary Biology from the University of Paris and over seven years of interdisciplinary research spanning Ecology and Biophysics, my journey has taken me from the cloud forests of Peru to labs in France and the Netherlands. Along the way, I came to realize a shared struggle among researchers: we excel at the 'doing' the experiments, the models, the field expeditions, but we often struggle to hit the 'stop button' and immerse ourselves in the writing."
     details_2: "I’ve been on that road. I know that turning years of messy data into a compelling story is a long, eventful adventure. Having authored 8 first-author papers in top-tier journals (including <em>Science</em> and <em>Nature Communications</em>) and served as a reviewer for 12+ multidisciplinary journals, I’ve learned how to bridge the gap between raw results and impactful publication."
     conclusion: "Today, I dedicate my expertise to helping fellow scholars navigate that 'final mile' and transform their research into narratives that truly do justice to their discoveries."
+
+
   contact:
     heading: "Reach Out"
     success_title: "Thank you!"
@@ -58,9 +83,17 @@ en:
     email_placeholder: "Your Email *"
     message_placeholder: "Your Message *"
     submit_btn: "Send Message"
+
+
   about_name:
     heading: "Why 'Morpho'?"
     text: "During my academic journey, I studied the evolution of morphology and flight biomechanics in insects, particularly the iconic <em>Morpho</em> butterflies of the Amazon rainforest. My editing business takes its name from them."  
+
+
+
+
+
+
 
 fr:
   nav:
@@ -68,13 +101,17 @@ fr:
     about: "À propos"
     testimonials: "Témoignages"
     contact: "Contact"
+
+
   header:
     heading: "Donner forme à votre recherche"
     lead_in: "Transformez vos écrits scientifiques en récits clairs et percutants"
     btn: "Envoiez-moi un message"
     schedule_btn: "Planifier un appel"
+
+
   empathy:
-    question: "Dépassé(e) par l'écriture de votre manuscript?"
+    question: "Bloqué(e) dans l'écriture de votre manuscript?"
     headline: "J'aide les étudiants et jeunes chercheurs à transformer leurs brouillons en récits scientifiques clairs et percutants, afin qu'ils puissent affirmer leur voix professionnelle et gagner en confiance."
     text_1: "La recherche n'est pas un long fleuve tranquille. C'est un cheminement complexe, itératif, parsemé d'essais et d'erreurs. Pourtant, à l'heure de la rédaction, tout doit paraître parfaitement planifié."
     text_2: "En réalité, l'expérience de rédaction est souvent tout autre : page blanche, réécritures incessantes et frustration de ne pas réussir à présenter ses résultats de manière claire et convaincante."
@@ -82,6 +119,8 @@ fr:
     text_4: "Vous n'avez pas à avancer seul(e)."
     text_5: "Je vous aide à donner du sens à votre travail, à façonner un récit cohérent et à avancer avec clarté et confiance." 
     get_started_btn: "Commencer"
+
+
   services:
     heading: "Services"
     dev_editing:
@@ -98,14 +137,31 @@ fr:
       price: "Sur demande"
     cta: "Envie de collaborer ? Contactez-moi pour en discuter."
     btn: "Contactez-moi"
+
+
+  workflow:
+    heading: "Comment je vous accompagne:"
+    step1:
+      title: "Contactez-moi"
+      desc: "Parlez-moi de votre projet et de vos difficultés."
+    step2:
+      title: "Validez le devis"
+      desc: "Un prix clair dès le départ (tarif au mot) et un planning adapté à vos besoins et à vos échéances."
+    step3:
+      title: "Détendez-vous"
+      desc: "Déconnectez de votre manuscrit. Je m'occupe de l'améliorer et vous le remets pour l'échéance convenue."
+
+
   testimonials:
     heading: "Leur expérience"
     t1:
       quote: "L’accompagnement de Camille m’a permis de passer d’un manque de confiance en mon écriture à un véritable plaisir à écrire. Aujourd’hui, dans mon poste de chercheuse, je rédige régulièrement des rapports et des propositions. Mon responsable a été particulièrement impressionné par mon premier rapport et a mis en avant mes compétences rédactionnelles auprès de la direction. Je recommande vivement Camille."
-      name: "Nina, chercheuse en entomologie"
+      name: "N.T., chercheuse en entomologie"
     t2:
       quote: "Camille m’a été d’une grande aide. Même si mon article était en dehors de son domaine, il m’a apporté des retours précieux et des suggestions très pertinentes."
-      name: "Rawda, étudiante à UNC–Chapel Hill"
+      name: "R.D., étudiante à UNC–Chapel Hill"
+
+
   about:
     heading: "À propos"
     name: "Camille Le Roy, PhD"
@@ -113,6 +169,8 @@ fr:
     details_1: "Titulaire d'un doctorat en biologie évolutive de l'Université de Paris et fort de plus de sept ans de recherche interdisciplinaire entre l'écologie et la biophysique, mon parcours m’a mené des forêts amazoniennes du Pérou aux laboratoires en France et aux Pays-Bas. En chemin, j'ai pris conscience d'une difficulté commune à beaucoup de chercheurs : nous excellons dans la 'pratique', les expériences, les modèles, les expéditions de terrain — mais nous avons souvent du mal à nous arrêter pour nous immerger dans l'écriture."
     details_2: "Je suis passé par là. Transformer des années de données complexes en un récit clair et convaincant est un processus exigeant. Avec huit articles en premier auteur dans des revues de premier plan (notamment <em>Science</em> et <em>Nature Communications</em>), ainsi qu’une expérience de relecteur pour une douzaine de revues multidisciplinaires, j’ai appris à transformer des résultats complexes en récits scientifiques clairs et convaincants."
     conclusion: "Aujourd’hui, je mets cette expertise au service des étudiants et des chercheurs pour les aider à franchir ce dernier pas : transformer leur manuscrit en un récit qui rend pleinement justice à leurs découvertes."
+
+
   contact:
     heading: "Contactez-moi"
     success_title: "Merci !"
@@ -122,6 +180,8 @@ fr:
     email_placeholder: "Votre email *"
     message_placeholder: "Votre message *"
     submit_btn: "Envoyer le message"
+
+
   about_name:
     heading: "Pourquoi 'Morpho' ?"
-    text: "Au cours de mes recherches, j’ai étudié l’évolution de la morphologie et la biomécanique du vol chez les insectes, en particulier les emblématiques papillons Morpho de la forêt amazonienne. Mon activité d’édition en tire naturellement son nom."  
+    text: "Au cours de mes recherches, j’ai étudié l’évolution de la morphologie et la biomécanique du vol chez les insectes, en particulier les emblématiques papillons Morpho de la forêt amazonienne. Mon activité d’édition en tire naturellement son nom."
