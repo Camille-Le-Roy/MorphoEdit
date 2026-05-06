@@ -26,18 +26,21 @@
                     <div class="row" style="display: flex; flex-wrap: wrap;">
                         <div class="col-md-6">
                             <div class="control-group form-group">
-                                <input type="text" name="name" class="form-control" placeholder="{{ t.contact.name_placeholder }}" id="name" required data-fs-field style="min-height: 120px; margin-bottom: 20px;">
+                                <input type="text" name="name" class="form-control" placeholder="{{ t.contact.name_placeholder }}" id="name" required data-fs-field style="min-height: 80px; margin-bottom: 20px;">
                                 <span data-fs-error="name" class="text-danger"></span>
                             </div>
                             <div class="control-group form-group">
-                                <input type="email" name="email" class="form-control" placeholder="{{ t.contact.email_placeholder }}" id="email" required data-fs-field style="min-height: 120px; margin-bottom: 20px;">
+                                <input type="email" name="email" class="form-control" placeholder="{{ t.contact.email_placeholder }}" id="email" required data-fs-field style="min-height: 80px; margin-bottom: 20px;">
                                 <span data-fs-error="email" class="text-danger"></span>
+                            </div>
+                            <div class="control-group form-group">
+                                <input type="text" name="referral" class="form-control" placeholder="{{ t.contact.referral_placeholder }}" id="referral" data-fs-field style="min-height: 80px; margin-bottom: 20px;">
                             </div>
                         </div>
                         
                         <div class="col-md-6" style="display: flex; flex-direction: column;">
                             <div class="control-group form-group" style="flex: 1;">
-                                <textarea name="message" class="form-control" placeholder="{{ t.contact.message_placeholder }}" id="message" required data-fs-field style="height: 100%; margin-bottom: 20px;"></textarea>
+                                <textarea name="message" class="form-control" placeholder="{{ t.contact.message_placeholder }}" id="message" required data-fs-field style="height: 100%; min-height: 280px; margin-bottom: 20px;"></textarea>
                                 <span data-fs-error="message" class="text-danger"></span>
                             </div>
                         </div>

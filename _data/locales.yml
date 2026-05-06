@@ -81,6 +81,7 @@ en:
     error_msg: "Oops! There was a problem submitting your form. Please try again."
     name_placeholder: "Your Name *"
     email_placeholder: "Your Email *"
+    referral_placeholder: "How did you hear about me? *"
     message_placeholder: "Your Message *"
     submit_btn: "Send Message"
 
@@ -179,6 +180,7 @@ fr:
     name_placeholder: "Votre nom *"
     email_placeholder: "Votre email *"
     message_placeholder: "Votre message *"
+    referral_placeholder: "Comment avez-vous entendu parler de moi ? *"
     submit_btn: "Envoyer le message"
 
 
