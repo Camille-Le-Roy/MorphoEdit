@@ -8,32 +8,85 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-lg-11 col-lg-offset-1">
-                <p style="font-size: 32px; font-weight: 700; line-height: 1.4; margin-bottom: 20px; color: #3F6E93;">
-                    {{ t.empathy.question }}
-                </p>
-                <p style="font-size: 32px; font-weight: 700; line-height: 1.4; margin-bottom: 50px; color: #3F6E93;">
+                
+                <p style="font-size: 24px; line-height: 1.8; margin-bottom: 20px; color: #777;">
                     {{ t.empathy.headline }}
                 </p>
-                <p style="font-size: 20px; line-height: 1.8; margin-bottom: 20px; color: #777;">
+                <p style="font-size: 26px; font-weight: 700; line-height: 1.4; margin-bottom: 20px; color: #333;">
+                    {{ t.empathy.subheadline }}
+                </p>
+                <p style="font-size: 24px; line-height: 1.8; margin-bottom: 20px; color: #777;">
                     {{ t.empathy.text_1 }}
                 </p>
-                <p style="font-size: 20px; line-height: 1.8; margin-bottom: 20px; color: #777;">
+                <p style="font-size: 24px; line-height: 1.8; margin-bottom: 20px; color: #777;">
                     {{ t.empathy.text_2 }}
                 </p>
-                <p style="font-size: 20px; line-height: 1.8; margin-bottom: 20px; color: #777;">
+                <p style="font-size: 24px; line-height: 1.8; margin-bottom: 20px; color: #777;">
                     {{ t.empathy.text_3 }}
                 </p>
-                <p style="font-size: 20px; line-height: 1.8; margin-bottom: 20px; color: #777;">
+                <p style="font-size: 24px; font-weight: 700; line-height: 1.4; margin-bottom: 40px; color: #333;">
                     {{ t.empathy.text_4 }}
                 </p>
-                <p style="font-size: 20px; font-weight: 600; line-height: 1.8; margin-bottom: 30px; color: #373535;">
+                
+                <p style="font-size: 28px; font-weight: 700; line-height: 1.4; margin-top: 80px; margin-bottom: 50px; color: #333; text-align: center;">
                     {{ t.empathy.text_5 }}
                 </p>
 
-                <div style="margin-top: 60px; margin-bottom: 60px; text-align: center;">
-                    <a href="#services" class="page-scroll btn btn-xl">{{ t.empathy.get_started_btn}}</a>
+                <div class="empathy-flex-container" style="display: flex; align-items: stretch; gap: 40px; margin-bottom: 40px;">
+                    
+                    <div class="empathy-image-side" style="flex: 0 0 35%; max-width: 350px;">
+                        <img src="{{ site.baseurl }}/img/profile picture balcony black and white zoomed.png" 
+                             alt="Camille Le Roy" 
+                             style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                    </div>
+
+                    <div style="flex: 1; background-color: #ffffff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                        <h4 style="font-size: 22px; font-weight: 700; color: #333; margin-bottom: 25px; font-family: 'Montserrat', sans-serif;">
+                            {{ t.empathy.list_title }}
+                        </h4>
+                        <ul style="list-style: none; padding-left: 0; margin-bottom: 0;">
+                            <li style="font-size: 18px; line-height: 1.7; color: #555; margin-bottom: 18px; position: relative; padding-left: 30px;">
+                                <span style="position: absolute; left: 0; color: #3F6E93; font-weight: bold;">•</span> {{ t.empathy.bullet_1 }}
+                            </li>
+                            <li style="font-size: 18px; line-height: 1.7; color: #555; margin-bottom: 18px; position: relative; padding-left: 30px;">
+                                <span style="position: absolute; left: 0; color: #3F6E93; font-weight: bold;">•</span> {{ t.empathy.bullet_2 }}
+                            </li>
+                            <li style="font-size: 18px; line-height: 1.7; color: #555; margin-bottom: 18px; position: relative; padding-left: 30px;">
+                                <span style="position: absolute; left: 0; color: #3F6E93; font-weight: bold;">•</span> {{ t.empathy.bullet_3 }}
+                            </li>
+                            <li style="font-size: 18px; line-height: 1.7; color: #555; margin-bottom: 0; position: relative; padding-left: 30px;">
+                                <span style="position: absolute; left: 0; color: #3F6E93; font-weight: bold;">•</span> {{ t.empathy.bullet_4 }}
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
+
+                <p style="font-size: 20px; font-weight: 600; line-height: 1.8; margin-top: 40px; margin-bottom: 50px; color: #373535;">
+                    {{ t.empathy.final_thought }}
+                </p>
+
+                <div style="margin-top: 50px; text-align: center;">
+                    <a href="#services" class="page-scroll btn btn-xl">{{ t.empathy.get_started_btn }}</a>
+                </div>
+
             </div>
         </div>
     </div>
 </section>
+
+<style>
+@media (max-width: 991px) {
+    .empathy-flex-container {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    .empathy-image-side {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+    }
+    .empathy-image-side img {
+        max-height: 350px;
+    }
+}
+</style>

@@ -5,24 +5,27 @@ en:
     testimonials: "Testimonials"
     contact: "Contact"
 
-
   header:
     heading: "Your Biology Research, Reshaped"
     lead_in: "I help biologists who are great at science but stuck on the writing, so they can share their work with the world"
     schedule_btn: "Schedule a Call"
     btn: "Message Me"
 
-
   empathy:
-    question: "Feeling stuck with your writing?"
-    headline: "I help graduate students and researchers in biology turn their messy drafts into clear, meaningful narratives so they can establish their professional voice and gain confidence."
-    text_1: "Research rarely happens in a straight line. It’s messy, iterative, full of false starts and dead ends. But when you sit down to write, it’s supposed to read as if it all unfolded perfectly."
-    text_2: "In reality, it often feels like this: a blank page, constant rewrites, and the frustration of trying to make your work sound clear and convincing."
-    text_3: "With the right guidance, writing doesn’t have to feel this hard. In academia, support around writing is highly uneven. Some people receive thoughtful, detailed feedback, others are left to figure it out on their own."
-    text_4: "You don’t have to navigate this alone."
-    text_5: "I help you make sense of your work, shape it into a coherent story, and move forward with clarity and confidence."  
-    get_started_btn: "Get Started"
-
+    headline: "You spent months in the lab, in the field, running experiments, debugging analyses. Every data point cost time, effort, and sweat. You’ve earned your results."
+    subheadline: "Suddenly, the hardest part isn’t the science anymore. It’s writing."
+    text_1: "The blank page. The endless rewrites. The frustration of knowing your results are solid, but somehow your manuscript just doesn't read like it. Results pointing in five possible directions. The clock ticking toward a submission deadline."
+    text_2: "I know because I've been there. Staring at my own drafts, wondering what the paper was even about."
+    text_3: "Research is messy by nature: iterative, nonlinear, full of dead ends and unexpected turns. But papers are expected to unfold like a perfect story."
+    text_4: "Struggling to write clearly doesn't mean your science is weak. Writing is a separate skill, and I can help you develop it."
+    text_5: "You don’t have to figure it out alone."
+    list_title: "Personalized academic coaching and editing support for biologists"
+    bullet_1: "<strong>A fellow biologist who speaks your language.</strong> I've spent years doing research, collecting data, revising, publishing, and helping students through that same process."
+    bullet_2: "<strong>No judgment.</strong> A draft is never too messy, and no question is too basic. Bring me the chaos."
+    bullet_3: "<strong>Genuinely available.</strong> I won't vanish after sending tracked changes. Whether you need a full manuscript overhaul or just someone to think out loud with, I'm here."
+    bullet_4: "<strong>I take the time to understand your work.</strong> I don't give generic feedback. Every comment and suggestion is specific to your research, your argument, and where you want to go."
+    final_thought: "I built Morpho Editing because I believe great science deserves to be told well. Your results matter, so let's make sure the world understands them."
+    get_started_btn: "See My Services" 
 
   services:
     heading: "Services"
@@ -41,7 +44,6 @@ en:
     cta: "Interested in working together? Reach out for more info."
     btn: "Message Me"
 
-
   workflow:
     heading: "How we’ll work together:"
     step1:
@@ -54,7 +56,6 @@ en:
       title: "Relax and Wait"
       desc: "Take time off to disconnect. I’ll polish your manuscript and deliver by the agreed deadline."
 
-
   testimonials:
     heading: "What clients say"
     t1:
@@ -64,7 +65,6 @@ en:
       quote: "Camille was very helpful. Even though my paper was outside his field, he provided valuable feedback and thoughtful suggestions."
       name: "R.D. - grad student at UNC Chapel Hill"
 
-
   about:
     heading: "About Me"
     name: "Camille Le Roy, PhD"
@@ -72,7 +72,6 @@ en:
     details_1: "With a PhD in Evolutionary Biology from the University of Paris and over seven years of interdisciplinary research spanning Ecology and Biophysics, my journey has taken me from the cloud forests of Peru to labs in France and the Netherlands. Along the way, I came to realize a shared struggle among researchers: we excel at the 'doing' the experiments, the models, the field expeditions, but we often struggle to hit the 'stop button' and immerse ourselves in the writing."
     details_2: "I’ve been on that road. I know that turning years of messy data into a compelling story is a long, eventful adventure. Having authored 8 first-author papers in top-tier journals (including <em>Science</em> and <em>Nature Communications</em>) and served as a reviewer for 12+ multidisciplinary journals, I’ve learned how to bridge the gap between raw results and impactful publication."
     conclusion: "Today, I dedicate my expertise to helping fellow scholars transform their research into narratives that truly do justice to their discoveries."
-
 
   contact:
     heading: "Reach Out"
@@ -85,16 +84,9 @@ en:
     message_placeholder: "Your Message *"
     submit_btn: "Send Message"
 
-
   about_name:
     heading: "Why 'Morpho'?"
     text: "During my academic journey, I studied the evolution of morphology and flight biomechanics in insects, particularly the iconic <em>Morpho</em> butterflies of the Amazon rainforest. My editing business takes its name from them."  
-
-
-
-
-
-
 
 fr:
   nav:
@@ -103,24 +95,27 @@ fr:
     testimonials: "Témoignages"
     contact: "Contact"
 
-
   header:
     heading: "Donner forme à votre recherche"
     lead_in: "Accompagnement en rédaction scientifique pour biologistes"
     btn: "Envoiez-moi un message"
     schedule_btn: "Planifier un appel"
 
-
   empathy:
-    question: "Bloqué(e) dans l'écriture de votre manuscript?"
-    headline: "J'aide les étudiants et jeunes chercheurs en biologieà transformer leurs brouillons en récits scientifiques clairs et percutants, afin qu'ils puissent affirmer leur voix professionnelle et gagner en confiance."
-    text_1: "La recherche n'est pas un long fleuve tranquille. C'est un cheminement complexe, itératif, parsemé d'essais et d'erreurs. Pourtant, à l'heure de la rédaction, tout doit paraître parfaitement planifié."
-    text_2: "En réalité, l'expérience de rédaction est souvent tout autre : page blanche, réécritures incessantes et frustration de ne pas réussir à présenter ses résultats de manière claire et convaincante."
-    text_3: "Avec un accompagnement adapté, l'écriture ne doit pas être un calvaire. Dans le milieu académique, être bien accompagné pour écrire est loin d’être la norme. Certains reçoivent des retours détaillés, d'autres doivent se débrouiller seuls."
-    text_4: "Vous n'avez pas à avancer seul(e)."
-    text_5: "Je vous aide à donner du sens à votre travail, à façonner un récit cohérent et à avancer avec clarté et confiance." 
-    get_started_btn: "Commencer"
-
+    headline: "Vous avez passé des mois au labo, sur le terrain, à faire des expériences et à déboguer des analyses. Chaque donnée a coûté du temps, des efforts et de l'énergie. Vous avez mérité vos résultats."
+    subheadline: "Soudain, la partie la plus difficile n'est plus la science. C'est l'écriture."
+    text_1: "La page blanche. Les réécritures interminables. La frustration de savoir que vos résultats sont solides, mais que votre manuscrit ne le reflète pas. Des résultats qui pointent dans cinq directions différentes. La deadline de soumission approche."
+    text_2: "Je le sais parce que je suis passé par là. À fixer mes propres brouillons, en me demandant dans quelle direction mon article allait."
+    text_3: "La recherche est par nature complexe : itérative, non linéaire, pleine d'impasses et de rebondissements. Mais on attend d'un article qu'il se déroule comme une histoire parfaite."
+    text_4: "Avoir du mal à écrire clairement ne signifie pas que votre science est faible."
+    text_5: "Vous n'avez pas à y faire face tout seul."
+    list_title: "Un accompagnement personnalisé en rédaction et coaching pour les biologistes"
+    bullet_1: "<strong>Un collègue biologiste qui parle votre langue.</strong> J'ai passé des années à faire de la recherche, collecter des données, réviser, publier et accompagner des étudiants dans ce même processus."
+    bullet_2: "<strong>Aucun jugement.</strong> Un brouillon n'est jamais trop brouillon, et aucune question n'est trop basique. Amenez-moi votre chaos."
+    bullet_3: "<strong>Véritablement disponible.</strong> Je ne vais pas disparaître après vous avoir renvoyé les corrections. Que vous ayez besoin d'une refonte complète de votre manuscrit ou simplement de réfléchir à voix haute, je suis là."
+    bullet_4: "<strong>Je prends le temps de comprendre votre travail.</strong> Je ne donne pas de retours génériques. Chaque commentaire et suggestion est spécifique à votre recherche, votre argumentation et vos objectifs."
+    final_thought: "J'ai créé Morpho Editing parce que je suis convaincu que la bonne science mérite d'être bien racontée. Vos résultats comptent, alors assurons-nous que le monde les comprenne."
+    get_started_btn: "Découvrir mes services"
 
   services:
     heading: "Services"
@@ -130,60 +125,15 @@ fr:
       price: "4 centimes par mot"
     copy_editing:
       title: "Révision linguistique"
-      desc: "Donnez à votre manuscrit une finition professionnelle. Je peaufine votre texte en corrigeant la grammaire, l’orthographe, la ponctuation et en assurant sa cohérence. Je m’assure aussi qu’il respecte les exigences de style des revues ou de votre université."
+      desc: "Donnez à votre manuscrit une finition professionnelle. Je peaufine votre texte en corrigeant la grammaire, l’orthographe, la ponctuation et en assurant sa coherence. Je m’assure aussi qu’il respecte les exigences de style des revues ou de votre université."
       price: "3 centimes par mot"
     figure_design:
       title: "Figures scientifiques"
-      desc: "Mettez vos résultats en valeur grâce à des visuels clairs et professionnels. J’optimise vos figures pour en renforcer la lisibilité, la cohérence et l’impact.”"
+      desc: "Mettez vos résultats en valeur grâce à des visuels clairs et professionnels. J'optimise vos figures pour en renforcer la lisibilité, la cohérence et l'impact."
       price: "Sur demande"
     cta: "Envie de collaborer ? Contactez-moi pour en discuter."
     btn: "Contactez-moi"
 
-
   workflow:
     heading: "Comment je vous accompagne:"
     step1:
-      title: "Contactez-moi"
-      desc: "Parlez-moi de votre projet et de vos difficultés."
-    step2:
-      title: "Validez le devis"
-      desc: "Un prix clair dès le départ (tarif au mot) et un planning adapté à vos besoins et à vos échéances."
-    step3:
-      title: "Détendez-vous"
-      desc: "Déconnectez de votre manuscrit. Je m'occupe de l'améliorer et vous le remets pour l'échéance convenue."
-
-
-  testimonials:
-    heading: "Leur expérience"
-    t1:
-      quote: "L’accompagnement de Camille m’a permis de passer d’un manque de confiance en mon écriture à un véritable plaisir à écrire. Aujourd’hui, dans mon poste de chercheuse, je rédige régulièrement des rapports et des propositions. Mon responsable a été particulièrement impressionné par mon premier rapport et a mis en avant mes compétences rédactionnelles auprès de la direction. Je recommande vivement Camille."
-      name: "N.T. - chercheuse en entomologie"
-    t2:
-      quote: "Camille m’a été d’une grande aide. Même si mon article était en dehors de son domaine, il m’a apporté des retours précieux et des suggestions très pertinentes."
-      name: "R.D. - étudiante à UNC Chapel Hill"
-
-
-  about:
-    heading: "À propos"
-    name: "Camille Le Roy, PhD"
-    intro: "Je m'appelle Camille. Je suis chercheur, biologiste et biomécanicien — mais surtout, fin connaisseur des exigences de l’écriture académique."
-    details_1: "Titulaire d'un doctorat en biologie évolutive de l'Université de Paris et fort de plus de sept ans de recherche interdisciplinaire entre l'écologie et la biophysique, mon parcours m’a mené des forêts amazoniennes du Pérou aux laboratoires en France et aux Pays-Bas. En chemin, j'ai pris conscience d'une difficulté commune à beaucoup de chercheurs : nous excellons dans la 'pratique', les expériences, les modèles, les expéditions de terrain — mais nous avons souvent du mal à nous arrêter pour nous immerger dans l'écriture."
-    details_2: "Je suis passé par là. Transformer des années de données complexes en un récit clair et convaincant est un processus exigeant. Avec huit articles en premier auteur dans des revues de premier plan (notamment <em>Science</em> et <em>Nature Communications</em>), ainsi qu’une expérience de relecteur pour une douzaine de revues multidisciplinaires, j’ai appris à transformer des résultats complexes en récits scientifiques clairs et convaincants."
-    conclusion: "Aujourd’hui, je mets cette expertise au service des étudiants et des chercheurs pour les aider à franchir ce dernier pas : transformer leur manuscrit en un récit qui rend pleinement justice à leurs découvertes."
-
-
-  contact:
-    heading: "Contactez-moi"
-    success_title: "Merci !"
-    success_msg: "Votre message a bien été envoyé. Je vous répondrai sous peu."
-    error_msg: "Oups ! Il y a eu un problème lors de l'envoi du formulaire. Veuillez réessayer."
-    name_placeholder: "Votre nom *"
-    email_placeholder: "Votre email *"
-    message_placeholder: "Votre message *"
-    referral_placeholder: "Comment avez-vous entendu parler de moi ? *"
-    submit_btn: "Envoyer le message"
-
-
-  about_name:
-    heading: "Pourquoi 'Morpho' ?"
-    text: "Au cours de mes recherches, j’ai étudié l’évolution de la morphologie et la biomécanique du vol chez les insectes, en particulier les emblématiques papillons Morpho de la forêt amazonienne. Mon activité d’édition en tire naturellement son nom."
