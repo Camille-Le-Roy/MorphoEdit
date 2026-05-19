@@ -6,7 +6,6 @@
 
 <section id="services" style="padding-bottom: 0;">
     <div class="container">
-        <!-- 1. Main Services Row -->
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading" style="margin-bottom: 50px;">{{ t.services.heading }}</h2>
@@ -51,75 +50,16 @@
             </div>
         </div>
 
-
-<!-- 2. Integrated Workflow Row -->
-<div class="row">
-    <div class="col-lg-12 text-center">
-        <h2 class="section-heading" style="margin-top: 40px; margin-bottom: 70px; font-size: 28px; text-transform: none;">
-            {{ t.workflow.heading }}
-        </h2>
-    </div>
-</div>
-
-<div class="row workflow-pathway text-center" style="position: relative;">
-    <!-- Line element (Desktop only) -->
-    <div class="hidden-xs hidden-sm" style="position: absolute; top: 64px; left: 15%; right: 15%; height: 4px; background: #e7e7e7; z-index: 0;"></div>
-
-    <!-- Step 1 -->
-    <div class="col-md-4 workflow-step" style="margin-bottom: 40px; position: relative; z-index: 1;">
-        <div class="workflow-content">
-            <span class="fa-stack fa-4x" style="background-color: #fff; border-radius: 50%;">
-                <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
-            </span>
-            <!-- Changed to h2 with section-heading class to match "Services" title -->
-            <h2 class="section-heading" style="margin-top: 25px; margin-bottom: 15px; font-size: 20px; text-transform: none; border: none;">
-                {{ t.workflow.step1.title }}
-            </h2>
-            <p class="large text-muted" style="padding: 0 15px;">
-                {{ t.workflow.step1.desc }}
-            </p>
-        </div>
-    </div>
-
-    <!-- Step 2 -->
-    <div class="col-md-4 workflow-step" style="margin-bottom: 40px; position: relative; z-index: 1;">
-        <div class="workflow-content">
-            <span class="fa-stack fa-4x" style="background-color: #fff; border-radius: 50%;">
-                <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
-            </span>
-            <h2 class="section-heading" style="margin-top: 25px; margin-bottom: 15px; font-size: 20px; text-transform: none; border: none;">
-                {{ t.workflow.step2.title }}
-            </h2>
-            <p class="large text-muted" style="padding: 0 15px;">
-                {{ t.workflow.step2.desc }}
-            </p>
-        </div>
-    </div>
-
-    <!-- Step 3 -->
-    <div class="col-md-4 workflow-step" style="margin-bottom: 40px; position: relative; z-index: 1;">
-        <div class="workflow-content">
-            <span class="fa-stack fa-4x" style="background-color: #fff; border-radius: 50%;">
-                <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                <i class="fa fa-coffee fa-stack-1x fa-inverse"></i>
-            </span>
-            <h2 class="section-heading" style="margin-top: 25px; margin-bottom: 15px; font-size: 20px; text-transform: none; border: none;">
-                {{ t.workflow.step3.title }}
-            </h2>
-            <p class="large text-muted" style="padding: 0 15px;">
-                {{ t.workflow.step3.desc }}
-            </p>
-        </div>
-    </div>
-</div>
-
-        <!-- 3. Final CTA -->
         <div class="row">
             <div class="col-lg-12 text-center" style="margin-top: 0px; padding-bottom: 130px;">
-                <!--<h3 class="large text-muted" style="margin-bottom: 30px; text-transform: none;">{{ t.services.cta }}</h3>-->
-                <a href="#contact" class="btn btn-xl">{{ t.services.btn }}</a>
+                <div class="header-buttons" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+                    <a href="#contact" class="page-scroll btn btn-xl btn-header" style="min-width: 280px; text-align: center;">
+                        {{ t.header.btn }}
+                    </a>
+                    <a href="https://tidycal.com/camilleleroy/free-15-minute-call" class="btn btn-xl btn-header" target="_blank" style="background-color: #3F6E93; border-color: #3F6E93; min-width: 280px; text-align: center;">
+                         {{ t.header.schedule_btn }}
+                    </a>
+                </div>
             </div>
         </div>
     </div>
