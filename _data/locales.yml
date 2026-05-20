@@ -19,7 +19,7 @@ en:
     text_3: "I know, because I've been there—staring at my own drafts, wondering what the paper was even about."
     text_4: "I've spent years doing research, collecting data, revising, publishing, and helping students through that same process. I'm a fellow biologist who speaks your language."
     text_5: "I help clients find the story in their results, gain confidence in their writing, and get their work across the finish line."
-    text_6: "Struggling to write clearly doesn't mean your science is weak. Writing is a separate skill, and I can help you develop it." # You don't have to face it alone.
+    text_6: "Struggling to write clearly doesn't mean your science is weak. Writing is a separate skill, and I can help you develop it."
     list_title: "What's it like to work with me?"
     bullet_1: "<strong>A fellow biologist who speaks your language.</strong> I've done the research, collected the data, revised, and published—I know how hard it is to publish a paper from start to finish."
     bullet_2: "<strong>No judgment.</strong> A draft is never too messy, and no question is too basic. Bring me the chaos."
@@ -97,26 +97,26 @@ fr:
     contact: "Contact"
 
   header:
-    heading: "Vos recherches en biologie, sous leur meilleur jour."
-    lead_in: "Coaching et révisions pour les biologistes qui bloquent sur la rédaction."
-    btn: "Envoiez-moi un message"
+    heading: "Vos recherches en biologie, sous leur meilleur jour"
+    lead_in: "Coaching et révisions pour les biologistes qui bloquent sur la rédaction"
+    btn: "Envoyez-moi un message"
     schedule_btn: "Planifier un appel"
 
   empathy:
     headline: "Vous avez passé des mois au labo ou sur le terrain, à mener des expériences et déboguer des analyses. Chaque donnée a demandé du temps, des efforts, et de l’énergie. Vous avez <em>mérité</em> vos résultats."
     subheadline: "Mais maintenant, la partie la plus difficile n’est plus la science. C’est l’écriture."
-    text_1: "La page blanche. Les réécritures sans fin. La frustration de savoir que vos résultats sont solides, mais que votre manuscrit ne leur rend pas justice. Vos résultats semblent raconter cinq histoires différentes. Pendant ce temps, la date limite approche."
-    text_2: "La recherche n'est pas un long fleuve tranquille: itérative, non linéaire, pleine d’impasses et de détours inattendus. Pourtant, les articles scientifiques sont censés se lire comme une histoire parfaitement construite. <strong style='color: #333;'>Raconter cette histoire est un vrai défi, et cela n’a rien à voir avec la qualité de votre science.</strong>"
+    text_1: "La page blanche. Les réécritures sans fin. La frustration de savoir que vos résultats sont solides, mais que votre manuscrit ne leur rend pas justice. Vos résultats semblent pointer dans cinq directions différentes. Pendant ce temps, la date limite de soumission approche."
+    text_2: "La recherche est chaotique par nature : itérative, non linéaire, pleine d’impasses et de détours inattendus. Pourtant, les articles scientifiques sont censés se lire comme une histoire parfaitement construite. <strong style='color: #333;'>Raconter cette histoire est un vrai défi, et cela n’a rien à voir avec la qualité de votre science.</strong>"
     text_3: "Je le sais, parce que j’y suis passé moi aussi — à fixer mes propres brouillons en me demandant ce que mon article essayait même de raconter."
-    text_4: "J’ai passé des années à faire de la recherche, collecter des données, réviser, publier, et accompagner des étudiants dans ce même processus. Je suis un biologiste qui parle votre langage."
+    text_4: "J’ai passé des années à faire de la recherche, collecter des données, réviser, publier, et accompagner des étudiants dans ce même processus. Je suis un confrère biologiste qui parle votre langage."
     text_5: "J’aide mes clients à trouver le fil conducteur de leurs résultats, à gagner en confiance dans leur écriture, et à mener leur manuscrit jusqu’à la publication."
     text_6: "Des difficultés de rédaction ne remettent en rien en cause la qualité de vos recherches. L’écriture est une compétence à part entière, et je peux vous aider à la développer."
-    list_title: "Mon accompagnement en quelques points:"
-    bullet_1: "<strong>Un biologiste qui parle votre langage.</strong> J’ai fait de la recherche, collecté des données, révisé et publié — je sais à quel point publier un article peut être difficile du début à la fin."
+    list_title: "Ce que vous pouvez attendre de notre collaboration"
+    bullet_1: "<strong>Un confrère biologiste qui parle votre langage.</strong> J’ai fait de la recherche, collecté des données, révisé et publié — je sais à quel point publier un article peut être difficile du début à la fin."
     bullet_2: "<strong>Aucun jugement.</strong> Un brouillon n'est jamais trop brouillon, et aucune question n'est trop basique. Amenez-moi votre chaos."
-    bullet_3: "<strong>Véritablement disponible.</strong> Je ne vais pas disparaître après vous avoir renvoyé les corrections. Que vous ayez besoin d'une refonte complète de votre manuscrit ou simplement de réfléchir à voix haute, je suis là."
-    bullet_4: "<strong>Des retours adaptés à votre travail.</strong> Je prends le temps de comprendre votre recherche, votre argumentaire, et la direction que vous souhaitez prendre. Je ne donne pas de commentaires génériques."
-    final_thought: "Un manuscrit ne devrait pas rester six mois de plus dans un dossier de brouillons. Vos résultats comptent — et la communauté scientifique ne peut construire que sur des travaux accessibles. J’ai créé Morpho Editing parce qu’une bonne science mérite d’être bien racontée. Assurons-nous que ce soit le cas pour la vôtre."
+    bullet_3: "<strong>Véritablement disponible.</strong> Je ne vais pas disparaître après vous avoir renvoyé les corrections avec suivi des modifications. Que vous ayez besoin d'une refonte complète de votre manuscrit ou simplement de réfléchir à voix haute, je suis là."
+    bullet_4: "<strong>Des retours spécifiques à votre travail.</strong> Je prends le temps de comprendre votre recherche, votre argumentaire, et la direction que vous souhaitez prendre. Je ne donne pas de commentaires génériques."
+    final_thought: "Un manuscrit achevé ne devrait pas rester six mois de plus dans un dossier de brouillons. Vos résultats comptent — et la communauté scientifique ne peut construire que sur des travaux accessibles. J’ai créé Morpho Editing parce qu’une belle science mérite d’être bien racontée. Assurons-nous que ce soit le cas pour la vôtre."
     get_started_btn: "Découvrir mes services"
 
   services:
@@ -124,15 +124,58 @@ fr:
     dev_editing:
       title: "Accompagnement structurel"
       desc: "Transformez votre recherche en un récit percutant. Recevez un retour approfondi sur votre manuscrit pour améliorer sa structure globale, son argumentation et sa fluidité narrative."
-      price: "4 centimes par mot"
+      price: "4 centimes par mot (US$)"
     copy_editing:
       title: "Révision linguistique"
-      desc: "Donnez à votre manuscrit une finition professionnelle. Je peaufine votre texte en corrigeant la grammaire, l’orthographe, la ponctuation et en assurant sa coherence. Je m’assure aussi qu’il respecte les exigences de style des revues ou de votre université."
-      price: "3 centimes par mot"
+      desc: "Donnez à votre manuscrit une finition professionnelle. Je peaufine votre texte en corrigeant la grammaire, l’orthographe, la ponctuation et en assurant sa cohérence. Je m’assure aussi qu’il respecte les exigences de style des revues ou de votre université."
+      price: "3 centimes par mot (US$)"
     figure_design:
       title: "Figures scientifiques"
-      desc: "Mettez vos résultats en valeur grâce à des visuels clairs et professionnels. J'optimise vos figures pour en renforcer la lisibilité, la cohérence et l'impact."
+      desc: "Mettez vos résultats en valeur grâce à des visuels clairs et professionnels. J’optimise vos figures pour en renforcer la lisibilité, la cohérence et l’impact."
       price: "Sur demande"
     cta: "Envie de collaborer ? Contactez-moi pour en discuter."
     btn: "Contactez-moi"
 
+  workflow:
+    heading: "Comment je vous accompagne:"
+    step1:
+      title: "Contactez-moi"
+      desc: "Parlez-moi de votre projet et de vos difficultés."
+    step2:
+      title: "Validez le devis"
+      desc: "Un prix clair dès le départ (tarif au mot) et un planning adapté à vos besoins et à vos échéances."
+    step3:
+      title: "Détendez-vous"
+      desc: "Déconnectez de votre manuscrit. Je m'occupe de l'améliorer et vous le remets pour l'échéance convenue."
+
+  testimonials:
+    heading: "Leur expérience"
+    t1:
+      quote: "L’accompagnement de Camille m’a permis de passer d’un manque de confiance en mon écriture à un véritable plaisir à écrire. Aujourd’hui, dans mon poste de chercheuse, je rédige régulièrement des rapports et des propositions. Mon responsable a été particulièrement impressionné par mon premier rapport et a mis en avant mes compétences rédactionnelles auprès de la direction. Je recommande vivement Camille."
+      name: "N.T. - chercheuse en entomologie"
+    t2:
+      quote: "Camille m’a été d’une grande aide. Même si mon article était en dehors de son domaine, il m’a apporté des retours précieux et des suggestions très pertinentes."
+      name: "R.D. - étudiante à UNC Chapel Hill"
+
+  about:
+    heading: "À propos"
+    name: "Camille Le Roy, PhD"
+    intro: "Je m'appelle Camille. Je suis chercheur, biologiste et biomécanicien — mais surtout, fin connaisseur des exigences de l’écriture académique."
+    details_1: "Titulaire d'un doctorat en biologie évolutive de l'Université de Paris et fort de plus de sept ans de recherche interdisciplinaire entre l'écologie et la biophysique, mon parcours m’a mené des forêts amazoniennes du Pérou aux laboratoires en France et aux Pays-Bas. En chemin, j'ai pris conscience d'une difficulté commune à beaucoup de chercheurs : nous excellons dans la 'pratique', les expériences, les modèles, les expéditions de terrain — mais nous avons souvent du mal à nous arrêter pour nous immerger dans l'écriture."
+    details_2: "Je suis passé par là. Transformer des années de données complexes en un récit clair et convaincant est un processus exigeant. Avec huit articles en premier auteur dans des revues de premier plan (notamment <em>Science</em> et <em>Nature Communications</em>), ainsi qu’une expérience de relecteur pour une douzaine de revues multidisciplinaires, j’ai appris à transformer des résultats complexes en récits scientifiques clairs et convaincants."
+    conclusion: "Aujourd’hui, je mets cette expertise au service des étudiants et des chercheurs pour les aider à franchir ce dernier pas : transformer leur manuscrit en un récit qui rend pleinement justice à leurs découvertes."
+
+  contact:
+    heading: "Contactez-moi"
+    success_title: "Merci !"
+    success_msg: "Votre message a bien été envoyé. Je vous répondrai sous peu."
+    error_msg: "Oups ! Il y a eu un problème lors de l'envoi du formulaire. Veuillez réessayer."
+    name_placeholder: "Votre nom *"
+    email_placeholder: "Votre email *"
+    message_placeholder: "Votre message *"
+    referral_placeholder: "Comment avez-vous entendu parler de moi ? *"
+    submit_btn: "Envoyer le message"
+
+  about_name:
+    heading: "Pourquoi 'Morpho' ?"
+    text: "Au cours de mes recherches, j’ai étudié l’évolution de la morphologie et la biomécanique du vol chez les insectes, en particulier les emblématiques papillons Morpho de la forêt amazonienne. Mon activité d’édition en tire naturellement son nom."
