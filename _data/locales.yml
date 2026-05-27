@@ -26,49 +26,49 @@ en:
     bullet_3: "<strong>Genuinely available.</strong> I won't vanish after sending tracked changes. Whether you need a full manuscript overhaul or just someone to think out loud with, I'm here."
     bullet_4: "<strong>Feedback specific to your work.</strong> I take the time to understand your research, your argument, and where you want to go. I don't give generic feedback."
     final_thought: "A manuscript shouldn't sit in a drafts folder for another six months. Your results matter—and the world can only build on work it can actually read. I built Morpho Editing because great science deserves to be told well. Let's make sure yours is."
-    get_started_btn: "See My Services" 
+    get_started_btn: "See My Services"
 
   services:
     heading: "Services"
     subheading_main: "Find the right level of support for your manuscript"
-    subheading_evaluation: "Need a comprehensive diagnostic before diving into revisions?"
-    subheading_figures: "Want your research to stand out at a glance? Make an impact with publication-ready figures"
+    subheading_evaluation: "Feeling stuck but want to revise yourself?<br>Get a manuscript evaluation"
+    subheading_figures: "Want your research to stand out at a glance?<br>Make an impact with publication-ready figures"
+    subheading_cta: "Not sure what you need? Let's chat"
     checklist_title: "Right for you if:"
-    cta: "Interested in working together? Reach out for more info."
     btn: "Message Me"
+
     dev_editing:
       badge: "Advanced"
-      title: "Developmental Editing"
-      desc: "Transform your research into an impactful story. Get high-level feedback on your manuscript to improve the general structure, argument and narrative flow. I will shape your results into a clear scientific story, refining the structure, argument, figures, and language so your research reads as clearly as it deserves."
-      price: "4 cents per word (US$)"
+      title: "Substantive editing"
+      desc: "Substantive editing is an advanced level of editing. I will shape your results into a clear scientific story, refining the structure, argument, figures, and language so your research reads as clearly as it deserves."
       points:
-        pt1: "You’re submitting a thesis, manuscript, or grant proposal, and want the best chance of success."
+        pt1: "You’re submitting a thesis, manuscript, or grant proposal, and want the best chance of success"
         pt2: "Your results are solid, but the manuscript still feels unclear or difficult to structure."
         pt3: "You want your paper to tell a compelling scientific story, instead of a collection of disconnected results."
         pt4: "You need a fresh, professional perspective after spending too long inside the same draft."
+
     copy_editing:
       badge: "Basic"
-      title: "Copy Editing"
-      desc: "Give your manuscript a professional look. I refine your writing by focusing on grammar, spelling, punctuation, and consistency. I also ensure that your document meets the journal or university style requirements. I will smooth out awkward phrasing, repetition, inconsistencies, and language errors to make your manuscript clearer and easier to read."
-      price: "3 cents per word (US$)"
+      title: "Copyediting"
+      desc: "Copyediting is a basic level of editing. I will smooth out awkward phrasing, repetition, inconsistencies, and language errors to make your manuscript clearer and easier to read."
       points:
         pt1: "Your thesis, manuscript, or grant proposal is nearly there and only needs final refinements before submission."
         pt2: "Your ideas and results are well organized but need polishing for clarity and flow."
         pt3: "You want the language to remain concise, coherent, and consistent throughout the manuscript."
         pt4: "You need the document formatted according to journal or university guidelines."
+
     manuscript_eval:
-      title: "Manuscript Evaluation"
-      desc: "Get a detailed editorial review of your manuscript. I will read through your draft carefully and provide actionable feedback on the scientific narrative, structure, clarity, language, and overall flow."
-      price: "Upon request"
+      title: "Manuscript evaluation"
+      desc: "A manuscript evaluation is a detailed editorial review of your manuscript. I will read through the draft carefully and provide actionable feedback on the scientific narrative, structure, clarity, language, and overall flow of the paper."
       points:
         pt1: "You want to better understand the strengths and weaknesses of your draft."
         pt2: "You want detailed feedback before revising the manuscript yourself with confidence."
         pt3: "You need a fresh pair of eyes to review the manuscript in depth."
         pt4: "You want to maximize the chances of success for your manuscript or grant proposal."
+
     figure_design:
       title: "Figure Design"
       desc: "Scientific figures are often the first thing readers look at. Clear, thoughtful visuals can make complex results easier to understand, strengthen your scientific story, and increase the overall impact of your work. I will redesign your figures so readers can understand your results quickly, clearly, and intuitively."
-      price: "Upon request"
       points:
         pt1: "You want your figures to communicate your results more clearly and effectively."
         pt2: "Your visuals feel cluttered, inconsistent, or difficult to interpret."
@@ -117,7 +117,7 @@ en:
 
   about_name:
     heading: "Why 'Morpho'?"
-    text: "During my academic journey, I studied the evolution of morphology and flight biomechanics in insects, particularly the iconic <em>Morpho</em> butterflies of the Amazon rainforest. My editing business takes its name from them."  
+    text: "During my academic journey, I studied the evolution of morphology and flight biomechanics in insects, particularly the iconic <em>Morpho</em> butterflies of the Amazon rainforest. My editing business takes its name from them."
 
 fr:
   nav:
@@ -152,49 +152,49 @@ fr:
   services:
     heading: "Services"
     subheading_main: "Trouvez le niveau d'accompagnement adapté à votre manuscrit"
-    subheading_evaluation: "Besoin d'un diagnostic complet avant de vous lancer dans les révisions ?"
-    subheading_figures: "Vous voulez que vos recherches se démarquent au premier coup d'œil ? Marquez les esprits avec des figures prêtes pour la publication"
+    subheading_evaluation: "Vous êtes bloqué mais souhaitez réviser vous-même ?<br>Obtenez une évaluation de manuscrit"
+    subheading_figures: "Vous voulez que vos recherches se démarquent au premier coup d'œil ?<br>Donnez plus d’impact à vos travaux avec des figures prêtes pour la publication"
+    subheading_cta: "Vous ne savez pas exactement ce dont vous avez besoin ? Discutons-en"
     checklist_title: "Idéal pour vous si :"
-    cta: "Envie de collaborer ? Contactez-moi pour en discuter."
-    btn: "Contactez-moi"
+    btn: "Envoyez-moi un message"
+
     dev_editing:
       badge: "Avancé"
-      title: "Accompagnement structurel"
-      desc: "Transformez votre recherche en un récit percutant. Recevez un retour approfondi sur votre manuscrit pour améliorer sa structure globale, son argumentation et sa fluidité narrative. Je structure vos résultats en un récit scientifique limpide en optimisant l'argumentation, l'agencement et la formulation pour donner à votre travail l'impact qu'il mérite."
-      price: "4 centimes par mot (US$)"
+      title: "Révision de fond"
+      desc: "La révision de fond est un niveau avancé de révision. Je transformerai vos résultats en un récit scientifique clair en améliorant la structure, l’argumentation, les figures et la langue afin que votre recherche se lise aussi clairement qu’elle le mérite."
       points:
-        pt1: "Vous soumettez une thèse, un manuscrit ou une demande de subvention et voulez maximiser vos chances de succès."
+        pt1: "Vous soumettez une thèse, un manuscrit ou une demande de subvention et souhaitez maximiser vos chances de succès."
         pt2: "Vos résultats sont solides, mais le manuscrit vous semble encore flou ou difficile à structurer."
-        pt3: "Vous voulez que votre article raconte une histoire scientifique captivante plutôt qu'une suite de résultats décousus."
-        pt4: "Vous avez besoin d'un regard neuf et professionnel après avoir passé trop de temps sur le même projet."
+        pt3: "Vous voulez que votre article raconte une histoire scientifique captivante plutôt qu’une suite de résultats déconnectés."
+        pt4: "Vous avez besoin d’un regard neuf et professionnel après avoir passé trop de temps sur le même brouillon."
+
     copy_editing:
       badge: "Essentiel"
       title: "Révision linguistique"
-      desc: "Donnez à votre manuscrit une finition professionnelle. Je peaufine votre texte en corrigeant la grammaire, l’orthographe, la ponctuation et en assurant sa cohérence. Je m’assure aussi qu’il respecte les exigences de style des revues ou de votre université. Je lisse les tournures maladroites, élimine les répétitions et corrige les erreurs de langue pour rendre votre texte fluide."
-      price: "3 centimes par mot (US$)"
+      desc: "La révision linguistique est un niveau de révision plus léger. Je corrigerai les formulations maladroites, les répétitions, les incohérences et les erreurs de langue afin de rendre votre manuscrit plus clair et plus agréable à lire."
       points:
-        pt1: "Votre thèse, manuscrit ou demande de subvention est presque finalisé et ne nécessite que les derniers ajustements avant soumission."
-        pt2: "Vos idées et résultats sont bien organisés mais ont besoin d'être polis pour plus de clarté et de fluidité."
-        pt3: "Vous souhaitez que le style reste concis, cohérent et homogène tout au long du document."
-        pt4: "Vous avez besoin d'une mise en page conforme aux directives d'une revue ou d'une université."
+        pt1: "Votre thèse, manuscrit ou demande de subvention est presque finalisé et nécessite seulement les dernières corrections avant soumission."
+        pt2: "Vos idées et résultats sont bien organisés mais ont besoin d’être peaufinés pour gagner en clarté et en fluidité."
+        pt3: "Vous souhaitez un texte concis, cohérent et homogène dans l’ensemble du manuscrit."
+        pt4: "Vous avez besoin d’un document mis en forme selon les directives d’une revue ou d’une université."
+
     manuscript_eval:
       title: "Évaluation de manuscrit"
-      desc: "Bénéficiez d'une analyse critique détaillée de votre document. Je relis attentivement votre brouillon et vous fournis des retours concrets sur le récit scientifique, la structure, la clarté et la fluidité globale."
-      price: "Sur demande"
+      desc: "Une évaluation de manuscrit est une analyse éditoriale détaillée de votre document. Je lirai attentivement votre brouillon et fournirai des retours concrets sur le récit scientifique, la structure, la clarté, la langue et la fluidité globale de l’article."
       points:
-        pt1: "Vous souhaitez mieux comprendre les points forts et les faiblesses de votre version actuelle."
-        pt2: "Vous voulez des retours approfondis pour retravailler vous-même votre manuscrit en toute confiance."
-        pt3: "Vous avez besoin d'un regard neuf et expert pour analyser votre texte en profondeur."
-        pt4: "Vous voulez maximiser les chances de succès de votre manuscrit ou de votre demande de bourse."
+        pt1: "Vous souhaitez mieux comprendre les forces et les faiblesses de votre brouillon."
+        pt2: "Vous voulez des retours détaillés avant de réviser le manuscrit vous-même en toute confiance."
+        pt3: "Vous avez besoin d’un regard neuf pour analyser votre manuscrit en profondeur."
+        pt4: "Vous souhaitez maximiser les chances de succès de votre manuscrit ou de votre demande de subvention."
+
     figure_design:
-      title: "Figures scientifiques"
-      desc: "Les figures sont souvent les premiers éléments consultés. Des visuels soignés facilitent la compréhension de données complexes, renforcent votre argumentation et augmentent la portée de vos travaux. Je retravaille vos figures pour les rendre intuitives et percutantes."
-      price: "Sur demande"
+      title: "Conception de figures"
+      desc: "Les figures scientifiques sont souvent la première chose que les lecteurs regardent. Des visuels clairs et réfléchis permettent de mieux comprendre des résultats complexes, renforcent votre récit scientifique et augmentent l’impact global de votre travail. Je repenserai vos figures afin que vos lecteurs comprennent vos résultats rapidement, clairement et intuitivement."
       points:
-        pt1: "Vous voulez que vos figures communiquent vos résultats de manière plus limpide et efficace."
-        pt2: "Vos visuels vous semblent surchargés, hétérogènes ou difficiles à interpréter."
-        pt3: "Vous avez besoin d'aide pour améliorer la mise en page, les légendes, le choix des couleurs ou la clarté visuelle globale."
-        pt4: "Vous souhaitez des figures prêtes pour la publication (manuscrit, thèse, demande de subvention ou présentation)."
+        pt1: "Vous souhaitez que vos figures communiquent vos résultats de manière plus claire et plus efficace."
+        pt2: "Vos visuels semblent encombrés, incohérents ou difficiles à interpréter."
+        pt3: "Vous avez besoin d’aide pour améliorer la mise en page, les légendes, les couleurs ou la fluidité visuelle globale."
+        pt4: "Vous souhaitez des figures prêtes pour la publication, une thèse, une demande de subvention ou une présentation."
 
   workflow:
     heading: "Comment je vous accompagne:"
@@ -232,8 +232,8 @@ fr:
     error_msg: "Oups ! Il y a eu un problème lors de l'envoi du formulaire. Veuillez réessayer."
     name_placeholder: "Votre nom *"
     email_placeholder: "Votre email *"
-    message_placeholder: "Votre message *"
     referral_placeholder: "Comment avez-vous entendu parler de moi ? *"
+    message_placeholder: "Votre message *"
     submit_btn: "Envoyer le message"
 
   about_name:

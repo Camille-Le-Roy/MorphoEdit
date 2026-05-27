@@ -1,207 +1,281 @@
 {% assign lang = "en" %}
 {% if page.url contains '/fr/' %}
-{% assign lang = "fr" %}
+  {% assign lang = "fr" %}
 {% endif %}
 {% assign t = site.data.locales[lang] %}
 
 <section id="services" style="padding-bottom: 0; background-color: #ffffff;">
     <div class="container">
+
+        <!-- Section Heading -->
         <div class="row">
             <div class="col-lg-12 text-center" style="margin-bottom: 75px;">
-                <h2 class="section-heading" style="margin-bottom: 25px;">{{ t.services.heading }}</h2>
-                <p class="service-subheading" style="font-size: 24px; font-weight: 600; color: #555; margin-top: 20px;">
-                    Find the right level of support for your manuscript
+                <h2 class="section-heading" style="margin-bottom: 25px;">
+                    {{ t.services.heading }}
+                </h2>
+
+                <p class="service-subheading"
+                   style="font-size: 24px; font-weight: 600; color: #555; margin-top: 20px;">
+                    {{ t.services.subheading_main }}
                 </p>
             </div>
         </div>
 
+        <!-- Substantive Editing -->
         <div class="row style-service-row">
             <div class="col-lg-12">
                 <div class="service-horizontal-card">
+
                     <div class="service-meta-side">
+
                         <h4 class="service-title-text"
                             style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">
-                            Advanced</h4>
+                            {{ t.services.dev_editing.badge }}
+                        </h4>
+
                         <span class="fa-stack fa-4x" style="margin-bottom: 15px;">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa fa-lightbulb-o fa-stack-1x fa-inverse fa-fw"></i>
                         </span>
+
                         <h3 class="service-main-heading"
-                            style="margin-top: 0; font-size: 26px; font-weight: 700; color: #333;">Substantive editing
+                            style="margin-top: 0; font-size: 26px; font-weight: 700; color: #333;">
+                            {{ t.services.dev_editing.title }}
                         </h3>
+
                     </div>
+
                     <div class="service-content-side">
+
                         <p class="service-description-text">
-                            Substantive editing is an advanced level of editing. I will shape your results into a clear
-                            scientific story, refining the structure, argument, figures, and language so your research
-                            reads as clearly as it deserves.
+                            {{ t.services.dev_editing.desc }}
                         </p>
+
                         <div class="service-checklist-container">
-                            <h5 class="checklist-title">Right for you if:</h5>
+
+                            <h5 class="checklist-title">
+                                {{ t.services.checklist_title }}
+                            </h5>
+
                             <ul class="service-checklist">
-                                <li>You’re submitting a thesis, manuscript, or grant proposal, and want the best chance
-                                    of success</li>
-                                <li>Your results are solid, but the manuscript still feels unclear or difficult to
-                                    structure.</li>
-                                <li>You want your paper to tell a compelling scientific story, instead of a collection
-                                    of disconnected results.</li>
-                                <li>You need a fresh, professional perspective after spending too long inside the same
-                                    draft.</li>
+                                <li>{{ t.services.dev_editing.points.pt1 }}</li>
+                                <li>{{ t.services.dev_editing.points.pt2 }}</li>
+                                <li>{{ t.services.dev_editing.points.pt3 }}</li>
+                                <li>{{ t.services.dev_editing.points.pt4 }}</li>
                             </ul>
+
                         </div>
+
                     </div>
+
                 </div>
             </div>
         </div>
 
+        <!-- Copyediting -->
         <div class="row style-service-row">
             <div class="col-lg-12">
                 <div class="service-horizontal-card">
+
                     <div class="service-meta-side">
+
                         <h4 class="service-title-text"
                             style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">
-                            Basic</h4>
+                            {{ t.services.copy_editing.badge }}
+                        </h4>
+
                         <span class="fa-stack fa-4x" style="margin-bottom: 15px;">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa fa-pencil fa-stack-1x fa-inverse fa-fw"></i>
                         </span>
+
                         <h3 class="service-main-heading"
-                            style="margin-top: 0; font-size: 26px; font-weight: 700; color: #333;">Copyediting</h3>
+                            style="margin-top: 0; font-size: 26px; font-weight: 700; color: #333;">
+                            {{ t.services.copy_editing.title }}
+                        </h3>
+
                     </div>
+
                     <div class="service-content-side">
+
                         <p class="service-description-text">
-                            Copyediting is a basic level of editing. I will smooth out awkward phrasing, repetition,
-                            inconsistencies, and language errors to make your manuscript clearer and easier to read.
+                            {{ t.services.copy_editing.desc }}
                         </p>
+
                         <div class="service-checklist-container">
-                            <h5 class="checklist-title">Right for you if:</h5>
+
+                            <h5 class="checklist-title">
+                                {{ t.services.checklist_title }}
+                            </h5>
+
                             <ul class="service-checklist">
-                                <li>Your thesis, manuscript, or grant proposal is nearly there and only needs final
-                                    refinements before submission.</li>
-                                <li>Your ideas and results are well organized but need polishing for clarity and flow.
-                                </li>
-                                <li>You want the language to remain concise, coherent, and consistent throughout the
-                                    manuscript.</li>
-                                <li>You need the document formatted according to journal or university guidelines.</li>
+                                <li>{{ t.services.copy_editing.points.pt1 }}</li>
+                                <li>{{ t.services.copy_editing.points.pt2 }}</li>
+                                <li>{{ t.services.copy_editing.points.pt3 }}</li>
+                                <li>{{ t.services.copy_editing.points.pt4 }}</li>
                             </ul>
+
                         </div>
+
                     </div>
+
                 </div>
             </div>
         </div>
 
+        <!-- Evaluation Heading -->
         <div class="row">
             <div class="col-lg-12 text-center" style="margin-top: 30px; margin-bottom: 50px;">
-                <p class="service-subheading" style="font-size: 24px; font-weight: 600; color: #555; margin-top: 20px;">
-                    Feeling stuck but want to revise yourself?<br>Get a manuscript evaluation
+                <p class="service-subheading"
+                   style="font-size: 24px; font-weight: 600; color: #555; margin-top: 20px;">
+                    {{ t.services.subheading_evaluation }}
                 </p>
             </div>
         </div>
 
+        <!-- Manuscript Evaluation -->
         <div class="row style-service-row">
             <div class="col-lg-12">
                 <div class="service-horizontal-card">
+
                     <div class="service-meta-side">
+
                         <span class="fa-stack fa-4x" style="margin-bottom: 15px;">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa fa-comments-o fa-stack-1x fa-inverse fa-fw"></i>
                         </span>
+
                         <h3 class="service-main-heading"
-                            style="margin-top: 0; font-size: 26px; font-weight: 700; color: #333;">Manuscript evaluation
+                            style="margin-top: 0; font-size: 26px; font-weight: 700; color: #333;">
+                            {{ t.services.manuscript_eval.title }}
                         </h3>
+
                     </div>
+
                     <div class="service-content-side">
+
                         <p class="service-description-text">
-                            A manuscript evaluation is a detailed editorial review of your manuscript. I will read
-                            through the draft carefully and provide actionable feedback on the scientific narrative,
-                            structure, clarity, language, and overall flow of the paper.
+                            {{ t.services.manuscript_eval.desc }}
                         </p>
+
                         <div class="service-checklist-container">
-                            <h5 class="checklist-title">Right for you if:</h5>
+
+                            <h5 class="checklist-title">
+                                {{ t.services.checklist_title }}
+                            </h5>
+
                             <ul class="service-checklist">
-                                <li>You want to better understand the strengths and weaknesses of your draft.</li>
-                                <li>You want detailed feedback before revising the manuscript yourself with confidence.
-                                </li>
-                                <li>You need a fresh pair of eyes to review the manuscript in depth.</li>
-                                <li>You want to maximize the chances of success for your manuscript or grant proposal.
-                                </li>
+                                <li>{{ t.services.manuscript_eval.points.pt1 }}</li>
+                                <li>{{ t.services.manuscript_eval.points.pt2 }}</li>
+                                <li>{{ t.services.manuscript_eval.points.pt3 }}</li>
+                                <li>{{ t.services.manuscript_eval.points.pt4 }}</li>
                             </ul>
+
                         </div>
+
                     </div>
+
                 </div>
             </div>
         </div>
 
+        <!-- Figures Heading -->
         <div class="row">
             <div class="col-lg-12 text-center" style="margin-top: 30px; margin-bottom: 50px;">
-                <p class="service-subheading" style="font-size: 24px; font-weight: 600; color: #555; margin-top: 20px;">
-                    Want your research to stand out at a glance?<br>Make an impact with publication-ready figures
+                <p class="service-subheading"
+                   style="font-size: 24px; font-weight: 600; color: #555; margin-top: 20px;">
+                    {{ t.services.subheading_figures }}
                 </p>
             </div>
         </div>
 
+        <!-- Figure Design -->
         <div class="row style-service-row">
             <div class="col-lg-12">
                 <div class="service-horizontal-card" style="margin-bottom: 40px;">
+
                     <div class="service-meta-side">
+
                         <span class="fa-stack fa-4x" style="margin-bottom: 15px;">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa fa-bar-chart fa-stack-1x fa-inverse fa-fw"></i>
                         </span>
+
                         <h3 class="service-main-heading"
-                            style="margin-top: 0; font-size: 26px; font-weight: 700; color: #333;">Figure Design</h3>
+                            style="margin-top: 0; font-size: 26px; font-weight: 700; color: #333;">
+                            {{ t.services.figure_design.title }}
+                        </h3>
+
                     </div>
+
                     <div class="service-content-side">
+
                         <p class="service-description-text">
-                            Scientific figures are often the first thing readers look at. Clear, thoughtful visuals can
-                            make complex results easier to understand, strengthen your scientific story, and increase
-                            the overall impact of your work. I will redesign your figures so readers can understand your
-                            results quickly, clearly, and intuitively.
+                            {{ t.services.figure_design.desc }}
                         </p>
+
                         <div class="service-checklist-container">
-                            <h5 class="checklist-title">Right for you if:</h5>
+
+                            <h5 class="checklist-title">
+                                {{ t.services.checklist_title }}
+                            </h5>
+
                             <ul class="service-checklist">
-                                <li>You want your figures to communicate your results more clearly and effectively.</li>
-                                <li>Your visuals feel cluttered, inconsistent, or difficult to interpret.</li>
-                                <li>You need help improving layout, labeling, color choices, or overall visual flow.
-                                </li>
-                                <li>You want publication-ready figures for a manuscript, thesis, grant proposal, or
-                                    presentation.</li>
+                                <li>{{ t.services.figure_design.points.pt1 }}</li>
+                                <li>{{ t.services.figure_design.points.pt2 }}</li>
+                                <li>{{ t.services.figure_design.points.pt3 }}</li>
+                                <li>{{ t.services.figure_design.points.pt4 }}</li>
                             </ul>
+
                         </div>
+
                     </div>
+
                 </div>
             </div>
         </div>
 
+        <!-- CTA -->
         <div class="row">
             <div class="col-lg-12 text-center" style="margin-top: 20px; margin-bottom: 10px;">
-                <p class="service-subheading" style="font-size: 24px; font-weight: 600; color: #555;">
-                    Not sure what you need? Let's chat
+                <p class="service-subheading"
+                   style="font-size: 24px; font-weight: 600; color: #555;">
+                    {{ t.services.subheading_cta }}
                 </p>
             </div>
         </div>
 
+        <!-- Buttons -->
         <div class="row">
-            <div class="col-lg-12 text-center" style="margin-top: 20px; padding-bottom: 130px;">
-                <div class="header-buttons" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-                    <a href="#contact" class="page-scroll btn btn-xl btn-header"
-                        style="min-width: 280px; text-align: center;">
-                        {{ t.header.btn }}
+            <div class="col-lg-12 text-center"
+                 style="margin-top: 20px; padding-bottom: 130px;">
+
+                <div class="header-buttons"
+                     style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+
+                    <a href="#contact"
+                       class="page-scroll btn btn-xl btn-header"
+                       style="min-width: 280px; text-align: center;">
+                        {{ t.services.btn }}
                     </a>
-                    <a href="https://tidycal.com/camilleleroy/free-15-minute-call" class="btn btn-xl btn-header"
-                        target="_blank"
-                        style="background-color: #3F6E93; border-color: #3F6E93; min-width: 280px; text-align: center;">
+
+                    <a href="https://tidycal.com/camilleleroy/free-15-minute-call"
+                       class="btn btn-xl btn-header"
+                       target="_blank"
+                       style="background-color: #3F6E93; border-color: #3F6E93; min-width: 280px; text-align: center;">
                         {{ t.header.schedule_btn }}
                     </a>
+
                 </div>
+
             </div>
         </div>
+
     </div>
 </section>
 
 <style>
-    /* --- New Full-Width Services Cards Styling --- */
+
     .style-service-row {
         margin-bottom: 40px;
     }
@@ -214,17 +288,18 @@
         border-radius: 12px;
         padding: 40px;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
-        transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.3s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.3s ease;
+        transition:
+            transform 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+            box-shadow 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+            border-color 0.3s ease;
     }
 
-    /* Active 'Pop Out' State on Hover */
     .service-horizontal-card:hover {
         transform: translateY(-8px) scale(1.01);
-        box-shadow: 0 20px 38px rgba(0, 0, 0, 0.05); /* Softened to a muted neutral drop shadow */
-        border-color: #b0bfc9; /* Subtle slate grey outline on pop out */
+        box-shadow: 0 20px 38px rgba(0, 0, 0, 0.05);
+        border-color: #b0bfc9;
     }
 
-    /* Left/Meta Profile Side */
     .service-meta-side {
         flex: 0 0 25%;
         text-align: center;
@@ -236,7 +311,6 @@
         justify-content: center;
     }
 
-    /* Right Content Block */
     .service-content-side {
         flex: 1;
         padding-left: 40px;
@@ -252,7 +326,6 @@
         margin-bottom: 25px;
     }
 
-    /* Custom Checklist Formatting */
     .service-checklist-container {
         background-color: #fafbfc;
         padding: 25px 30px;
@@ -267,7 +340,6 @@
         margin-bottom: 15px;
         letter-spacing: 0.5px;
         text-transform: none;
-        /* Explicitly overrides any master theme uppercase settings */
     }
 
     .service-checklist {
@@ -289,7 +361,6 @@
         margin-bottom: 0;
     }
 
-    /* Beautiful blue tint checkmarks matching your theme color */
     .service-checklist li::before {
         content: "✓";
         position: absolute;
@@ -300,8 +371,8 @@
         font-size: 18px;
     }
 
-    /* --- Mobile Responsiveness Adjustments --- */
     @media (max-width: 991px) {
+
         .service-horizontal-card {
             flex-direction: column;
             padding: 30px;
@@ -319,13 +390,14 @@
         .service-content-side {
             padding-left: 0;
         }
-        
+
         .service-horizontal-card:hover {
             transform: translateY(-4px) scale(1.005);
         }
     }
 
     @media (max-width: 768px) {
+
         .service-description-text {
             font-size: 16px;
         }
@@ -338,4 +410,5 @@
             font-size: 15px;
         }
     }
+
 </style>
