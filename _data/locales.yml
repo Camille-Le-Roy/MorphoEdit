@@ -82,10 +82,24 @@ en:
       desc: "Share your project and your struggles."
     step2:
       title: "Approve the quote"
-      desc: "Know the exact price (per-word rate) and a plan tailored to your needs and calendar."
+      desc: "Know the exact price and the plan tailored to your needs and calendar."
     step3:
       title: "Relax and Wait"
       desc: "Take time off to disconnect. I’ll polish your manuscript and deliver by the agreed deadline."
+
+  faq:
+    heading: "Frequently Asked Questions"
+    q1: "How much do editing services cost?"
+    a1: "Every project is different, and pricing depends on the scope of the work, timeline, and level of support required. I always provide clear estimates upfront and am happy to discuss different options to find the approach that best fits your needs and budget."
+    q2: "Do you offer student discounts?"
+    a2: "I understand that students often work with limited funding. Whenever possible, I try to offer flexible solutions and adapt the scope of work to fit different budgets. Feel free to contact me to discuss your project and see what might be possible."
+    q3: "How quickly do you review projects?"
+    a3_p1: "I typically return projects within two weeks, though many are completed earlier. If a longer turnaround is necessary, I will always let you know beforehand and discuss the timeline with you directly."
+    a3_p2: "If you are working under a tight deadline, please reach out as soon as possible. I will always try to accommodate urgent requests whenever possible. Additional rush fees may apply."
+    q4: "What type of documents do you review?"
+    a4_intro: "I provide scientific writing support and feedback for a range of research-related documents, including:"
+    q5: "Will you review my project more than once?"
+    a5: "Additional rounds of review can always be arranged depending on your needs. We can discuss the best approach before starting the project. Additional fees may apply."
 
   testimonials:
     heading: "What clients say"
@@ -135,7 +149,7 @@ fr:
   empathy:
     headline: "Vous avez passé des mois au labo ou sur le terrain, à mener des expériences et déboguer des analyses. Chaque donnée a demandé du temps, des efforts, et de l’énergie. Vous avez <em>mérité</em> vos résultats."
     subheadline: "Mais maintenant, la partie la plus difficile n’est plus la science. C’est l’écriture."
-    text_1: "La page blanche. Les réécritures sans fin. La frustration de savoir que vos résultats sont solides, mais que votre manuscrit ne leur rend pas justice. Vos résultats semblent pointer dans cinq directions différentes. Pendant ce temps, la date limite de soumission approche."
+    text_1: "La page blanche. Les réécritures sans fin. La frustration de savoir que vos résultats sont solides, mais que votre manuscrit ne leur rend pas justice. Vos résultats semblent pointer dans temps de directions différentes. Pendant ce temps, la date limite de soumission approche."
     text_2: "La recherche est chaotique par nature : itérative, non linéaire, pleine d’impasses et de détours inattendus. Pourtant, les articles scientifiques sont censés se lire comme une histoire parfaitement construite. <strong style='color: #333;'>Raconter cette histoire est un vrai défi, et cela n’a rien à voir avec la qualité de votre science.</strong>"
     text_3: "Je le sais, parce que j’y suis passé moi aussi — à fixer mes propres brouillons en me demandant ce que mon article essayait même de raconter."
     text_4: "J’ai passé des années à faire de la recherche, collecter des données, réviser, publier, et accompagner des étudiants dans ce même processus. Je suis un confrère biologiste qui parle votre langage."
@@ -161,9 +175,9 @@ fr:
     dev_editing:
       badge: "Avancé"
       title: "Révision de fond"
-      desc: "La révision de fond est un niveau avancé de révision. Je transformerai vos résultats en un récit scientifique clair en améliorant la structure, l’argumentation, les figures et la langue afin que votre recherche se lise aussi clairement qu’elle le mérite."
+      desc: "La révision de fond correspond à un accompagnement éditorial approfondi. Je vous aide à transformer vos résultats en un récit scientifique clair et cohérent, en travaillant la structure, l’argumentation, les figures et le style afin que votre recherche soit présentée avec toute la clarté qu’elle mérite."
       points:
-        pt1: "Vous soumettez une thèse, un manuscrit ou une demande de subvention et souhaitez maximiser vos chances de succès."
+        pt1: "Vous soumettez une thèse, un manuscrit ou une demande financement et souhaitez maximiser vos chances de succès."
         pt2: "Vos résultats sont solides, mais le manuscrit vous semble encore flou ou difficile à structurer."
         pt3: "Vous voulez que votre article raconte une histoire scientifique captivante plutôt qu’une suite de résultats déconnectés."
         pt4: "Vous avez besoin d’un regard neuf et professionnel après avoir passé trop de temps sur le même brouillon."
@@ -180,7 +194,7 @@ fr:
 
     manuscript_eval:
       title: "Évaluation de manuscrit"
-      desc: "Une évaluation de manuscrit est une analyse éditoriale détaillée de votre document. Je lirai attentivement votre brouillon et fournirai des retours concrets sur le récit scientifique, la structure, la clarté, la langue et la fluidité globale de l’article."
+      desc: "Une évaluation de manuscrit est une analyse éditoriale détaillée de votre document. Je lirai attentivement votre brouillon et fournirai des feedbacks concrets sur le récit scientifique, la structure, la clarté, la langue et la fluidité globale de l’article."
       points:
         pt1: "Vous souhaitez mieux comprendre les forces et les faiblesses de votre brouillon."
         pt2: "Vous voulez des retours détaillés avant de réviser le manuscrit vous-même en toute confiance."
@@ -189,12 +203,12 @@ fr:
 
     figure_design:
       title: "Conception de figures"
-      desc: "Les figures scientifiques sont souvent la première chose que les lecteurs regardent. Des visuels clairs et réfléchis permettent de mieux comprendre des résultats complexes, renforcent votre récit scientifique et augmentent l’impact global de votre travail. Je repenserai vos figures afin que vos lecteurs comprennent vos résultats rapidement, clairement et intuitivement."
+      desc: "Les figures scientifiques sont souvent la première chose que les lecteurs regardent. Des visuels clairs et réfléchis permettent de mieux comprendre des résultats complexes, renforcent votre récit scientifique et augmentent l’impact global de votre travail. Je repenserai vos figures afin que vos lecteurs comprennent vos résultats rapidement, et clairement."
       points:
         pt1: "Vous souhaitez que vos figures communiquent vos résultats de manière plus claire et plus efficace."
         pt2: "Vos visuels semblent encombrés, incohérents ou difficiles à interpréter."
         pt3: "Vous avez besoin d’aide pour améliorer la mise en page, les légendes, les couleurs ou la fluidité visuelle globale."
-        pt4: "Vous souhaitez des figures prêtes pour la publication, une thèse, une demande de subvention ou une présentation."
+        pt4: "Vous souhaitez des figures prêtes pour la publication, une thèse, une demande de financement ou une présentation."
 
   workflow:
     heading: "Comment je vous accompagne:"
@@ -203,10 +217,24 @@ fr:
       desc: "Parlez-moi de votre projet et de vos difficultés."
     step2:
       title: "Validez le devis"
-      desc: "Un prix clair dès le départ (tarif au mot) et un planning adapté à vos besoins et à vos échéances."
+      desc: "Un prix clair dès le départ et un planning adapté à vos besoins et à vos échéances."
     step3:
       title: "Détendez-vous"
       desc: "Déconnectez de votre manuscrit. Je m'occupe de l'améliorer et vous le remets pour l'échéance convenue."
+
+  faq:
+    heading: "Foire Aux Questions"
+    q1: "Combien coûtent les services de révision ?"
+    a1: "Chaque projet est unique et le tarif dépend de l'étendue du travail, des délais et du niveau d'accompagnement requis. Je fournis toujours une estimation claire dès le départ et je suis ravi d'échanger sur les différentes options pour trouver la formule qui correspond le mieux à vos besoins et à votre budget."
+    q2: "Proposez-vous des tarifs étudiants ?"
+    a2: "Je sais que les étudiants disposent souvent de financements limités. Dans la mesure du possible, je m'efforce de proposer des solutions flexibles et d'adapter la nature des travaux à différents budgets. N'hésitez pas à me contacter pour discuter de votre projet."
+    q3: "Quel est votre délai de révision ?"
+    a3_p1: "Je rends généralement les projets dans un délai de deux semaines, même si beaucoup sont finalisés plus tôt. Si un délai plus long est nécessaire, je vous en informerai systématiquement à l'avance pour en discuter directement avec vous."
+    a3_p2: "Si vous travaillez avec des délais très serrés, contactez-moi dès que possible. Je ferai toujours de mon mieux pour m'adapter aux demandes urgentes. Des frais d'urgence supplémentaires peuvent s'appliquer."
+    q4: "Quels types de documents révisez-vous ?"
+    a4_intro: "Je propose des services de révision et d'aide à la rédaction scientifique pour une large gamme de documents liés à la recherche, notamment :"
+    q5: "Allez-vous réviser mon projet plus d'une fois ?"
+    a5: "Des sessions de révision supplémentaires peuvent tout à fait être organisées selon vos besoins. Nous pouvons définir ensemble la meilleure approche avant de commencer le projet. Des frais supplémentaires peuvent s'appliquer."
 
   testimonials:
     heading: "Leur expérience"

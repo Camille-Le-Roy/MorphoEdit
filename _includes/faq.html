@@ -1,0 +1,257 @@
+{% assign lang = "en" %}
+{% if page.url contains '/fr/' %}
+  {% assign lang = "fr" %}
+{% endif %}
+{% assign t = site.data.locales[lang] %}
+
+<section id="faq" style="padding: 100px 0; border-top: 1px solid #eef2f5;">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center" style="margin-bottom: 60px;">
+                <h2 class="section-heading" style="margin-bottom: 25px; text-transform: uppercase; letter-spacing: 1px; line-height: 1.3;">
+                    {{ t.faq.heading }}
+                </h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <div class="panel-group" id="faqAccordion" role="tablist" aria-multiselectable="false">
+
+                    <div class="faq-item-box">
+                        <div role="tab" id="headingOne">
+                            <h3 class="faq-question">
+                                <a role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
+                                    {{ t.faq.q1 }}
+                                    <span class="accordion-icon"></span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body faq-answer">
+                                {{ t.faq.a1 }}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item-box">
+                        <div role="tab" id="headingTwo">
+                            <h3 class="faq-question">
+                                <a role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed">
+                                    {{ t.faq.q2 }}
+                                    <span class="accordion-icon"></span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body faq-answer">
+                                {{ t.faq.a2 }}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item-box">
+                        <div role="tab" id="headingThree">
+                            <h3 class="faq-question">
+                                <a role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="collapsed">
+                                    {{ t.faq.q3 }}
+                                    <span class="accordion-icon"></span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body faq-answer">
+                                <p style="margin-bottom: 15px; font-size: 16px; line-height: 1.75; color: #666;">{{ t.faq.a3_p1 }}</p>
+                                <p style="margin-bottom: 0; font-size: 16px; line-height: 1.75; color: #666;">{{ t.faq.a3_p2 }}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item-box">
+                        <div role="tab" id="headingFour">
+                            <h3 class="faq-question">
+                                <a role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="collapsed">
+                                    {{ t.faq.q4 }}
+                                    <span class="accordion-icon"></span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                            <div class="panel-body faq-answer">
+                                <p style="margin-bottom: 15px; font-size: 16px; line-height: 1.75; color: #666;">{{ t.faq.a4_intro }}</p>
+                                
+                                <ul class="faq-doc-list">
+                                    <li>Abstracts</li>
+                                    <li>Book chapters</li>
+                                    <li>Cover letters</li>
+                                    <li>CVs</li>
+                                    <li>Dissertations and theses</li>
+                                    <li>Grant proposals</li>
+                                    <li>Poster presentations</li>
+                                    <li>Research manuscripts</li>
+                                    <li>Responses to reviewers</li>
+                                    <li>Review articles</li>
+                                    <li>Slide decks</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item-box">
+                        <div role="tab" id="headingFive">
+                            <h3 class="faq-question">
+                                <a role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="collapsed">
+                                    {{ t.faq.q5 }}
+                                    <span class="accordion-icon"></span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                            <div class="panel-body faq-answer">
+                                {{ t.faq.a5 }}
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var faqLinks = document.querySelectorAll('#faqAccordion [data-toggle="collapse"]');
+        faqLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                var currentTarget = document.querySelector(this.getAttribute('href'));
+                // Select all panels that are currently shown
+                var openPanels = document.querySelectorAll('#faqAccordion .panel-collapse.in, #faqAccordion .panel-collapse.show');
+                
+                openPanels.forEach(function(panel) {
+                    if (panel !== currentTarget) {
+                        // Safely trigger Bootstrap close
+                        if (typeof jQuery !== 'undefined') {
+                            jQuery(panel).collapse('hide');
+                        } else {
+                            panel.classList.remove('in', 'show');
+                            var associatedLink = document.querySelector('a[href="#' + panel.id + '"]');
+                            if (associatedLink) associatedLink.classList.add('collapsed');
+                        }
+                    }
+                });
+            });
+        });
+    });
+</script>
+
+<style>
+    .faq-item-box {
+        background: #ffffff;
+        border: 1px solid #eef2f5;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.01);
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+    }
+
+    .faq-item-box:hover {
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
+        border-color: #b0bfc9;
+    }
+
+    .faq-question {
+        margin: 0;
+    }
+
+    /* Standardized font rules for questions */
+    .faq-question a {
+        display: block;
+        padding: 22px 55px 22px 30px;
+        font-family: 'Montserrat', sans-serif !important;
+        font-size: 18px !important;
+        font-weight: 700 !important;
+        color: #333 !important;
+        text-decoration: none !important;
+        position: relative;
+        text-transform: none !important;
+        line-height: 1.4 !important;
+        transition: background-color 0.2s ease;
+    }
+
+    .faq-question a:hover, 
+    .faq-question a:focus {
+        background-color: #fcfdfe;
+    }
+
+    /* Standardized font rules for answers */
+    .panel-body.faq-answer {
+        padding: 5px 30px 25px 30px !important;
+        border-top: none !important;
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        font-size: 16px !important;
+        line-height: 1.75 !important;
+        color: #666 !important;
+    }
+
+    /* Icons */
+    .accordion-icon {
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: #999;
+        font-weight: 400;
+        transition: color 0.3s ease;
+    }
+
+    .faq-question a:not(.collapsed) .accordion-icon::before {
+        content: "\2212"; 
+        color: #3F6E93; 
+    }
+
+    .faq-question a.collapsed .accordion-icon::before {
+        content: "\002B"; 
+    }
+
+    /* Document List */
+    .faq-doc-list {
+        margin: 15px 0 0 0;
+        padding-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px 20px;
+    }
+
+    .faq-doc-list li {
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        font-size: 15px !important;
+        color: #555 !important;
+        line-height: 1.5 !important;
+    }
+
+    /* Responsive Mobile Overrides */
+    @media (max-width: 768px) {
+        .faq-question a {
+            padding: 18px 50px 18px 20px;
+            font-size: 16px !important;
+        }
+        .panel-body.faq-answer,
+        .panel-body.faq-answer p {
+            font-size: 15px !important;
+        }
+        .panel-body.faq-answer {
+            padding: 0 20px 20px 20px !important;
+        }
+        .accordion-icon {
+            right: 20px;
+        }
+        .faq-doc-list {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>

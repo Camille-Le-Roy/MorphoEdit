@@ -369,11 +369,19 @@ section h3.section-subheading {
     background-color: #fff; /* Set background color for Services section */
 }
 
-#about {
+#faq {
     background-color: #f7f7f7; /* Set background color for About section */
 }
 
+#about {
+    background-color: #fff; /* Set background color for About section */
+}
+
 #testimonials {
+    background-color: #f7f7f7; /* Set background color for About section */
+}
+
+#about-name {
     background-color: #fff; /* Set background color for About section */
 }
 
