@@ -9,16 +9,16 @@
         <div class="row">
             <div class="col-xs-12 col-lg-11 col-lg-offset-1">
                 
-                <p style="font-size: 24px; line-height: 1.8; margin-bottom: 20px; color: #777;">
+                <p class="empathy-body-text" style="margin-bottom: 20px; color: #777;">
                     {{ t.empathy.headline }}
                 </p>
-                <p style="font-size: 26px; font-weight: 700; line-height: 1.4; margin-bottom: 20px; color: #333;">
+                <p class="empathy-sub-heading" style="font-weight: 700; margin-bottom: 20px; color: #333;">
                     {{ t.empathy.subheadline }}
                 </p>
-                <p style="font-size: 24px; line-height: 1.8; margin-bottom: 20px; color: #777;">
+                <p class="empathy-body-text" style="margin-bottom: 20px; color: #777;">
                     {{ t.empathy.text_1 }}
                 </p>
-                <p style="font-size: 24px; line-height: 1.8; margin-bottom: 20px; color: #777;">
+                <p class="empathy-body-text" style="margin-bottom: 20px; color: #777;">
                     {{ t.empathy.text_2 }}
                 </p>
                 
@@ -31,26 +31,27 @@
                     </a>
                 </div>
 
-                <p style="font-size: 24px; line-height: 1.8; margin-bottom: 20px; color: #777;">
+                <p class="empathy-body-text" style="margin-bottom: 20px; color: #777;">
                     {{ t.empathy.text_3 }}
                 </p>
-                <p style="font-size: 24px; line-height: 1.8; margin-bottom: 20px; color: #777;">
+                <p class="empathy-body-text" style="margin-bottom: 20px; color: #777;">
                     {{ t.empathy.text_4 }}
                 </p>
                 
-                <p style="font-size: 24px; line-height: 1.8; margin-bottom: 20px; color: #777;">
+                <p class="empathy-body-text" style="margin-bottom: 20px; color: #777;">
                     {{ t.empathy.text_5 }}
                 </p>
 
-                <p style="font-size: 26px; font-weight: 700; line-height: 1.4; margin-bottom: 90px; color: #333;">
+                <p class="empathy-sub-heading" style="font-weight: 700; margin-bottom: 90px; color: #333;">
                     {{ t.empathy.text_6 }}
                 </p>
 
+                <!-- Workflow Title Row (Matches the body prose font styling perfectly) -->
                 <div class="row" style="margin-top: 40px;">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading" style="margin-top: 20px; margin-bottom: 60px; font-size: 34px; text-transform: none; color: #333;">
+                        <p class="empathy-lead-heading" style="margin-top: 20px; margin-bottom: 60px; font-weight: 700; color: #333; font-family: inherit;">
                             {{ t.workflow.heading }}
-                        </h2>
+                        </p>
                     </div>
                 </div>
 
@@ -153,6 +154,7 @@
 </section>
 
 <style>
+/* --- Workflow Timeline Styling --- */
 .workflow-icon-circle {
     width: 110px;
     height: 110px;
@@ -167,6 +169,38 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* --- Responsive Typography System --- */
+/* Mobile View Defaults (Phones) */
+.empathy-body-text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.empathy-sub-heading {
+    font-size: 20px;
+    line-height: 1.4;
+}
+.empathy-lead-heading {
+    font-size: 26px;
+    line-height: 1.3;
+}
+
+/* Desktop View Sizing (Tablets/Laptops above 768px wide) */
+@media (min-width: 768px) {
+    .empathy-body-text {
+        font-size: 24px;
+        line-height: 1.8;
+    }
+    .empathy-sub-heading {
+        font-size: 26px;
+        line-height: 1.4;
+    }
+    .empathy-lead-heading {
+        font-size: 34px;
+        line-height: 1.4;
+    }
+}
+
+/* --- Responsive Flex Layout Components --- */
 @media (max-width: 991px) {
     .empathy-flex-container {
         flex-direction: column !important;
