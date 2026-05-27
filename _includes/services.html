@@ -7,7 +7,6 @@
 <section id="services" style="padding-bottom: 0; background-color: #ffffff;">
     <div class="container">
 
-        <!-- Section Heading -->
         <div class="row">
             <div class="col-lg-12 text-center" style="margin-bottom: 75px;">
                 <h2 class="section-heading" style="margin-bottom: 25px;">
@@ -15,13 +14,12 @@
                 </h2>
 
                 <p class="service-subheading"
-                   style="font-size: 24px; font-weight: 600; color: #555; margin-top: 20px;">
+                   style="font-size: 26px; font-weight: 600; color: #555; margin-top: 20px;">
                     {{ t.services.subheading_main }}
                 </p>
             </div>
         </div>
 
-        <!-- Substantive Editing -->
         <div class="row style-service-row">
             <div class="col-lg-12">
                 <div class="service-horizontal-card">
@@ -72,7 +70,6 @@
             </div>
         </div>
 
-        <!-- Copyediting -->
         <div class="row style-service-row">
             <div class="col-lg-12">
                 <div class="service-horizontal-card">
@@ -123,17 +120,15 @@
             </div>
         </div>
 
-        <!-- Evaluation Heading -->
         <div class="row">
             <div class="col-lg-12 text-center" style="margin-top: 30px; margin-bottom: 50px;">
                 <p class="service-subheading"
-                   style="font-size: 24px; font-weight: 600; color: #555; margin-top: 20px;">
+                   style="font-size: 26px; font-weight: 600; color: #555; margin-top: 20px;">
                     {{ t.services.subheading_evaluation }}
                 </p>
             </div>
         </div>
 
-        <!-- Manuscript Evaluation -->
         <div class="row style-service-row">
             <div class="col-lg-12">
                 <div class="service-horizontal-card">
@@ -179,17 +174,15 @@
             </div>
         </div>
 
-        <!-- Figures Heading -->
         <div class="row">
             <div class="col-lg-12 text-center" style="margin-top: 30px; margin-bottom: 50px;">
                 <p class="service-subheading"
-                   style="font-size: 24px; font-weight: 600; color: #555; margin-top: 20px;">
+                   style="font-size: 26px; font-weight: 600; color: #555; margin-top: 20px;">
                     {{ t.services.subheading_figures }}
                 </p>
             </div>
         </div>
 
-        <!-- Figure Design -->
         <div class="row style-service-row">
             <div class="col-lg-12">
                 <div class="service-horizontal-card" style="margin-bottom: 40px;">
@@ -235,17 +228,15 @@
             </div>
         </div>
 
-        <!-- CTA -->
         <div class="row">
             <div class="col-lg-12 text-center" style="margin-top: 20px; margin-bottom: 10px;">
                 <p class="service-subheading"
-                   style="font-size: 24px; font-weight: 600; color: #555;">
+                   style="font-size: 26px; font-weight: 600; color: #555;">
                     {{ t.services.subheading_cta }}
                 </p>
             </div>
         </div>
 
-        <!-- Buttons -->
         <div class="row">
             <div class="col-lg-12 text-center"
                  style="margin-top: 20px; padding-bottom: 130px;">
@@ -287,16 +278,19 @@
         border: 1px solid #eef2f5;
         border-radius: 12px;
         padding: 40px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+        /* Tightened the base shadow slightly to make the pop stand out more */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03); 
         transition:
-            transform 0.3s cubic-bezier(0.25, 1, 0.5, 1),
-            box-shadow 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+            transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+            box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1),
             border-color 0.3s ease;
     }
 
     .service-horizontal-card:hover {
-        transform: translateY(-8px) scale(1.01);
-        box-shadow: 0 20px 38px rgba(0, 0, 0, 0.05);
+        /* Lift it up higher and scale it slightly more to create the "pop" action */
+        transform: translateY(-12px) scale(1.015);
+        /* Deepened, wider, and softer shadow to simulate high altitude lifting */
+        box-shadow: 0 24px 48px rgba(0, 0, 0, 0.08);
         border-color: #b0bfc9;
     }
 
@@ -392,7 +386,9 @@
         }
 
         .service-horizontal-card:hover {
-            transform: translateY(-4px) scale(1.005);
+            /* Adjusted mobile pop slightly lower so it doesn't break mobile bounds */
+            transform: translateY(-6px) scale(1.01);
+            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.06);
         }
     }
 
