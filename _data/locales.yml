@@ -30,7 +30,7 @@ en:
 
   services:
     heading: "Services"
-    subheading_main: "Find the right level of support for your manuscript"
+    subheading_main: "Get the right level of support for your manuscript"
     subheading_evaluation: "Feeling stuck but want to revise yourself?<br>Get a manuscript evaluation"
     subheading_figures: "Want your research to stand out at a glance?<br>Make an impact with publication-ready figures"
     subheading_cta: "Not sure what you need? Let's chat"
@@ -165,7 +165,7 @@ fr:
 
   services:
     heading: "Services"
-    subheading_main: "Trouvez le niveau d'accompagnement adapté à votre manuscrit"
+    subheading_main: "Bénéficiez d’un accompagnement adapté à votre manuscrit"
     subheading_evaluation: "Vous êtes bloqué mais souhaitez réviser vous-même ?<br>Obtenez une évaluation de manuscrit"
     subheading_figures: "Vous voulez que vos recherches se démarquent au premier coup d'œil ?<br>Donnez plus d’impact à vos travaux avec des figures prêtes pour la publication"
     subheading_cta: "Vous ne savez pas exactement ce dont vous avez besoin ? Discutons-en"
