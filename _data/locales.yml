@@ -106,9 +106,12 @@ en:
     t1:
       quote: "With Camille's help, I went from being insecure about writing to genuinely enjoying it. At my current job as a researcher, I write many proposals and reports; my team lead was so impressed by my first report that he immediately alerted the director to my writing skills. Without Camille, I daresay that would not have happened! I would highly recommend Camille as a writing coach."
       name: "N.T. - Entomology Researcher"
-    t2:
+    t3:
       quote: "Camille was very helpful. Even though my paper was outside his field, he provided valuable feedback and thoughtful suggestions."
       name: "R.D. - grad student at UNC Chapel Hill"
+    t2:
+      quote: "Having worked closely with Dr. Camille Le Roy for several years, I can confidently say he is both an outstanding scientist and an exceptionally skilled writer. Camille is patient, organized, and deeply supportive—qualities that make him a highly effective and trustworthy academic mentor. He has a systematic mindset and a deep understanding of how to structure scientific arguments and communicate complex ideas with absolute clarity. For anyone seeking expert guidance in academic writing, Camille is strongly recommended."
+      name: "F.M. - Researcher at Wageningen University"
 
   about:
     heading: "About Me"
@@ -241,9 +244,12 @@ fr:
     t1:
       quote: "L’accompagnement de Camille m’a permis de passer d’un manque de confiance en mon écriture à un véritable plaisir à écrire. Aujourd’hui, dans mon poste de chercheuse, je rédige régulièrement des rapports et des propositions. Mon responsable a été particulièrement impressionné par mon premier rapport et a mis en avant mes compétences rédactionnelles auprès de la direction. Je recommande vivement Camille."
       name: "N.T. - chercheuse en entomologie"
-    t2:
+    t3:
       quote: "Camille m’a été d’une grande aide. Même si mon article était en dehors de son domaine, il m’a apporté des retours précieux et des suggestions très pertinentes."
       name: "R.D. - étudiante à UNC Chapel Hill"
+    t2:
+      quote: "J'ai travaillé en étroite collaboration avec le Dr Camille Le Roy pendant plusieurs années, et je peux affirmer qu'il est à la fois un scientifique remarquable et un rédacteur exceptionnellement talentueux. Camille est patient, organisé et d'un grand soutien — des qualités qui font de lui un mentor académique particulièrement efficace et digne de confiance. Il possède un esprit systématique et une profonde compréhension de la manière de structurer les arguments scientifiques et de communiquer des idées complexes avec une grande clarté. Pour quiconque recherche un accompagnement expert en rédaction académique, Camille est vivement recommandé."
+      name: "F.M. - chercheur à l'Université de Wageningen"
 
   about:
     heading: "À propos"
