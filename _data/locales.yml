@@ -166,30 +166,52 @@ fr:
     contact: "Contact"
 
   header:
-    heading: "Vos recherches en biologie, sous leur meilleur jour"
-    lead_in: "Coaching et révisions pour les biologistes qui bloquent sur la rédaction"
+    heading_part1: "Vous avez fait<br>le plus dur"
+    heading_part2: "Publier ne devrait pas<br>être l'étape qui vous achève"
+    lead_in: "Coaching et révisions pour les jeunes chercheurs en quête d'un accompagnement régulier, de retours personnalisés et<br>d'un chemin clair pour transformer des données brutes en articles publiés"
+    schedule_btn: "Book un appel gratuit"
     btn: "Envoyez-moi un message"
-    schedule_btn: "Planifier un appel"
 
   empathy:
-    headline: "Vous avez passé des mois au labo ou sur le terrain, à mener des expériences et déboguer des analyses. Chaque donnée a demandé du temps, des efforts, et de l’énergie. Vous avez <em>mérité</em> vos résultats."
-    subheadline: "Mais maintenant, la partie la plus difficile n’est plus la science. C’est l’écriture."
-    text_1: "La page blanche. Les réécritures sans fin. La frustration de savoir que vos résultats sont solides, mais que votre manuscrit ne leur rend pas justice. Vos résultats semblent pointer dans temps de directions différentes. Pendant ce temps, la date limite de soumission approche."
-    text_2: "La recherche est chaotique par nature : itérative, non linéaire, pleine d’impasses et de détours inattendus. Pourtant, les articles scientifiques sont censés se lire comme une histoire parfaitement construite. <strong style='color: #333;'>Raconter cette histoire est un vrai défi, et cela n’a rien à voir avec la qualité de votre science.</strong>"
-    text_3: "Je le sais, parce que j’y suis passé moi aussi — à fixer mes propres brouillons en me demandant ce que mon article essayait même de raconter."
-    text_4: "J’ai passé des années à faire de la recherche, collecter des données, réviser, publier, et accompagner des étudiants dans ce même processus. Je suis un confrère biologiste qui parle votre langage."
-    text_5: "J’aide mes clients à trouver le fil conducteur de leurs résultats, à gagner en confiance dans leur écriture, et à mener leur manuscrit jusqu’à la publication."
-    text_6: "Des difficultés de rédaction ne remettent pas en cause la qualité de vos recherches. L’écriture est une compétence à part entière, et je peux vous aider à la développer."
-    list_title: "Ce que vous pouvez attendre de notre collaboration"
-    bullet_1: "<strong>Un confrère biologiste qui parle votre langage.</strong> J’ai fait de la recherche, collecté des données, révisé et publié — je sais à quel point publier un article peut être difficile du début à la fin."
+    headline: "Vous avez passé des mois au labo ou sur le terrain, à mener des expériences et déboguer des analyses. Chaque donnée a demandé du temps, des efforts, et de la sueur. Vous avez <em>mérité</em> vos résultats."
+    subheadline: "La partie la plus difficile n’est plus la science. C’est de structurer votre travail en un récit clair et publiable."
+    text_1: "La recherche est chaotique par nature : itérative, non linéaire, pleine d’impasses et de détours inattendus. Pourtant, les articles scientifiques sont censés se lire comme une histoire parfaitement construite. <strong style='color: #333;'>Raconter cette histoire est un vrai défi, et cela n’a rien à voir avec la qualité de votre science.</strong>"
+    text_3: "Le temps des directeurs de thèse est souvent partagé entre de nombreuses responsabilités. En conséquence, l'essentiel du doctorat se déroule entre les réunions, vous laissant gérer l'incertitude seul et tenter de décider où consacrer au mieux votre temps et votre énergie."
+    text_4: "Perdre sa motivation et son enthousiasme pour ses propres recherches est fréquent durant un doctorat. Se sentir constamment en retard, bloquer sur le même brouillon pendant des semaines et porter le poids de l'incertitude ne devrait pas être le prix à payer pour devenir chercheur."
+    text_5: "Je suis passé par là. Je sais ce que c'est d'avoir des résultats solides mais un manuscrit qui ne le reflète pas. Un récit qui s'éparpille dans cinq directions différentes. Des nuits passées à fixer mon propre brouillon en me demandant ce que l'article essayait même de raconter."
+    text_6: "Après des années passées à transformer des projets de recherche en publications et à aider des étudiants à faire de même, je sais à quel point ce parcours peut être difficile, et à quel point il devient plus facile avec le bon accompagnement."
+    text_7: "Et si vous pouviez soumettre d'ici quelques mois,<br>et ressentir le soulagement de passer à votre prochain projet, bien plus stimulant ?"
+    list_title: "Ce que vous pouvez attendre de notre collaboration :"
+    bullet_1: "<strong>Un confrère scientifique qui parle votre langage.</strong> J’ai fait de la recherche, collecté des données, révisé et publié — je sais à quel point publier un article peut être difficile du début à la fin."
     bullet_2: "<strong>Aucun jugement.</strong> Un brouillon n'est jamais trop brouillon, et aucune question n'est trop basique. Amenez-moi votre chaos."
     bullet_3: "<strong>Véritablement disponible.</strong> Je ne vais pas disparaître après vous avoir renvoyé les corrections avec suivi des modifications. Que vous ayez besoin d'une refonte complète de votre manuscrit ou simplement de réfléchir à voix haute, je suis là."
     bullet_4: "<strong>Des retours spécifiques à votre travail.</strong> Je prends le temps de comprendre votre recherche, votre argumentaire, et la direction que vous souhaitez prendre. Je ne donne pas de commentaires génériques."
-    final_thought: "Un manuscrit ne devrait pas rester pendant des mois dans un dossier de brouillons. Vos résultats comptent, et la communauté scientifique ne peut construire que sur des travaux accessibles. J’ai créé Morpho Editing parce que la bonne science mérite d’être bien racontée. Assurons-nous que ce soit le cas pour la vôtre."
+    final_thought: "Un manuscrit ne devrait pas rester pendant encore six mois dans un dossier de brouillons. Vos résultats comptent, et la communauté scientifique ne peut construire que sur des travaux qu'elle peut réellement lire. J’ai créé Morpho Editing parce que la bonne science mérite d’être bien racontée. Assurons-nous que ce soit le cas pour la vôtre."
     get_started_btn: "Découvrir mes services"
+  
+  coaching:
+    heading: "Services de Coaching"
+    subheading: "Bénéficiez d'un partenaire de recherche dédié à vos côtés"
+    clarity:
+      badge: "Ponctuel"
+      title: "Session de Clarté Scientifique"
+      desc: "Une séance de coaching unique conçue pour vous aider à surmonter un blocage précis. Que vous soyez coincé sur votre manuscrit, face à une échéance imminente ou que vous ayez simplement besoin de clarifier vos prochaines étapes, vous repartirez avec des conseils pratiques et un plan d'action clair."
+      points:
+        pt1: "Une séance individuelle de 60 minutes"
+        pt2: "Relecture de vos documents avant la séance"
+        pt3: "Un suivi post-séance pour maintenir votre dynamique"
+    accelerator:
+      badge: "Suivi continu"
+      title: "Accélérateur de Publication"
+      desc: "Ce programme de coaching continu vous offre un partenaire dédié pour vous aider à créer une dynamique régulière, consolider votre manuscrit et avancer sereinement vers la publication."
+      points:
+        pt1: "Deux séances de coaching de 60 minutes par mois en ligne"
+        pt2: "Relecture de vos brouillons avant chaque séance"
+        pt3: "Assistance illimitée par messagerie"
+        pt4: "Tarifs préférentiels sur les services de révision"
 
   services:
-    heading: "Services"
+    heading: "Services de Révision"
     subheading_main: "Bénéficiez d’un accompagnement adapté à votre manuscrit"
     subheading_evaluation: "Vous êtes bloqué mais souhaitez réviser vous-même ?<br>Obtenez une évaluation de manuscrit"
     subheading_figures: "Vous voulez que vos recherches se démarquent au premier coup d'œil ?<br>Donnez plus d’impact à vos travaux avec des figures prêtes pour la publication"
@@ -202,7 +224,7 @@ fr:
       title: "Révision de fond"
       desc: "La révision de fond correspond à un accompagnement éditorial approfondi. Je vous aide à transformer vos résultats en un récit scientifique clair et cohérent, en travaillant la structure, l’argumentation, les figures et le style afin que votre recherche soit présentée avec toute la clarté qu’elle mérite."
       points:
-        pt1: "Vous soumettez une thèse, un manuscrit ou une demande financement et souhaitez maximiser vos chances de succès."
+        pt1: "Vous soumettez une thèse, un manuscrit ou une demande de financement et souhaitez maximiser vos chances de succès."
         pt2: "Vos résultats sont solides, mais le manuscrit vous semble encore flou ou difficile à structurer."
         pt3: "Vous voulez que votre article raconte une histoire scientifique captivante plutôt qu’une suite de résultats déconnectés."
         pt4: "Vous avez besoin d’un regard neuf et professionnel après avoir passé trop de temps sur le même brouillon."
@@ -236,7 +258,7 @@ fr:
         pt4: "Vous souhaitez des figures prêtes pour la publication, une thèse, une demande de financement ou une présentation."
 
   workflow:
-    heading: "Comment je vous accompagne:"
+    heading: "Comment je vous accompagne :"
     step1:
       title: "Contactez-moi"
       desc: "Parlez-moi de votre projet et de vos difficultés."
