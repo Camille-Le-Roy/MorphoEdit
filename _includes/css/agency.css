@@ -252,19 +252,20 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0 !important; /* Forces it to be compact from the start */
         border: 0;
-        background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
+        background-color: #1e1e1e !important; /* COLOR NAVBAR WHEN AT THE TOP */
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        transition: none !important;
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
+        font-size: 1.5em !important; /* Locks the logo text size */
+        color: #d9dde1 !important; /* Keeps the brand text visible */
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        transition: none !important;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -272,31 +273,36 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #222;
+        padding: 10px 0 !important;
+        background-color: #1e1e1e !important; /* COLOR NAVBAR WHEN SCROLLING */
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 1.5em !important;
     }
 }
 
 header {
-    text-align: center;
-    color: #fff;
+    text-align: center !important;
+    color: #222 !important; /* Sharp dark text for crisp readability */
+    
     /* Use a plain color */
-    /* background-color: #5c5959;*/
+    /* background-color: #5c5959; */
 
-    /* FIRST PAGE BACKGROUND IMAGE */
+    /* FIRST PAGE BACKGROUND IMAGE
+    background-image: url('{{ site.baseurl }}/img/anaxibia wing enhanced 2.png'); 
+    
+    
+    /* one color background */
+    background: #fff !important; 
+
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/anaxibia wing enhanced 2.png');
     background-position: center center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    
 }
 
 header .intro-text {

@@ -75,30 +75,50 @@
     </div>
 </nav>
 
-<header>
+<header style="text-align: left !important;">
     <div class="container">
-        <div class="intro-text">
-            <div class="intro-logo">
-                <img src="{{ '/img/logo white grey transparent.png' | prepend: site.baseurl }}" alt="Morpho Editing Logo" style="max-width: 200px; margin-bottom: 80px;">
+        <div class="intro-text" style="text-align: left !important; padding-top: 120px !important;">
+
+            <!-- Top Row: Heading on Left, Illustration on Right -->
+            <div class="row" style="display: flex; align-items: center; flex-wrap: wrap; margin-bottom: 40px;">
+                
+                <!-- Heading Column (Takes up roughly 60% width on desktop) -->
+                <div class="col-xs-12 col-md-7" style="text-align: left !important;">
+                    <div class="intro-heading" style="font-family: 'Montserrat', sans-serif; text-transform: none; font-style: normal; margin-bottom: 0; text-align: left !important; line-height: 1.2;">
+                        
+                        <!-- Heading Part 1 -->
+                        <span style="display: block; font-size: 58px; color: #222222; font-weight: 600; margin-bottom: 30px;">
+                            {{ t.header.heading_part1 }}
+                        </span>
+
+                        <!-- Heading Part 2 -->
+                        <span style="display: block; font-size: 40px; color: #222222; font-weight: 800;">
+                            {{ t.header.heading_part2 }}
+                        </span>
+
+                    </div>
+                </div>
+
+                <!-- Image Column (Takes up roughly 40% width on desktop) -->
+                <div class="col-xs-12 col-md-5" style="text-align: center;">
+                    <img src="{{ site.baseurl }}/img/pencil breaking bulb transparent.png" 
+                         alt="Scientific breakdown to breakthrough illustration" 
+                         class="img-responsive" 
+                         style="max-height: 400px; margin: 20px auto 0 auto; display: block;">
+                </div>
+                
             </div>
 
-            <div class="intro-heading" style="font-family: 'EB Garamond', serif; text-transform: none; font-style: normal; margin-bottom: 80px;">
-                {{ t.header.heading }}
-            </div>
-
-            <div class="intro-lead-in" style="font-family: 'EB Garamond', serif; text-transform: none; font-style: normal; line-height: 1.4; margin-bottom: 80px;">
+            <!-- Bottom Row: Wide Lead-in stretching underneath -->
+            <div class="intro-lead-in" style="font-family: 'Montserrat', sans-serif; font-size: 29px; text-transform: none; font-style: normal; line-height: 1.5; margin-bottom: 90px; text-align: left !important; max-width: 100%;">
                 {{ t.header.lead_in }}
             </div>
 
             <!-- Buttons Container -->
-            <div class="header-buttons">
-                <!-- Contact Button -->
-                <a href="#contact" 
-                   class="page-scroll btn btn-xl btn-header">
+            <div class="header-buttons" style="text-align: left !important; display: flex; gap: 15px; flex-wrap: wrap;">
+                <a href="#contact" class="page-scroll btn btn-xl btn-header">
                     {{ t.services.btn }}
                 </a>
-    
-                <!-- Schedule Call Button -->
                 <a href="https://tidycal.com/camilleleroy/free-15-minute-call" 
                    class="btn btn-xl btn-header" 
                    target="_blank" 
@@ -106,6 +126,7 @@
                     {{ t.header.schedule_btn }}
                 </a>
             </div>
+
         </div>
     </div>
 </header>
