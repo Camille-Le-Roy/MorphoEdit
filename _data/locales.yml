@@ -6,21 +6,21 @@ en:
     contact: "Contact"
 
   header:
-    heading_part1: "You've done<br>the hard work"
+    heading_part1: "<strong>You've done<br>the hard work</strong>"
     heading_part2: "Getting it published shouldn't<br>be the part that breaks you"
-    lead_in: "Coaching and editing for early-career scientists who want steady guidance,<br>personalized feedback, and a clear path from messy data to published papers"
+    lead_in: "Coaching and editing for early-career scientists who want steady guidance, personalized feedback, and a clear path from messy data to published papers"
     schedule_btn: "Book a Free Call"
     btn: "Message Me"
 
   empathy:
     headline: "You spent months in the lab or in the field, running experiments and debugging analyses. Every data point cost time, effort, and sweat. You've <em>earned</em> your results."
-    subheadline: "The tricky part isn’t the science anymore, it’s shaping your work into a clear, publishable story."
+    sub-heading: "The tricky part isn’t the science anymore, it’s shaping your work into a clear, publishable story."
     text_1: "Research is messy by nature: iterative, nonlinear, full of dead ends and unexpected turns. But papers are expected to unfold like a perfect story. <strong style='color: #333;'>Telling that story is a real challenge, and it has nothing to do with the quality of your science.</strong>"
-    text_3: "Supervisor’s time is often stretched across many responsibilities. As a result, most of the PhD journey happens between meetings, when you're left navigating uncertainty on your own and trying to decide where your time and energy are best spent."
-    text_4: "Losing momentum and excitement for your own research is common during a PhD. Constantly feeling behind, being stuck on the same draft for weeks, and carrying the weight of uncertainty shouldn't be the price of becoming a researcher."
+    text_3: "Supervisor’s time is often stretched across many responsibilities. As a result, most of the PhD journey happens between meetings, when you're <strong style='color: #333;'>left navigating uncertainty on your own</strong> and trying to decide where your time and energy are best spent."
+    text_4: "<strong style='color: #333;'>Losing momentum and excitement</strong> for your own research is common during a PhD. Constantly feeling behind, being stuck on the same draft for weeks, and carrying the weight of uncertainty <strong style='color: #333;'>shouldn't be the price of becoming a researcher.</strong>"
     text_5: "I've been there. I know what it's like to have solid results but a manuscript that doesn’t read like it. A narrative pulling in five different directions. Nights spent staring at my own draft, wondering what the paper was even about."
     text_6: "After years of turning research projects into publications and helping students do the same, I know how challenging the journey can be, and how much easier it becomes with the right guidance."
-    text_7: "What if you could submit within few months,<br>and feel the relief of moving on to your next, more exciting project?"
+    text_7: "What if you could submit within few months, and feel the relief of moving on to your next, more exciting project?"
     list_title: "What's it like to work with me?"
     bullet_1: "<strong>A fellow scientist who speaks your language.</strong> I've done the research, collected the data, revised, and published—I know how hard it is to publish a paper from start to finish."
     bullet_2: "<strong>No judgment.</strong> A draft is never too messy, and no question is too basic. Bring me the chaos."
