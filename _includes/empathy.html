@@ -10,7 +10,7 @@
             <!-- Changed from col-lg-11 col-lg-offset-1 to col-lg-12 so content is less constrained -->
             <div class="col-xs-12 col-lg-12">
                 
-                <p class="empathy-body-text" style="margin-bottom: 20px; color: #777;">
+                <p class="empathy-headline-text" style="margin-bottom: 20px;">
                     {{ t.empathy.headline }}
                 </p>
                 <p class="empathy-sub-heading" style="font-weight: 700; margin-bottom: 20px; color: #333;">
@@ -46,7 +46,7 @@
                     {{ t.empathy.text_6 }}
                 </p>
 
-                <p style="font-weight: 700; font-size: 32px; text-align: center; margin-bottom: 90px; color: #333;">
+                <p class="empathy-highlight-text" style="font-weight: 700; text-align: center; margin-bottom: 90px; color: #333;">
                     {{ t.empathy.text_7 }}
                 </p>
 
@@ -196,6 +196,18 @@
 .workflow-custom-heading {
     font-size: 22px;
 }
+/* text_7 Mobile: Smaller than desktop, but clearly larger than 18px body text */
+.empathy-highlight-text {
+    font-size: 24px;
+}
+/* headline Mobile: Darker and bolder to stand out */
+.empathy-headline-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 600;
+    color: #333333;
+}
 
 /* Desktop View Sizing (Tablets/Laptops above 768px wide) */
 @media (min-width: 768px) {
@@ -213,6 +225,16 @@
     }
     .workflow-custom-heading {
         font-size: 28px;
+    }
+    /* text_7 Desktop: Restored to original size */
+    .empathy-highlight-text {
+        font-size: 32px;
+    }
+    /* headline Desktop: Reverted to regular weight and lighter gray color */
+    .empathy-headline-text {
+        font-size: 24px;
+        font-weight: 400;
+        color: #777777;
     }
 }
 
