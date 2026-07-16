@@ -21,11 +21,10 @@
                 </p>
 
                 <!-- Inserting full-width horizontal image below text_1 -->
-                <div class="empathy-horizontal-divider" style="margin-top: 40px; margin-bottom: 60px;">
-                    <img src="{{ site.baseurl }}/img/messy to publish transparent 3.png" 
+                <div class="empathy-horizontal-divider" style="margin-top: 30px; margin-bottom: 30px;">
+                    <img src="{{ site.baseurl }}/img/messy to publish transparent 2.png" 
                          alt="from messy data to publication illustration" 
-                         class="img-responsive" 
-                         style="width: 70%; height: auto; border-radius: 8px; display: block; margin: 0 auto;">
+                         class="img-responsive empathy-diagram">
                 </div>
                 
                 <p class="empathy-body-text" style="margin-bottom: 20px; color: #777;">
@@ -239,6 +238,23 @@
     .header-buttons .btn-header {
         width: 90%;
         max-width: 320px;
+    }
+}
+
+/* --- Empathy Diagram Responsive Styling --- */
+/* Mobile: Take up almost the full width of the screen */
+.empathy-diagram {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Desktop: Constrain the image slightly so it matches your current design */
+@media (min-width: 768px) {
+    .empathy-diagram {
+        width: 80%;
     }
 }
 </style>
