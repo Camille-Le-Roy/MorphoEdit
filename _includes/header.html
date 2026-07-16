@@ -9,7 +9,7 @@
     .header-buttons {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center; /* Restored to center */
         gap: 20px; /* Space between buttons */
         margin-top: 20px;
     }
@@ -19,14 +19,61 @@
         margin: 0 !important; /* Resetting previous manual margins */
     }
 
+    /* Headings Typography - Desktop defaults */
+    .header-part1 {
+        display: block;
+        font-size: 58px;
+        color: #222222;
+        font-weight: 600;
+        margin-bottom: 30px;
+        line-height: 1.2;
+    }
+
+    .header-part2 {
+        display: block;
+        font-size: 40px;
+        color: #222222;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+
+    .header-lead-in-text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 29px;
+        text-transform: none;
+        font-style: normal;
+        line-height: 1.5;
+        margin-bottom: 90px;
+        text-align: left !important;
+        max-width: 100%;
+    }
+
+    /* Mobile Responsive Styles - Only affects screens smaller than 768px */
     @media (max-width: 768px) {
         .header-buttons {
             flex-direction: column;
             align-items: center;
+            justify-content: center;
         }
         .header-buttons .btn-header {
             width: 90%; /* Almost full width on mobile */
             max-width: 320px;
+        }
+
+        /* Scale down fonts and expand line-height ONLY on mobile to prevent overlap */
+        .header-part1 {
+            font-size: 32px !important;
+            line-height: 1.35 !important;
+            margin-bottom: 15px !important;
+        }
+        .header-part2 {
+            font-size: 24px !important;
+            line-height: 1.35 !important;
+        }
+        .header-lead-in-text {
+            font-size: 18px !important;
+            line-height: 1.45 !important;
+            margin-bottom: 40px !important;
         }
     }
 </style>
@@ -84,15 +131,15 @@
                 
                 <!-- Heading Column (Takes up roughly 60% width on desktop) -->
                 <div class="col-xs-12 col-md-7" style="text-align: left !important;">
-                    <div class="intro-heading" style="font-family: 'Montserrat', sans-serif; text-transform: none; font-style: normal; margin-bottom: 0; text-align: left !important; line-height: 1.2;">
+                    <div class="intro-heading" style="font-family: 'Montserrat', sans-serif; text-transform: none; font-style: normal; margin-bottom: 0; text-align: left !important;">
                         
                         <!-- Heading Part 1 -->
-                        <span style="display: block; font-size: 58px; color: #222222; font-weight: 600; margin-bottom: 30px;">
+                        <span class="header-part1">
                             {{ t.header.heading_part1 }}
                         </span>
 
                         <!-- Heading Part 2 -->
-                        <span style="display: block; font-size: 40px; color: #222222; font-weight: 800;">
+                        <span class="header-part2">
                             {{ t.header.heading_part2 }}
                         </span>
 
@@ -110,12 +157,12 @@
             </div>
 
             <!-- Bottom Row: Wide Lead-in stretching underneath -->
-            <div class="intro-lead-in" style="font-family: 'Montserrat', sans-serif; font-size: 29px; text-transform: none; font-style: normal; line-height: 1.5; margin-bottom: 90px; text-align: left !important; max-width: 100%;">
+            <div class="header-lead-in-text">
                 {{ t.header.lead_in }}
             </div>
 
             <!-- Buttons Container -->
-            <div class="header-buttons" style="text-align: left !important; display: flex; gap: 15px; flex-wrap: wrap;">
+            <div class="header-buttons" style="text-align: left !important;">
                 <a href="#contact" class="page-scroll btn btn-xl btn-header">
                     {{ t.services.btn }}
                 </a>
