@@ -4,7 +4,7 @@
 {% endif %}
 {% assign t = site.data.locales[lang] %}
 
-<section id="empathy" class="bg-light-gray" style="padding: 80px 0;">
+<section id="empathy" class="bg-light-gray empathy-section" style="padding: 80px 0;">
     <div class="container">
         <div class="row">
             <!-- Changed from col-lg-11 col-lg-offset-1 to col-lg-12 so content is less constrained -->
@@ -199,6 +199,21 @@
 /* text_7 Mobile: Smaller than desktop, but clearly larger than 18px body text */
 .empathy-highlight-text {
     font-size: 22px;
+}
+
+@media (max-width: 768px) {
+    /* 1. Reduce the padding above the headline on mobile */
+    .empathy-section {
+        padding: 40px 0 !important; /* Drops it from 80px to 40px */
+    }
+
+    /* 2. Center the headline, sub-heading, and paragraphs on mobile */
+    .empathy-body-text,
+    .empathy-sub-heading {
+        text-align: center !important;
+    }
+    
+    /* Keep adding your other existing mobile rules here... */
 }
 
 /* Desktop View Sizing (Tablets/Laptops above 768px wide) */
