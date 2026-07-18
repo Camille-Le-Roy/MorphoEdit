@@ -213,7 +213,13 @@
         text-align: center !important;
     }
     
-    /* Keep adding your other existing mobile rules here... */
+    /* Makes the CTA buttons smaller on mobile screens */
+    .header-buttons .btn-header, 
+    #empathy .btn-xl {
+        min-width: 220px !important;   /* Prevents them from stretching too wide */
+        padding: 12px 24px !important;  /* Slims down the top/bottom thickness */
+        font-size: 15px !important;     /* Drops text size slightly so it fits beautifully */
+    }
 }
 
 /* Desktop View Sizing (Tablets/Laptops above 768px wide) */
