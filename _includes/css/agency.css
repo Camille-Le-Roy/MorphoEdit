@@ -370,13 +370,17 @@ section h3.section-subheading {
     font-style: italic;
     font-weight: 400;
 }
-
+/*
+#empathy {
+    background-color: #3E6E93; /* Set background color for Empathy section */
+}
+*/
 #services {
     background-color: #fff; /* Set background color for Services section */
 }
 
 #faq {
-    background-color: #f7f7f7; /* Set background color for About section */
+    background-color: #f7f7f7; /* Set background color for FAQ section */
 }
 
 #about {
@@ -384,11 +388,11 @@ section h3.section-subheading {
 }
 
 #testimonials {
-    background-color: #f7f7f7; /* Set background color for About section */
+    background-color: #f7f7f7; /* Set background color for Testimonials section */
 }
 
 #about-name {
-    background-color: #fff; /* Set background color for About section */
+    background-color: #fff; /* Set background color for About name section */
 }
 
 @media(min-width:768px) {
