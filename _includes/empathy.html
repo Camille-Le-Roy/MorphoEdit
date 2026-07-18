@@ -216,9 +216,10 @@
     /* Makes the CTA buttons smaller on mobile screens */
     .header-buttons .btn-header, 
     #empathy .btn-xl {
-        min-width: 220px !important;   /* Prevents them from stretching too wide */
-        padding: 12px 24px !important;  /* Slims down the top/bottom thickness */
-        font-size: 15px !important;     /* Drops text size slightly so it fits beautifully */
+        width: 240px !important;       /* Forces a specific, compact width instead of stretching */
+        min-width: 0 !important;       /* Resets the 280px minimum desktop restriction */
+        padding: 12px 20px !important; /* Keeps the vertical padding slim */
+        font-size: 15px !important;    /* Keeps text balanced */
     }
 }
 
