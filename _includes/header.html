@@ -24,7 +24,7 @@
         display: block;
         font-size: 58px;
         color: #222222;
-        font-weight: 2000;
+        font-weight: 700; /* Standardized to maximum bold weight */
         margin-bottom: 30px;
         line-height: 1.2;
     }
@@ -63,7 +63,7 @@
         /* Scale down fonts and expand line-height ONLY on mobile to prevent overlap */
         .header-part1 {
             font-size: 36px !important;
-            font-weight: 1500 !important; /* Made significantly bolder on mobile (was 600) */
+            font-weight: 900 !important; /* Set to absolute max standard bold font weight */
             line-height: 1.25 !important;
             margin-bottom: 15px !important;
         }
@@ -75,6 +75,11 @@
             font-size: 18px !important;
             line-height: 1.45 !important;
             margin-bottom: 40px !important;
+        }
+
+        /* Scale down the illustration only on mobile view */
+        .header-illustration {
+            max-height: 220px !important; 
         }
     }
 </style>
@@ -147,11 +152,10 @@
                     </div>
                 </div>
 
-                <!-- Image Column (Takes up roughly 40% width on desktop) -->
                 <div class="col-xs-12 col-md-5" style="text-align: center;">
                     <img src="{{ site.baseurl }}/img/pencil breaking bulb transparent.png" 
                          alt="Scientific breakdown to breakthrough illustration" 
-                         class="img-responsive" 
+                         class="img-responsive header-illustration" 
                          style="max-height: 400px; margin: 20px auto 0 auto; display: block;">
                 </div>
                 
