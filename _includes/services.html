@@ -9,7 +9,7 @@
 
         <!-- COACHING SECTION -->
         <div class="row">
-            <div class="col-lg-12 text-center" style="margin-bottom: 75px;">
+            <div class="col-lg-12 text-center" style="margin-bottom: 50px;">
                 <h2 class="section-heading" style="margin-bottom: 25px;">{{ t.coaching.heading }}</h2>
                 <p class="service-subheading" style="font-size: 26px; font-weight: 600; color: #555; margin-top: 20px;">
                     {{ t.coaching.subheading }}
@@ -17,18 +17,25 @@
             </div>
         </div>
 
-        <div class="row style-service-row">
-            <div class="col-lg-12">
-                <div class="service-horizontal-card">
-                    <div class="service-meta-side">
+        <!-- SIDE-BY-SIDE COACHING CARDS -->
+        <div class="row style-service-row flex-row-equal">
+            
+            <!-- 1. RESEARCH CLARITY SESSION -->
+            <div class="col-md-6 style-card-col">
+                <div class="service-vertical-card">
+                    <div class="service-vertical-header">
                         <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">{{ t.coaching.clarity.badge }}</h4>
-                        <span class="fa-stack fa-4x" style="margin-bottom: 15px;">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-comments-o fa-stack-1x fa-inverse fa-fw"></i>
-                        </span>
-                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 26px; font-weight: 700; color: #333;">{{ t.coaching.clarity.title }}</h3>
+                        
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="{{ site.baseurl }}/img/research_clarity_star.png" 
+                                 alt="Research Clarity Session" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
+                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">{{ t.coaching.clarity.title }}</h3>
                     </div>
-                    <div class="service-content-side">
+                    
+                    <div class="service-vertical-body">
                         <p class="service-description-text">{{ t.coaching.clarity.desc }}</p>
                         <div class="service-checklist-container">
                             <ul class="service-checklist">
@@ -40,20 +47,23 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row style-service-row">
-            <div class="col-lg-12">
-                <div class="service-horizontal-card">
-                    <div class="service-meta-side">
+            <!-- 2. PUBLICATION ACCELERATOR -->
+            <div class="col-md-6 style-card-col">
+                <div class="service-vertical-card">
+                    <div class="service-vertical-header">
                         <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">{{ t.coaching.accelerator.badge }}</h4>
-                        <span class="fa-stack fa-4x" style="margin-bottom: 15px;">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-rocket fa-stack-1x fa-inverse fa-fw"></i>
-                        </span>
-                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 26px; font-weight: 700; color: #333;">{{ t.coaching.accelerator.title }}</h3>
+                        
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="{{ site.baseurl }}/img/publication_accelerator_blue.png" 
+                                 alt="Publication Accelerator" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
+                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">{{ t.coaching.accelerator.title }}</h3>
                     </div>
-                    <div class="service-content-side">
+                    
+                    <div class="service-vertical-body">
                         <p class="service-description-text">{{ t.coaching.accelerator.desc }}</p>
                         <div class="service-checklist-container">
                             <ul class="service-checklist">
@@ -66,6 +76,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
 
         <!-- EDITING SECTION -->
@@ -80,18 +91,25 @@
             </div>
         </div>
 
-        <div class="row style-service-row">
-            <div class="col-lg-12">
-                <div class="service-horizontal-card">
-                    <div class="service-meta-side">
+        <!-- SIDE-BY-SIDE EDITING CARDS (DEV EDITING & COPY EDITING) -->
+        <div class="row style-service-row flex-row-equal">
+            
+            <!-- DEVELOPMENTAL EDITING -->
+            <div class="col-md-6 style-card-col">
+                <div class="service-vertical-card">
+                    <div class="service-vertical-header">
                         <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">{{ t.services.dev_editing.badge }}</h4>
-                        <span class="fa-stack fa-4x" style="margin-bottom: 15px;">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-lightbulb-o fa-stack-1x fa-inverse fa-fw"></i>
-                        </span>
-                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 26px; font-weight: 700; color: #333;">{{ t.services.dev_editing.title }}</h3>
+                        
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="{{ site.baseurl }}/img/substantive editing illustration.png" 
+                                 alt="Developmental Editing" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
+                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">{{ t.services.dev_editing.title }}</h3>
                     </div>
-                    <div class="service-content-side">
+                    
+                    <div class="service-vertical-body">
                         <p class="service-description-text">{{ t.services.dev_editing.desc }}</p>
                         <div class="service-checklist-container">
                             <h5 class="checklist-title">{{ t.services.checklist_title }}</h5>
@@ -105,20 +123,23 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row style-service-row">
-            <div class="col-lg-12">
-                <div class="service-horizontal-card">
-                    <div class="service-meta-side">
+            <!-- COPY EDITING -->
+            <div class="col-md-6 style-card-col">
+                <div class="service-vertical-card">
+                    <div class="service-vertical-header">
                         <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">{{ t.services.copy_editing.badge }}</h4>
-                        <span class="fa-stack fa-4x" style="margin-bottom: 15px;">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-pencil fa-stack-1x fa-inverse fa-fw"></i>
-                        </span>
-                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 26px; font-weight: 700; color: #333;">{{ t.services.copy_editing.title }}</h3>
+                        
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="{{ site.baseurl }}/img/logo_copy_editing.png" 
+                                 alt="Copy Editing" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
+                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">{{ t.services.copy_editing.title }}</h3>
                     </div>
-                    <div class="service-content-side">
+                    
+                    <div class="service-vertical-body">
                         <p class="service-description-text">{{ t.services.copy_editing.desc }}</p>
                         <div class="service-checklist-container">
                             <h5 class="checklist-title">{{ t.services.checklist_title }}</h5>
@@ -132,6 +153,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
 
         <div class="row">
@@ -142,14 +164,17 @@
             </div>
         </div>
 
+        <!-- MANUSCRIPT EVALUATION (HORIZONTAL FULL WIDTH) -->
         <div class="row style-service-row">
             <div class="col-lg-12">
                 <div class="service-horizontal-card">
                     <div class="service-meta-side">
-                        <span class="fa-stack fa-4x" style="margin-bottom: 15px;">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-comments-o fa-stack-1x fa-inverse fa-fw"></i>
-                        </span>
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="{{ site.baseurl }}/img/logo_manuscript_eval.png" 
+                                 alt="Manuscript Evaluation" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
                         <h3 class="service-main-heading" style="margin-top: 0; font-size: 26px; font-weight: 700; color: #333;">{{ t.services.manuscript_eval.title }}</h3>
                     </div>
                     <div class="service-content-side">
@@ -167,60 +192,6 @@
                 </div>
             </div>
         </div>
-
-        <!--<div class="row">
-            <div class="col-lg-12 text-center" style="margin-top: 30px; margin-bottom: 50px;">
-                <p class="service-subheading"
-                   style="font-size: 26px; font-weight: 600; color: #555; margin-top: 20px;">
-                    {{ t.services.subheading_figures }}
-                </p>
-            </div>
-        </div>
-
-        <div class="row style-service-row">
-            <div class="col-lg-12">
-                <div class="service-horizontal-card" style="margin-bottom: 40px;">
-
-                    <div class="service-meta-side">
-
-                        <span class="fa-stack fa-4x" style="margin-bottom: 15px;">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-bar-chart fa-stack-1x fa-inverse fa-fw"></i>
-                        </span>
-
-                        <h3 class="service-main-heading"
-                            style="margin-top: 0; font-size: 26px; font-weight: 700; color: #333;">
-                            {{ t.services.figure_design.title }}
-                        </h3>
-
-                    </div>
-
-                    <div class="service-content-side">
-
-                        <p class="service-description-text">
-                            {{ t.services.figure_design.desc }}
-                        </p>
-
-                        <div class="service-checklist-container">
-
-                            <h5 class="checklist-title">
-                                {{ t.services.checklist_title }}
-                            </h5>
-
-                            <ul class="service-checklist">
-                                <li>{{ t.services.figure_design.points.pt1 }}</li>
-                                <li>{{ t.services.figure_design.points.pt2 }}</li>
-                                <li>{{ t.services.figure_design.points.pt3 }}</li>
-                                <li>{{ t.services.figure_design.points.pt4 }}</li>
-                            </ul>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>-->
 
         <div class="row">
             <div class="col-lg-12 text-center" style="margin-top: 20px; margin-bottom: 10px;">
@@ -249,6 +220,67 @@
 <style>
     .style-service-row { margin-bottom: 40px; }
 
+    /* Desktop Equal Height Flex Layout */
+    @media (min-width: 768px) {
+        .flex-row-equal {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .style-card-col {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+        }
+        .service-vertical-card {
+            height: 100%;
+        }
+    }
+
+    /* Vertical Card Layout */
+    .service-vertical-card {
+        display: flex;
+        flex-direction: column;
+        background: #ffffff;
+        border: 1px solid #eef2f5;
+        border-radius: 12px;
+        padding: 35px 30px;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03); 
+        transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+    }
+
+    .service-vertical-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+        border-color: #b0bfc9;
+    }
+
+    .service-vertical-header {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #eee;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .service-vertical-body {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .service-vertical-body .service-description-text {
+        flex-grow: 1; /* Pushes checklist down to align bottom cards */
+    }
+
+    .service-vertical-body .service-checklist-container {
+        margin-top: auto;
+    }
+
+    /* Original Horizontal Card Layout */
     .service-horizontal-card {
         display: flex;
         flex-direction: row;
@@ -277,6 +309,23 @@
         justify-content: center;
     }
 
+    /* Shared Icon Settings */
+    .service-icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+    }
+
+    .service-custom-icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
     .service-content-side {
         flex: 1;
         padding-left: 40px;
@@ -285,18 +334,23 @@
         justify-content: center;
     }
 
-    .service-description-text { font-size: 18px; line-height: 1.7; color: #555; margin-bottom: 25px; }
+    .service-description-text { font-size: 17px; line-height: 1.7; color: #555; margin-bottom: 25px; }
 
-    .service-checklist-container { background-color: #fafbfc; padding: 25px 30px; border-radius: 8px; }
+    .service-checklist-container { 
+        background-color: #fafbfc; 
+        padding: 25px 30px; 
+        border-radius: 8px;
+    }
 
     .checklist-title { font-size: 16px; font-weight: 700; color: #333; margin-top: 0; margin-bottom: 15px; letter-spacing: 0.5px; text-transform: none; }
 
     .service-checklist { list-style: none; padding-left: 0; margin-bottom: 0; }
 
-    .service-checklist li { font-size: 16px; line-height: 1.6; color: #666; margin-bottom: 12px; position: relative; padding-left: 28px; }
+    .service-checklist li { font-size: 15px; line-height: 1.6; color: #666; margin-bottom: 12px; position: relative; padding-left: 28px; }
 
     .service-checklist li::before { content: "✓"; position: absolute; left: 0; top: -1px; color: #3F6E93; font-weight: 900; font-size: 18px; }
 
+    /* Mobile Responsive Overrides */
     @media (max-width: 991px) {
         .service-horizontal-card { flex-direction: column; padding: 30px; }
         .service-meta-side { flex: 1 1 100%; padding-right: 0; border-right: none; border-bottom: 1px solid #eee; padding-bottom: 25px; margin-bottom: 25px; }
@@ -305,8 +359,19 @@
     }
 
     @media (max-width: 768px) {
+        .style-card-col { margin-bottom: 25px; }
         .service-description-text { font-size: 16px; }
         .service-checklist-container { padding: 20px; }
         .service-checklist li { font-size: 15px; }
+        
+        .service-icon-container {
+            width: 80px;
+            height: 80px;
+        }
+
+        .service-custom-icon {
+            width: 80px;
+            height: 80px;
+        }
     }
 </style>

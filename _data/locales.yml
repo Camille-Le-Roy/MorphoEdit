@@ -35,7 +35,7 @@ en:
     clarity:
       badge: "One-off"
       title: "Research Clarity Session"
-      desc: "A single coaching session designed to help you overcome a specific challenge. Whether you're stuck on your manuscript, facing an upcoming deadline, or simply need clarity on your next steps, you'll leave with practical guidance and a clear way forward."
+      desc: "A single coaching session to help you address a specific challenge. Whether you're stuck on your manuscript, facing an upcoming deadline, or simply need clarity on your next steps, you'll leave with professional guidance and a clear way forward."
       points:
         pt1: "One 60-minute session"
         pt2: "Pre-session review of your materials"
@@ -111,7 +111,7 @@ en:
 
   faq:
     heading: "Frequently Asked Questions"
-    q1: "How much do editing services cost?"
+    q1: "How much do your services cost?"
     a1: "Every project is different, and pricing depends on the scope of the work, timeline, and level of support required. I always provide clear estimates upfront and am happy to discuss different options to find the approach that best fits your needs and budget."
     q2: "Do you offer student discounts?"
     a2: "I understand that students often work with limited funding. Whenever possible, I try to offer flexible solutions and adapt the scope of work to fit different budgets. Feel free to contact me to discuss your project and see what might be possible."
