@@ -59,6 +59,7 @@ en:
     subheading_cta: "Not sure what you need? Let's chat"
     checklist_title: "Right for you if:"
     btn: "Message Me"
+    request_btn: "Request this"
 
     dev_editing:
       badge: "Advanced"
@@ -154,6 +155,14 @@ en:
     referral_placeholder: "How did you hear about me? *"
     message_placeholder: "Your Message *"
     submit_btn: "Send Message"
+    services_label: "Which service(s) are you interested in?"
+    options:
+      clarity: "One-Off Coaching Session"
+      accelerator: "Ongoing Coaching"
+      dev_editing: "Substantive Editing"
+      copy_editing: "Copyediting"
+      manuscript_eval: "Manuscript Evaluation"
+      other: "Other"
 
   about_name:
     heading: "Why 'Morpho'?"
@@ -219,6 +228,7 @@ fr:
     subheading_cta: "Vous ne savez pas exactement ce dont vous avez besoin ? Discutons-en"
     checklist_title: "Idéal pour vous si :"
     btn: "Envoyez-moi un message"
+    request_btn: "Demander ce service"
 
     dev_editing:
       badge: "Avancé"
@@ -314,6 +324,14 @@ fr:
     referral_placeholder: "Comment avez-vous entendu parler de moi ? *"
     message_placeholder: "Votre message *"
     submit_btn: "Envoyer le message"
+    services_label: "Quel(s) service(s) vous intéresse(nt) ?"
+    options:
+      clarity: "Session de coaching ponctuelle"
+      accelerator: "Coaching continu"
+      dev_editing: "Révision de fond"
+      copy_editing: "Révision linguistique"
+      manuscript_eval: "Évaluation de manuscrit"
+      other: "Autre"
 
   about_name:
     heading: "Pourquoi 'Morpho' ?"

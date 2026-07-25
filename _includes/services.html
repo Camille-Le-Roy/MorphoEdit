@@ -44,6 +44,10 @@
                                 <li>{{ t.coaching.clarity.points.pt3 }}</li>
                             </ul>
                         </div>
+                        
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="clarity">
+                            {{ t.services.request_btn }} &rarr;
+                        </a>
                     </div>
                 </div>
             </div>
@@ -73,6 +77,10 @@
                                 <li>{{ t.coaching.accelerator.points.pt4 }}</li>
                             </ul>
                         </div>
+
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="accelerator">
+                            {{ t.services.request_btn }} &rarr;
+                        </a>
                     </div>
                 </div>
             </div>
@@ -120,6 +128,10 @@
                                 <li>{{ t.services.dev_editing.points.pt4 }}</li>
                             </ul>
                         </div>
+
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="dev_editing">
+                            {{ t.services.request_btn }} &rarr;
+                        </a>
                     </div>
                 </div>
             </div>
@@ -150,6 +162,10 @@
                                 <li>{{ t.services.copy_editing.points.pt4 }}</li>
                             </ul>
                         </div>
+
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="copy_editing">
+                            {{ t.services.request_btn }} &rarr;
+                        </a>
                     </div>
                 </div>
             </div>
@@ -189,36 +205,105 @@
                                 <li>{{ t.services.manuscript_eval.points.pt4 }}</li>
                             </ul>
                         </div>
+
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="manuscript_eval">
+                            {{ t.services.request_btn }} &rarr;
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-12 text-center" style="margin-top: 20px; margin-bottom: 10px;">
-                <p class="service-subheading" style="font-size: 26px; font-weight: 600; color: #555;">
-                    {{ t.services.subheading_cta }}
-                </p>
+    </div>
+
+    <!-- ISOLATED BLUE CTA BANNER FOR SERVICES CTA -->
+    <div class="services-cta-banner">
+        <div class="container">
+            <p class="services-highlight-text" style="font-weight: 700; text-align: center; color: #f8fafc; margin-bottom: 60px;">
+                {{ t.services.subheading_cta }}
+            </p>
+
+            <div class="header-buttons" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+                <a href="#contact" class="page-scroll btn btn-xl btn-header btn-services-white" style="min-width: 280px; text-align: center;">
+                    {{ t.services.btn }}
+                </a>
+                <a href="https://tidycal.com/camilleleroy/free-15-minute-call" class="btn btn-xl btn-header btn-services-outline" target="_blank" style="min-width: 280px; text-align: center;">
+                    {{ t.header.schedule_btn }}
+                </a>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-lg-12 text-center" style="margin-top: 20px; padding-bottom: 130px;">
-                <div class="header-buttons" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-                    <a href="#contact" class="page-scroll btn btn-xl btn-header" style="min-width: 280px; text-align: center;">
-                        {{ t.services.btn }}
-                    </a>
-                    <a href="https://tidycal.com/camilleleroy/free-15-minute-call" class="btn btn-xl btn-header" target="_blank" style="background-color: #3F6E93; border-color: #3F6E93; min-width: 280px; text-align: center;">
-                        {{ t.header.schedule_btn }}
-                    </a>
-                </div>
-            </div>
-        </div>
-
     </div>
 </section>
 
 <style>
+    /* --- Service Card Request Button (Centered, Solid Blue) --- */
+    .btn-request-service {
+        display: inline-block;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 24px;
+        background-color: #3F6E93;
+        color: #ffffff !important;
+        border: 2px solid #3F6E93;
+        border-radius: 6px;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .btn-request-service:hover {
+        background-color: #2b4c66;
+        border-color: #2b4c66;
+        color: #ffffff !important;
+        text-decoration: none;
+    }
+
+    /* --- Services Blue Bottom Banner --- */
+    .services-cta-banner {
+        background-color: #3F6E93;
+        padding: 70px 20px;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .services-cta-banner .services-highlight-text {
+        font-size: 28px;
+        line-height: 1.4;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Primary White Button on Blue Banner */
+    .btn-services-white {
+        background-color: #ffffff !important;
+        color: #3F6E93 !important;
+        border: 2px solid #ffffff !important;
+        font-weight: 700;
+    }
+
+    .btn-services-white:hover {
+        background-color: #f0f4f8 !important;
+        color: #2b4c66 !important;
+        border-color: #f0f4f8 !important;
+    }
+
+    /* Secondary Dark Blue Button on Blue Banner */
+    .btn-services-outline {
+        background-color: #2b4c66 !important;
+        color: #ffffff !important;
+        border: 2px solid #2b4c66 !important;
+        font-weight: 700;
+    }
+
+    .btn-services-outline:hover {
+        background-color: #1e3649 !important;
+        border-color: #1e3649 !important;
+        color: #ffffff !important;
+    }
+
     .style-service-row { margin-bottom: 40px; }
 
     /* Desktop Equal Height Flex Layout */
@@ -243,11 +328,10 @@
         flex-direction: column;
         background: #ffffff;
         border: 1px solid #eef2f5;
-        border-top: 4px solid #3F6E93; /* Option 1: Accent Top Border */
+        border-top: 4px solid #3F6E93;
         border-radius: 12px;
         padding: 35px 30px;
         width: 100%;
-        /* Option 2: Soft Ambient Layered Shadow */
         box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05), 
                     0 2px 6px -1px rgba(0, 0, 0, 0.02); 
         transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
@@ -255,11 +339,10 @@
 
     .service-vertical-card:hover {
         transform: translateY(-6px);
-        /* Option 2: Enhanced Hover Shadow */
         box-shadow: 0 20px 40px -10px rgba(63, 110, 147, 0.15), 
                     0 4px 12px rgba(0, 0, 0, 0.03);
         border-color: #cbd5e1;
-        border-top-color: #2b4c66; /* Option 1: Slightly deeper blue top border on hover */
+        border-top-color: #2b4c66;
     }
 
     .service-vertical-header {
@@ -335,6 +418,15 @@
         .service-custom-icon {
             width: 80px;
             height: 80px;
+        }
+
+        .services-cta-banner {
+            padding: 50px 15px;
+            margin-top: 40px;
+        }
+
+        .services-cta-banner .services-highlight-text {
+            font-size: 22px;
         }
     }
 </style>
