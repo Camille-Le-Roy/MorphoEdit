@@ -23,27 +23,27 @@
                 </div>
 
                 <form id="contactForm" novalidate>
-                    <div class="row" style="display: flex; flex-wrap: wrap;">
+                    <div class="row contact-row-desktop">
                         
                         <!-- LEFT COLUMN: Contact Details -->
-                        <div class="col-md-6" style="display: flex; flex-direction: column; justify-content: space-between;">
-                            <div class="control-group form-group">
-                                <input type="text" name="name" class="form-control" placeholder="{{ t.contact.name_placeholder }}" id="name" required data-fs-field style="min-height: 80px; margin-bottom: 20px; width: 100%;">
+                        <div class="col-md-6 left-inputs-col">
+                            <div class="control-group form-group form-field-wrapper">
+                                <input type="text" name="name" class="form-control" placeholder="{{ t.contact.name_placeholder }}" id="name" required data-fs-field>
                                 <span data-fs-error="name" class="text-danger"></span>
                             </div>
-                            <div class="control-group form-group">
-                                <input type="email" name="email" class="form-control" placeholder="{{ t.contact.email_placeholder }}" id="email" required data-fs-field style="min-height: 80px; margin-bottom: 20px; width: 100%;">
+                            <div class="control-group form-group form-field-wrapper">
+                                <input type="email" name="email" class="form-control" placeholder="{{ t.contact.email_placeholder }}" id="email" required data-fs-field>
                                 <span data-fs-error="email" class="text-danger"></span>
                             </div>
-                            <div class="control-group form-group" style="margin-bottom: 20px;">
-                                <input type="text" name="referral" class="form-control" placeholder="{{ t.contact.referral_placeholder }}" id="referral" data-fs-field style="min-height: 80px; width: 100%;">
+                            <div class="control-group form-group form-field-wrapper">
+                                <input type="text" name="referral" class="form-control" placeholder="{{ t.contact.referral_placeholder }}" id="referral" data-fs-field>
                             </div>
                         </div>
                         
-                        <!-- RIGHT COLUMN: Service Selection Checkboxes (Stretched Vertically) -->
-                        <div class="col-md-6" style="display: flex; flex-direction: column;">
-                            <div class="form-group service-selection-container" style="margin-bottom: 20px; background: #f9fbfd; padding: 20px 24px; border-radius: 8px; border: 1px solid #e2e8f0; width: 100%; height: 100%; display: flex; flex-direction: column; box-sizing: border-box;">
-                                <label style="font-weight: 700; margin-bottom: 12px; display: block; color: #333; font-size: 15px;">
+                        <!-- RIGHT COLUMN: Service Selection Checkboxes -->
+                        <div class="col-md-6 right-services-col">
+                            <div class="form-group service-selection-container">
+                                <label class="services-label">
                                     {{ t.contact.services_label }}
                                 </label>
                                 
@@ -81,16 +81,16 @@
                             </div>
                         </div>
 
-                        <!-- FULL WIDTH BOTTOM ROW: Message Textarea (Added margin-top for extra gap) -->
-                        <div class="col-lg-12 col-md-12" style="margin-top: 25px;">
-                            <div class="control-group form-group" style="margin-bottom: 20px; width: 100%;">
-                                <textarea name="message" class="form-control" placeholder="{{ t.contact.message_placeholder }}" id="message" required data-fs-field style="width: 100%; min-height: 180px; box-sizing: border-box; resize: vertical;"></textarea>
+                        <!-- FULL WIDTH BOTTOM ROW: Message Textarea -->
+                        <div class="col-lg-12 col-md-12 message-col">
+                            <div class="control-group form-group" style="margin-bottom: 0; width: 100%;">
+                                <textarea name="message" class="form-control message-textarea" placeholder="{{ t.contact.message_placeholder }}" id="message" required data-fs-field></textarea>
                                 <span data-fs-error="message" class="text-danger"></span>
                             </div>
                         </div>
                         
                         <div class="clearfix"></div>
-                        <div class="col-lg-12 text-center" style="margin-top: 10px;">
+                        <div class="col-lg-12 text-center submit-btn-wrapper">
                             <button type="submit" class="btn btn-xl" data-fs-submit-btn>{{ t.contact.submit_btn }}</button>
                         </div>
                     </div>
@@ -100,16 +100,62 @@
     </div>
 </section>
 
-<!-- Custom Styling for Contact Page Checkboxes -->
+<!-- Custom Styles for Mobile & Desktop Layouts -->
 <style>
-    /* 2 Columns of 3 lines grid stretching across container space */
+    /* Base Desktop Styles */
+    .contact-row-desktop {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left-inputs-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .right-services-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-field-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .form-field-wrapper input {
+        min-height: 80px;
+        width: 100%;
+    }
+
+    .service-selection-container {
+        margin-bottom: 20px;
+        background: #f9fbfd;
+        padding: 20px 24px;
+        border-radius: 8px;
+        border: 1px solid #e2e8f0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .services-label {
+        font-weight: 700;
+        margin-bottom: 12px;
+        display: block;
+        color: #333;
+        font-size: 15px;
+    }
+
     .checkbox-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 15px;
         row-gap: 10px;
         flex: 1;
-        align-content: space-evenly; /* Even vertical distribution */
+        align-content: space-evenly;
     }
 
     .checkbox-item {
@@ -139,10 +185,73 @@
         flex-shrink: 0;
     }
 
-    /* Collapse to 1 column on smaller mobile screens */
-    @media (max-width: 480px) {
+    .message-col {
+        margin-top: 25px;
+    }
+
+    .message-textarea {
+        width: 100%;
+        min-height: 180px;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    .submit-btn-wrapper {
+        margin-top: 20px;
+    }
+
+    /* Mobile Responsive Optimizations (< 768px) */
+    @media (max-width: 767px) {
+        .contact-row-desktop {
+            display: block; /* Standard flow for clean stacked layout */
+        }
+
+        .form-field-wrapper {
+            margin-bottom: 16px;
+        }
+
+        .form-field-wrapper input {
+            min-height: 56px; /* Optimized height for mobile screens */
+            font-size: 16px; /* Prevents auto-zoom on iOS */
+        }
+
+        .service-selection-container {
+            margin-top: 8px;
+            margin-bottom: 16px;
+            padding: 16px;
+        }
+
         .checkbox-grid {
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr; /* Single column for easy tapping */
+            row-gap: 8px;
+        }
+
+        .checkbox-item {
+            padding: 10px 8px; /* Taller touch targets */
+            font-size: 15px;
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+        }
+
+        .message-col {
+            margin-top: 16px;
+        }
+
+        .message-textarea {
+            min-height: 140px;
+            font-size: 16px;
+        }
+
+        .submit-btn-wrapper {
+            margin-top: 25px;
+        }
+
+        .submit-btn-wrapper button {
+            width: 100%; /* Full-width button on mobile */
+            padding: 14px 0;
         }
     }
 </style>
