@@ -194,13 +194,16 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "EB Garamond", serif;
     color: #d9dde1;
+    -webkit-transition: color .35s ease;
+    -moz-transition: color .35s ease;
+    transition: color .35s ease;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #3F6E93 !important;
 }
 
 .navbar-default .navbar-collapse {
@@ -262,10 +265,10 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default .navbar-brand {
         font-size: 1.5em !important; /* Locks the logo text size */
-        color: #d9dde1 !important; /* Keeps the brand text visible */
-        -webkit-transition: none !important;
-        -moz-transition: none !important;
-        transition: none !important;
+        color: #d9dde1; /* Removed !important so hover state works */
+        -webkit-transition: color .35s ease !important;
+        -moz-transition: color .35s ease !important;
+        transition: color .35s ease !important;
     }
 
     .navbar-default .navbar-nav>.active>a {
