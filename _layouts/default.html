@@ -35,5 +35,18 @@
 
     {% include js.html %}
 
+    <!-- Auto-scroll script for inbound LinkedIn links -->
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('ref') === 'contact' || window.location.hash === '#contact') {
+            const target = document.getElementById('contact');
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    });
+    </script>
+
   </body>
 </html>
