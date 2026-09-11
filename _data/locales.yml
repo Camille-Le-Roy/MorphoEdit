@@ -179,7 +179,7 @@ fr:
   header:
     heading_part1: "Vous avez fait<br>le plus dur"
     heading_part2: "Publier ne devrait pas<br>être l'étape qui vous achève"
-    lead_in: "Coaching et révisions pour les jeunes chercheurs en quête d'un accompagnement régulier, de retours personnalisés et<br>d'un chemin clair pour transformer des données brutes en articles publiés"
+    lead_in: "Accompagnement personalisé pour les doctorants qui souhaitent un suivi régulier et des retours adaptés — afin de ne plus perdre de temps et enfin publier."
     schedule_btn: "Book un appel gratuit"
     btn: "Envoyez-moi un message"
 
@@ -187,12 +187,12 @@ fr:
     headline: "Vous avez passé des mois au labo ou sur le terrain, à mener des expériences et déboguer des analyses. Chaque donnée a demandé du temps, des efforts, et de la sueur. Vous avez <em>mérité</em> vos résultats."
     subheadline: "La partie la plus difficile n’est plus la science. C’est de structurer votre travail en un récit clair et publiable."
     text_1: "La recherche est chaotique par nature : itérative, non linéaire, pleine d’impasses et de détours inattendus. Pourtant, les articles scientifiques sont censés se lire comme une histoire parfaitement construite. <strong style='color: #333;'>Raconter cette histoire est un vrai défi, et cela n’a rien à voir avec la qualité de votre science.</strong>"
-    text_3: "Le temps des directeurs de thèse est souvent partagé entre de nombreuses responsabilités. En conséquence, l'essentiel du doctorat se déroule entre les réunions, vous laissant gérer l'incertitude seul et tenter de décider où consacrer au mieux votre temps et votre énergie."
-    text_4: "Perdre sa motivation et son enthousiasme pour ses propres recherches est fréquent durant un doctorat. Se sentir constamment en retard, bloquer sur le même brouillon pendant des semaines et porter le poids de l'incertitude ne devrait pas être le prix à payer pour devenir chercheur."
-    text_5: "Je suis passé par là. Je sais ce que c'est d'avoir des résultats solides mais un manuscrit qui ne le reflète pas. Un récit qui s'éparpille dans cinq directions différentes. Des nuits passées à fixer mon propre brouillon en me demandant ce que l'article essayait même de raconter."
-    text_6: "Après des années passées à transformer des projets de recherche en publications et à aider des étudiants à faire de même, je sais à quel point ce parcours peut être difficile, et à quel point il devient plus facile avec le bon accompagnement."
-    text_7: "Et si vous pouviez soumettre d'ici quelques mois,<br>et ressentir le soulagement de passer à votre prochain projet, bien plus stimulant ?"
-    list_title: "Ce que vous pouvez attendre de notre collaboration :"
+    text_2: "Le temps des directeurs de thèse est souvent partagé entre de nombreuses responsabilités. En conséquence, l'essentiel du doctorat se déroule entre les réunions, vous laissant gérer l'incertitude seul et tenter de décider où consacrer au mieux votre temps et votre énergie."
+    text_3: "Perdre sa motivation et son enthousiasme pour son projet de recherche arrive souvent au cours du doctorat. Se sentir constamment en retard, bloquer sur le même brouillon pendant des semaines et porter le poids de l'incertitude ne devrait pas être le prix à payer pour devenir chercheur."
+    text_4: "<strong style='color: #333;'>Je suis passé par là.</strong> Je sais ce que c'est d'avoir des résultats solides mais un manuscrit qui ne leur rend pas justice. Un récit qui s'éparpille dans trois directions différentes, bugguer devant mon draft jusq'à 23 heures en me demandant ce que je veuw vraiment dire dans mon article. Ça m'est arrivé plus d'une fois"
+    text_5: "Après des années passées à transformer des projets de recherche en publications et à aider des étudiants à faire de même, je sais à quel point ce parcours peut être difficile, et à quel point <strong style='color: #333;'>il devient plus facile avec la bonne personne à ses côtés. C'est ce que je vous propose.</strong>"
+    text_6: "Et si vous pouviez soumettre d'ici quelques mois,<br>et ressentir le soulagement de passer à votre prochain projet, bien plus stimulant ?"
+    list_title: "A quoi vous pouvez vous attendre :"
     bullet_1: "<strong>Un confrère scientifique qui parle votre langage.</strong> J’ai fait de la recherche, collecté des données, révisé et publié — je sais à quel point publier un article peut être difficile du début à la fin."
     bullet_2: "<strong>Aucun jugement.</strong> Un brouillon n'est jamais trop brouillon, et aucune question n'est trop basique. Amenez-moi votre chaos."
     bullet_3: "<strong>Véritablement disponible.</strong> Je ne vais pas disparaître après vous avoir renvoyé les corrections avec suivi des modifications. Que vous ayez besoin d'une refonte complète de votre manuscrit ou simplement de réfléchir à voix haute, je suis là."
@@ -202,10 +202,10 @@ fr:
   
   coaching:
     heading: "Services de Coaching"
-    subheading: "Bénéficiez d'un partenaire de recherche dédié à vos côtés"
+    subheading: "Avancez avec un mentor de recherche à vos côtés"
     clarity:
       badge: "Ponctuel"
-      title: "Session de Clarté Scientifique"
+      title: "Clarifions votre projet"
       desc: "Une séance de coaching unique conçue pour vous aider à surmonter un blocage précis. Que vous soyez coincé sur votre manuscrit, face à une échéance imminente ou que vous ayez simplement besoin de clarifier vos prochaines étapes, vous repartirez avec des conseils pratiques et un plan d'action clair."
       points:
         pt1: "Une séance individuelle de 60 minutes"
@@ -213,7 +213,7 @@ fr:
         pt3: "Un suivi post-séance pour maintenir votre dynamique"
     accelerator:
       badge: "Suivi continu"
-      title: "Accélérateur de Publication"
+      title: "Accélérons votre publication"
       desc: "Ce programme de coaching continu vous offre un partenaire dédié pour vous aider à créer une dynamique régulière, consolider votre manuscrit et avancer sereinement vers la publication."
       points:
         pt1: "Deux séances de coaching de 60 minutes par mois en ligne"
@@ -223,7 +223,7 @@ fr:
 
   services:
     heading: "Services de Révision"
-    subheading_main: "Bénéficiez d’un accompagnement adapté à votre manuscrit"
+    subheading_main: "Bénéficiez d’un coup de pouce pour votre manuscrit"
     subheading_evaluation: "Vous êtes bloqué mais souhaitez réviser vous-même ?<br>Obtenez une évaluation de manuscrit"
     subheading_figures: "Vous voulez que vos recherches se démarquent au premier coup d'œil ?<br>Donnez plus d’impact à vos travaux avec des figures prêtes pour la publication"
     subheading_cta: "Vous ne savez pas exactement ce dont vous avez besoin ? Discutons-en"
@@ -243,8 +243,8 @@ fr:
 
     copy_editing:
       badge: "Essentiel"
-      title: "Révision linguistique"
-      desc: "La révision linguistique est un niveau de révision plus léger. Je corrigerai les formulations maladroites, les répétitions, les incohérences et les erreurs de langue afin de rendre votre manuscrit plus clair et plus agréable à lire."
+      title: "Copy-Editing"
+      desc: "Le Copy-Editing est un niveau de révision plus léger. Je corrigerai les formulations maladroites, les répétitions, les incohérences et les erreurs de langue afin de rendre votre manuscrit plus clair et plus agréable à lire."
       points:
         pt1: "Votre thèse, manuscrit ou demande de subvention est presque finalisé et nécessite seulement les dernières corrections avant soumission."
         pt2: "Vos idées et résultats sont bien organisés mais ont besoin d’être peaufinés pour gagner en clarté et en fluidité."
@@ -312,8 +312,9 @@ fr:
     name: "Camille Le Roy, PhD"
     intro: "Je m'appelle Camille. Je suis chercheur, biologiste et biomécanicien — mais surtout, fin connaisseur des exigences de l’écriture académique."
     details_1: "Titulaire d'un doctorat en biologie évolutive de l'Université de Paris et fort de plus de sept ans de recherche interdisciplinaire entre l'écologie et la biophysique, mon parcours m’a mené des forêts amazoniennes du Pérou aux laboratoires en France et aux Pays-Bas. En chemin, j'ai pris conscience d'une difficulté commune à beaucoup de chercheurs : nous excellons dans la 'pratique', les expériences, les modèles, les expéditions de terrain — mais nous avons souvent du mal à nous arrêter pour nous immerger dans l'écriture."
-    details_2: "Je suis passé par là. Transformer des années de données complexes en un récit clair et convaincant est un processus exigeant. Avec huit articles en premier auteur dans des revues de premier plan (notamment <em>Science</em> et <em>Nature Communications</em>), ainsi qu’une expérience de relecteur pour une douzaine de revues multidisciplinaires, j’ai appris à transformer des résultats complexes en récits scientifiques clairs et convaincants."
-    conclusion: "Aujourd’hui, je mets cette expertise au service des étudiants et des chercheurs pour les aider à franchir ce dernier pas : transformer leur manuscrit en un récit qui rend pleinement justice à leurs découvertes."
+    details_2: "Je suis passé par là. Transformer des années de données complexes en un récit clair et convaincant est un processus exigeant. Avec huit articles en premier auteur dans des revues de premier plan (notamment <em>Science</em>, <em>Nature Communications</em>, <em>PLOS BIOLOGY</em>), ainsi qu’une expérience de reviewer pour une douzaine de revues multidisciplinaires, J’ai appris les rouages concrets qui permettent de transformer des résultats bruts en un manuscrit qui a réellement ses chances d’être publié. C'est d'ailleurs un des challenges qui m’emballe le plus !"
+    details_3: "En dehors de la recherche, vous me trouverez à la recherche du 'flow-state' — sur un skateboard, un snowboard, ou en essayant (souvent sans succès) de rester debout sur une slackline. C’est en m'immersant dans ce genre d'activités que j'ai mes meilleures réflexions, loin de mon ordinateur !"
+    conclusion: "Avec Morpho Editing & Coaching, je mets mon expertise au service des étudiants et jeunes chercheurs pour les aider à transformer leurs travaux de recherche en récits qui rendent pleinement justice à leurs découvertes."
 
   contact:
     heading: "Contactez-moi"
@@ -330,7 +331,7 @@ fr:
       clarity: "Session de coaching ponctuelle"
       accelerator: "Coaching continu"
       dev_editing: "Révision de fond"
-      copy_editing: "Révision linguistique"
+      copy_editing: "Copy-Editing"
       manuscript_eval: "Évaluation de manuscrit"
       other: "Autre"
 
