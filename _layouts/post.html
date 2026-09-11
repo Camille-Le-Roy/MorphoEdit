@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body id="page-top" class="index">
+    {% include header.html %}
+
+    <!-- Hide hero/banner elements on individual post pages -->
+    <style>
+      header:not(.navbar), 
+      .intro-header, 
+      .page-head, 
+      header.intro-text,
+      header .container:not(.navbar .container) {
+        display: none !important;
+      }
+    </style>
+
+    <div class="container" style="padding-top: 140px; padding-bottom: 80px; min-height: 70vh;">
+      <!-- Sober Top Link -->
+      <p style="font-size: 1.1em; margin-bottom: 2em;">
+        <a href="{{ '/blog/' | relative_url }}" style="color: #888; text-decoration: none;">← Back to blog</a>
+      </p>
+
+      <article>
+        <h1 style="color: #333; margin-bottom: 10px; text-transform: none;">{{ page.title }}</h1>
+        <p style="color: #777; font-size: 0.95em; margin-bottom: 30px;">
+          Camille Le Roy, {{ page.date | date: "%B %d, %Y" }}
+        </p>
+        <hr style="border-top: 1px solid #ddd; margin-bottom: 30px;">
+
+        <div style="font-size: 1.1em; line-height: 1.8; color: #333;">
+          {{ content }}
+        </div>
+      </article>
+
+      <!-- Sober Bottom Link -->
+      <p style="font-size: 0.9em; margin-top: 3em;">
+        <a href="{{ '/blog/' | relative_url }}" style="color: #888; text-decoration: none;">← Back to blog</a>
+      </p>
+    </div>
+
+    {% include footer.html %}
+    {% include js.html %}
+  </body>
+</html>

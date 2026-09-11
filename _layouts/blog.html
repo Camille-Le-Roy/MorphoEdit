@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body id="page-top" class="index">
+    {% include header.html %}
+
+    <!-- Hide hero/banner elements on blog pages -->
+    <style>
+      header:not(.navbar), 
+      .intro-header, 
+      .page-head, 
+      header.intro-text,
+      header .container:not(.navbar .container) {
+        display: none !important;
+      }
+    </style>
+
+    <div class="container" style="padding-top: 140px; padding-bottom: 80px; min-height: 70vh;">
+      <h1 style="color: #333; margin-bottom: 10px;">{{ page.title }}</h1>
+      <hr style="border-top: 2px solid #3F6E93; max-width: 150px; margin: 0 0 40px 0;">
+
+      {{ content }}
+
+      <ul style="list-style: none; padding-left: 0; margin-top: 30px;">
+        {% for post in site.posts %}
+          <li style="margin-bottom: 35px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
+            <h2 style="margin-bottom: 8px; text-transform: none;">
+              <a href="{{ post.url | relative_url }}" style="color: #2C3E50; text-decoration: none; text-transform: none;">{{ post.title }}</a>
+            </h2>
+            <p style="color: #777; font-size: 0.9em; margin-bottom: 12px;">
+              {{ post.date | date: "%B %d, %Y" }}
+            </p>
+            <p style="color: #555; line-height: 1.6;">{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
+            <a href="{{ post.url | relative_url }}" class="btn btn-sm" style="margin-top: 5px; background-color: #3F6E93; color: #ffffff; border-color: #3F6E93;">Read Article &rarr;</a>
+          </li>
+        {% else %}
+          <p>No posts published yet.</p>
+        {% endfor %}
+      </ul>
+    </div>
+
+    {% include footer.html %}
+    {% include js.html %}
+  </body>
+</html>
