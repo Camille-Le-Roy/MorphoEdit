@@ -98,6 +98,13 @@ date: 2026-09-11
       --body-font-size: 1.05em; /* Slightly tighter font for small displays */
     }
 
+    /* Reduce post title size on mobile */
+    article h1 {
+      font-size: 1.6em !important; /* Adjust this value if you want it smaller/larger */
+      line-height: 1.25;
+      margin-bottom: 15px;
+    }
+
     .post-figure.intro-fig,
     .post-figure.content-fig {
       width: 100%; /* Stretch figures to full width on mobile */
@@ -115,8 +122,11 @@ date: 2026-09-11
 <!-- Intro Visual -->
 <div class="post-figure intro-fig" style="margin-top: 1em;">
   <img src="{{ site.baseurl }}/img/blogpost_1 intro visual.png" alt="Before and after example of a publication-ready scientific figure">
-  <div class="post-caption" style="text-align: center;">
-    Example figure from: Le Roy et al. (2021) Nat. Commun. 12(1): 7248
+  <div class="post-caption" style="text-align: right; font-size: 0.70em;">
+    Example figure from: 
+    <a href="https://doi.org/10.1038/s41467-021-27549-1" target="_blank" style="color: inherit; text-decoration: underline;">
+      Le Roy et al. (2021) <em>Nat. Commun.</em> 12(1): 7248.
+    </a>
   </div>
 </div>
 
@@ -125,7 +135,7 @@ Have you ever stared at a published figure and thought: <em>how did they make it
 </p>
 
 <p>
-The truth is that no one nails a polished figure on the first try. The road from your slightly ugly plot fresh out of R to that perfected version can be long, full of dead ends, trial, and error. Built from my research experience, here I’ve compiled six practical tips that I personally follow all the time, which can greatly improve the impact of your manuscript.
+The truth is that no one nails a polished figure on the first try. The road from your slightly ugly plot fresh out of R to a polished figure can be surprisingly long. Drawing on my own research experience, I’ve compiled six practical tips I regularly use to make figures clearer, more convincing, and more effective in a manuscript.
 </p>
 
 ## 1. One figure, one message
