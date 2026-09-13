@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "How to make your scientific figures publication-ready (6 tips)"
+description: "My compilation of figure design tips to turn raw data plots into clean, publication-ready figures for peer-reviewed journals."
+keywords: "scientific figures, publication-ready figures, manuscript figures, data visualization, figure design"
 date: 2026-09-12
 ---
 
