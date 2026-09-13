@@ -53,7 +53,11 @@ date: 2026-09-12
   }
 
   .post-figure.content-fig {
-    width: 65%; /* Figure 1 size */
+    width: 65%; /* Figure 1 and 2 size */
+  }
+
+  .post-figure.small-fig {
+    width: 35%; /* Figure 3 size on desktop */
   }
 
   .post-figure img {
@@ -105,9 +109,11 @@ date: 2026-09-12
       margin-bottom: 15px;
     }
 
+    /* Expand all figure variants to full width on mobile */
     .post-figure.intro-fig,
-    .post-figure.content-fig {
-      width: 100%; /* Stretch figures to full width on mobile */
+    .post-figure.content-fig,
+    .post-figure.small-fig {
+      width: 100% !important;
       padding: 0;
       margin: 1.8em auto;
     }
@@ -135,7 +141,7 @@ Have you ever stared at a published figure and thought: <em>how did they make it
 </p>
 
 <p>
-No one actually nails a polished figure on the first try. The road from your slightly - or really - ugly plot fresh out of R to a polished figure can be surprisingly long. Drawing on my own research experience, I’ve compiled six practical tips I regularly use to make figures clearer, more convincing, and more effective in a manuscript.
+No one actually nails a polished figure on the first try. The road from your slightly - or really - ugly plot fresh out of R to a polished figure can be quite long. Drawing on my research experience, I’ve compiled six practical tips I always use to make figures clearer, and more impactful in a manuscript.
 </p>
 
 ## 1. One figure, one message
@@ -146,7 +152,7 @@ Just like a paragraph, a figure loses power when it tries to say too much at onc
 
 We all have an inner artist wanting to make figures colorful. Try to channel that urge. If a figure doesn't need color, it's completely fine to keep it in shades of grey. That spares the reader the distracting thought of <em>"what do these colors mean?"</em>.
 
-When you do use color, make sure it carries information: different colors for categories of a variable, or a gradient for a continuous one, in an intuitive direction (warmer = higher temperature, for instance). Also revise your color coding across the whole manuscript: if three colors represent your three treatment conditions in your first figure, keep those same three colors in every figure after that. Finally, it's good practice to pick a colorblind-friendly palette from the start (see <a href="https://journal.r-project.org/articles/RJ-2023-071/" target="_blank" style="color: #3F6E93; font-weight: 600;">R Journal Palette Guide</a>).
+When you do use color, make sure it carries information: different colors for categories of a variable, or a gradient for a continuous one, in an intuitive direction (warmer = higher temperature, for instance). Also revise your color coding across the whole manuscript: if three colors represent your three treatment conditions in your first figure, keep those same three colors in every figure after that. Finally, it's good practice to pick a colorblind-friendly palette from the start (see <a href="https://journal.r-project.org/articles/RJ-2023-071/" target="_blank" style="color: #3F6E93;">R Journal Palette Guide</a>).
 
 <!-- Figure 1 -->
 <div class="post-figure content-fig">
@@ -159,7 +165,7 @@ When you do use color, make sure it carries information: different colors for ca
 
 ## 3. Layer information by combining color, shape, and size
 
-Journal space is limited, and you probably have more interesting results than room to show them. Keep your figure's main message pointed in one direction, but you can layer in extra information through point color, shape (<code style="color: inherit;">pch</code> in R, <code style="color: inherit;">marker</code> in Python), and size. For example: a scatterplot of your two key variables, colored by species, shaped by sex, and sized by body mass. This gives you three extra dimensions of information while keeping the story in one clean plot.
+Journal space is limited, and you probably have more interesting results than room to show them. Keep your figure's main message pointed in one direction, but you can layer in extra information through point color, shape (<code style="color: inherit;">pch</code> in R, <code style="color: inherit;">marker</code> in Python), and size. For example, in the scatterplot below (Figure 2), point size reflects wingbeat frequency while color gradient captures body mass — enriching the core aerodynamic relationship without cluttering the display. We could even layer in sex by using distinct point shapes.
 
 <!-- Figure 2 -->
 <div class="post-figure content-fig">
@@ -181,7 +187,7 @@ If you love tweaking axis fonts and border thickness in code, you may disagree w
 Editing "by hand" lets you adjust almost anything (except the data, of course): element size and position, consistent fonts across panels, and refining colors. You can even draw custom schematics or illustrations to convey complementary details (see Figure 2A). Together, these small adjustments are what actually shape how clearly your result reads.
 
 <!-- Figure 3 -->
-<div class="post-figure content-fig" style="width: 35%;">
+<div class="post-figure small-fig">
   <img src="{{ site.baseurl }}/img/blogpost_1 redundant axis.png" alt="Example of minimalist axis tick marks and removing redundant axes">
   <div class="post-caption">
     <strong>Figure 3:</strong> Remove duplicate axes across panels and keep tick marks to a functional minimum. <br> Original article: 
@@ -193,7 +199,7 @@ Editing "by hand" lets you adjust almost anything (except the data, of course): 
 
 ## 6. Find what's unnecessary, and cut it!
 
-You have a figure that's correct and interpretable with some effort. Now ask yourself: <em>what result do I actually want this to convey, and what's standing in the way? </em>&nbsp;Usually, you can easily spot small elements to cut:
+You have a figure that's correct and interpretable with some effort. Now ask yourself: <em>what result do I actually want this to convey, and what's standing in the way? </em>&nbsp;Usually, you can easily spot elements to cut, such as:
 
 <ul style="margin-bottom: 1.5em; padding-left: 1.2em; color: #444;">
   <li>Unnecessary frames or heavy outer borders</li>
