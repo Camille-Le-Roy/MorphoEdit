@@ -143,7 +143,7 @@ Have you ever stared at a published figure and thought: <em>how did they make it
 </p>
 
 <p>
-No one actually nails a polished figure on the first try. The road from your slightly - or really - ugly plot fresh out of R to a polished figure can be quite long. Drawing on my research experience, I’ve compiled six practical tips I always use to make figures clearer, and more impactful in a manuscript.
+No one actually nails a polished figure on the first try. The road from your slightly - or really - ugly plot fresh out of R to a polished figure often takes many trials and intermediary versions. Drawing on my own research experience, I’ve compiled six practical tips I always use to make figures clearer and impactful, helping you reach that final, publishable version.
 </p>
 
 ## 1. One figure, one message
