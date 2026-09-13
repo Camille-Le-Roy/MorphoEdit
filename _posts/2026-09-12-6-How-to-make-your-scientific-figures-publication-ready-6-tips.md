@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Six tips to make your scientific figures publication-ready"
-date: 2026-09-11
+title: "How to make your scientific figures publication-ready (6 tips)"
+date: 2026-09-12
 ---
 
 <style>
@@ -53,7 +53,7 @@ date: 2026-09-11
   }
 
   .post-figure.content-fig {
-    width: 70%; /* Figure 1 size */
+    width: 65%; /* Figure 1 size */
   }
 
   .post-figure img {
@@ -75,12 +75,12 @@ date: 2026-09-11
     margin-right: auto;
   }
 
-  /* Call-to-action box */
+  /* Call-to-action box without left border */
   .cta-card {
     background-color: #f4f7f9;
-    border-left: 4px solid #3F6E93;
+    border: none;
     padding: 24px;
-    border-radius: 0 8px 8px 0;
+    border-radius: 8px;
     text-align: center;
     margin-top: 3em;
     font-size: var(--body-font-size);
@@ -124,7 +124,7 @@ date: 2026-09-11
   <img src="{{ site.baseurl }}/img/blogpost_1 intro visual.png" alt="Before and after example of a publication-ready scientific figure">
   <div class="post-caption" style="text-align: right; font-size: 0.70em;">
     Example figure from: 
-    <a href="https://doi.org/10.1038/s41467-021-27549-1" target="_blank" style="color: inherit; text-decoration: underline;">
+    <a href="https://doi.org/10.1038/s41467-021-27549-1" target="_blank" style="color: inherit;">
       Le Roy et al. (2021) <em>Nat. Commun.</em> 12(1): 7248.
     </a>
   </div>
@@ -135,12 +135,12 @@ Have you ever stared at a published figure and thought: <em>how did they make it
 </p>
 
 <p>
-The truth is that no one nails a polished figure on the first try. The road from your slightly ugly plot fresh out of R to a polished figure can be surprisingly long. Drawing on my own research experience, I’ve compiled six practical tips I regularly use to make figures clearer, more convincing, and more effective in a manuscript.
+No one actually nails a polished figure on the first try. The road from your slightly - or really - ugly plot fresh out of R to a polished figure can be surprisingly long. Drawing on my own research experience, I’ve compiled six practical tips I regularly use to make figures clearer, more convincing, and more effective in a manuscript.
 </p>
 
 ## 1. One figure, one message
 
-Just like a paragraph, a figure loses power when it tries to say too much at once. When deciding what to combine into panels, think about the figure legend you'll write, and how it will guide the reader through the story. If including multiple panels, they should reflect different elements of the same overall message. The order of your panels matters a lot: if panel A shows a pattern that raises a question, panel B can answer it, hence satisfying the reader's expectation.
+Just like a paragraph, a figure loses power when it tries to say too much at once. When deciding what to combine into panels, think about the figure legend you'll write, and how it will guide the reader through the story. If including multiple panels, they should reflect different elements of the same overall message. The order of your panels matters a lot: if panel A shows a pattern that raises a question, panel B can answer it, thereby satisfying the reader's expectation.
 
 ## 2. Make color meaningful and consistent
 
@@ -152,19 +152,21 @@ When you do use color, make sure it carries information: different colors for ca
 <div class="post-figure content-fig">
   <img src="{{ site.baseurl }}/img/blogpost_1 consistent color coding.png" alt="Example of consistent color coding across a manuscript">
   <div class="post-caption">
-    <strong>Figure 1:</strong> Example of color consistency across an article. Here, green indicates butterflies living in the forest while blue indicates butterflies living in open habitat. Original article: Le Roy et al. (2022) J. Exp. Biol. 225(15): jeb243867.
+    <strong>Figure 1:</strong> Example of consistent color coding across an article: green indicates forest-dwelling butterflies, blue indicates butterflies from open habitats. Original article: 
+    <a href="https://doi.org/10.1242/jeb.243867">Le Roy et al. (2022) <em>J. Exp. Biol.</em> 225(15): jeb243867.</a>
   </div>
 </div>
 
 ## 3. Layer information by combining color, shape, and size
 
-Journal space is limited, and you probably have more interesting results than room to show them. Keep your figure's main message pointed in one direction, but you can layer in extra information through point color, shape (<code>pch</code> in R, <code>marker</code> in Python), and size. For example: a scatterplot of your two key variables, colored by species, shaped by sex, and sized by body mass. This gives you three extra dimensions of information while keeping the story in one clean plot.
+Journal space is limited, and you probably have more interesting results than room to show them. Keep your figure's main message pointed in one direction, but you can layer in extra information through point color, shape (<code style="color: inherit;">pch</code> in R, <code style="color: inherit;">marker</code> in Python), and size. For example: a scatterplot of your two key variables, colored by species, shaped by sex, and sized by body mass. This gives you three extra dimensions of information while keeping the story in one clean plot.
 
 <!-- Figure 2 -->
 <div class="post-figure content-fig">
   <img src="{{ site.baseurl }}/img/blogpost_1 points shape and size.png" alt="Example of combined color, size, and inset panel usage">
   <div class="post-caption">
-    <strong>Figure 2:</strong> Combined use of color and size to convey several layers of information without overcrowding the figure. Here, the color gradient reflects variation in body mass and point size indicates wingbeat frequency. These additional layers of information are juxtaposed in the scatterplots. Note the use of a small inset in the bottom right of each panel, showing an additional analysis without adding extra panels. Original article: Le Roy et al. (2026) PLoS Biol. 24(7): e3003473.
+    <strong>Figure 2:</strong> Combining color and point size to convey multiple layers of information: here color reflects body mass, while point size indicates wingbeat frequency. Small inset panels show an additional analysis without adding extra panels. Original article: 
+    <a href="https://doi.org/10.1371/journal.pbio.3003473">Le Roy et al. (2026) <em>PLoS Biol.</em> 24(7): e3003473.</a>
   </div>
 </div>
 
@@ -174,17 +176,36 @@ If one of your plots is dead simple to interpret, it may only need two tick mark
 
 ## 5. Edit your figure outside of R or Python
 
-If you love tweaking axis fonts and border thickness in code, you may disagree with this one. But a fully coded approach tends to feel rigid. My preferred approach: build the core figure in your coding environment, then export it as a vector file (PDF or EPS) and finish the polish in design software (Illustrator, Affinity Designer, Inkscape, or even PowerPoint!). Vector format also means infinite scalability — your figure looks equally sharp as a tiny panel or blown up on a poster.
+If you love tweaking axis fonts and border thickness in code, you may disagree with this one. But a fully coded approach tends to feel rigid. My preferred approach: build the core figure in your coding environment, then export it as a vector file (PDF or EPS) and finish the polish in design software (Illustrator, Affinity Designer, Inkscape). Vector format also means infinite scalability — your figure looks equally beautiful as a tiny panel or blown up on a poster. That said, if you're in a rush or prefer to avoid learning design tools, even basic tweaks in PowerPoint can significantly improve your raw figure.
 
-Editing "by hand" lets you adjust almost anything (except the data, of course): element size and position, consistent fonts across panels, and refining colors. You can even draw custom schematics or illustrations to convey complementary details. Together, these small adjustments are what actually shape how clearly your result reads.
+Editing "by hand" lets you adjust almost anything (except the data, of course): element size and position, consistent fonts across panels, and refining colors. You can even draw custom schematics or illustrations to convey complementary details (see Figure 2A). Together, these small adjustments are what actually shape how clearly your result reads.
+
+<!-- Figure 3 -->
+<div class="post-figure content-fig" style="width: 35%;">
+  <img src="{{ site.baseurl }}/img/blogpost_1 redundant axis.png" alt="Example of minimalist axis tick marks and removing redundant axes">
+  <div class="post-caption">
+    <strong>Figure 3:</strong> Remove duplicate axes across panels and keep tick marks to a functional minimum. <br> Original article: 
+    <a href="https://www.science.org/doi/10.1126/science.1248955" target="_blank" style="color: inherit; text-decoration: underline;">
+      Muijres et al. (2014) <em>Science</em>, 344(6180): 172–177.
+    </a>
+  </div>
+</div>
 
 ## 6. Find what's unnecessary, and cut it!
 
-You have a figure that's correct and interpretable with some effort. Now ask yourself: <em>what result do I actually want this to convey, and what's standing in the way?</em> Usually, you can easily spot things like an unnecessary frame, overcrowded tick marks, repeated axis labels across panels, big empty spaces, or heavy, ugly borders. Remove all of this! Let the essential message reach your reader's eye as directly as possible.
+You have a figure that's correct and interpretable with some effort. Now ask yourself: <em>what result do I actually want this to convey, and what's standing in the way? </em>&nbsp;Usually, you can easily spot small elements to cut:
+
+<ul style="margin-bottom: 1.5em; padding-left: 1.2em; color: #444;">
+  <li>Unnecessary frames or heavy outer borders</li>
+  <li>Redundant axis or labels</li>
+  <li>Overcrowded tick marks</li>
+  <li>Large empty spaces breaking up your panel flow</li>
+</ul>
+
+Remove all of this! Let the essential message reach your reader's eye as directly as possible.
 
 <div class="cta-card">
-  If you're stuck turning messy results into a figure (or a full manuscript) that tells a clear story, 
-  <a href="https://tidycal.com/camilleleroy/free-15-minute-call" target="_blank">
-    book a free 15-minute call
-  </a> — I'd love to help you get unstuck.
+  Stuck translating messy data into a clear scientific story?<br> Feel free to 
+  <a href="https://tidycal.com/camilleleroy/free-15-minute-call" target="_blank">book a free 15-minute call</a> 
+  or send a message via the <a href="https://camille-le-roy.github.io/MorphoEdit/#contact" target="_blank">contact form</a>.<br> We can discuss how to streamline your figures or manuscript!
 </div>
