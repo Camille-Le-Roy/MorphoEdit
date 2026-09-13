@@ -14,6 +14,13 @@
         display: none !important;
       }
 
+      /* Desktop main heading size ("BLOG POSTS") */
+      .blog-main-title {
+        color: #333;
+        margin-bottom: 10px;
+        font-size: 2.2em;
+      }
+
       /* Post title size in the listing list */
       .post-list-title {
         font-size: 2em !important; /* Adjust the size of the blog post titles in the listing */
@@ -24,6 +31,11 @@
 
       /* Mobile adjustments */
       @media (max-width: 768px) {
+        .blog-main-title {
+          font-size: 1.5em !important; /* Reduces the size of the text 'BLOG POSTS' on mobile */
+          margin-bottom: 8px !important;
+        }
+
         .post-list-title {
           font-size: 1.4em !important;
         }
@@ -31,7 +43,7 @@
     </style>
 
     <div class="container" style="padding-top: 140px; padding-bottom: 80px; min-height: 70vh;">
-      <h1 style="color: #333; margin-bottom: 10px;">{{ page.title }}</h1>
+      <h1 class="blog-main-title">{{ page.title }}</h1>
       <hr style="border-top: 2px solid #3F6E93; max-width: 150px; margin: 0 0 40px 0;">
 
       {{ content }}
