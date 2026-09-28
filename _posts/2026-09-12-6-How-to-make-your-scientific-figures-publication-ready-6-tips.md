@@ -184,7 +184,7 @@ If one of your plots is dead simple to interpret, it may only need two tick mark
 
 ## 5. Edit your figure outside of R or Python
 
-If you love tweaking axis fonts and border thickness in code, you may disagree with this one. But a fully coded approach tends to feel rigid. My preferred approach: build the core figure in your coding environment, then export it as a vector file (PDF or EPS) and finish the polish in design software (Illustrator, Affinity Designer, Inkscape). Vector format also means infinite scalability — your figure looks equally beautiful as a tiny panel or blown up on a poster. That said, if you're in a rush or prefer to avoid learning design tools, even basic tweaks in PowerPoint can significantly improve your raw figure.
+If you enjoy tweaking label font size and border thickness in code, you may disagree with this one. But a fully coded approach tends to feel rigid. My preferred approach: build the core figure in your coding environment, then export it as a vector file (PDF or EPS) and finish the polish in design software (Illustrator, Affinity Designer, Inkscape). Vector format also means infinite scalability — your figure looks equally beautiful as a tiny panel or blown up on a poster. That said, if you're in a rush or prefer to avoid learning design tools, even basic tweaks in PowerPoint can significantly improve your raw figure.
 
 Editing "by hand" lets you adjust almost anything (except the data, of course): element size and position, consistent fonts across panels, and refining colors. You can even draw custom schematics or illustrations to convey complementary details (see Figure 2A). Together, these small adjustments are what actually shape how clearly your result reads.
 
