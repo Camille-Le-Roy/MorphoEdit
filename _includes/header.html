@@ -4,6 +4,12 @@
 {% endif %}
 {% assign t = site.data.locales[lang] %}
 
+{% comment %} Dynamic home path to keep French users on /fr/ {% endcomment %}
+{% assign home_prefix = "/" %}
+{% if lang == "fr" %}
+  {% assign home_prefix = "/fr/" %}
+{% endif %}
+
 <style>
     /* Fix for buttons overlapping and sizing on mobile */
     .header-buttons {
@@ -95,7 +101,7 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand page-scroll" href="{{ '/' | relative_url }}#page-top" style="display: flex; align-items: center; padding-top: 5px; padding-bottom: 5px;">
+            <a class="navbar-brand page-scroll" href="{{ home_prefix | relative_url }}#page-top" style="display: flex; align-items: center; padding-top: 5px; padding-bottom: 5px;">
                 <img src="{{ site.baseurl }}/img/logo white grey transparent.png" alt="Morpho Editing Logo" style="height: 40px; margin-right: 12px;">
                 
                 <div style="display: flex; flex-direction: column; line-height: 1.1; text-align: left;">
@@ -111,12 +117,12 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li class="hidden"><a href="{{ '/' | relative_url }}#page-top"></a></li>
-                <li><a class="page-scroll" href="{{ '/' | relative_url }}#services">{{ t.nav.services }}</a></li>
-                <li><a class="page-scroll" href="{{ '/' | relative_url }}#faq">{{ t.nav.faq }}</a></li>
-                <li><a class="page-scroll" href="{{ '/' | relative_url }}#about">{{ t.nav.about }}</a></li>
-                <li><a class="page-scroll" href="{{ '/' | relative_url }}#testimonials">{{ t.nav.testimonials }}</a></li>
-                <li><a class="page-scroll" href="{{ '/' | relative_url }}#contact">{{ t.nav.contact }}</a></li>
+                <li class="hidden"><a href="{{ home_prefix | relative_url }}#page-top"></a></li>
+                <li><a class="page-scroll" href="{{ home_prefix | relative_url }}#services">{{ t.nav.services }}</a></li>
+                <li><a class="page-scroll" href="{{ home_prefix | relative_url }}#faq">{{ t.nav.faq }}</a></li>
+                <li><a class="page-scroll" href="{{ home_prefix | relative_url }}#about">{{ t.nav.about }}</a></li>
+                <li><a class="page-scroll" href="{{ home_prefix | relative_url }}#testimonials">{{ t.nav.testimonials }}</a></li>
+                <li><a class="page-scroll" href="{{ home_prefix | relative_url }}#contact">{{ t.nav.contact }}</a></li>
                 <li><a href="{{ '/blog/' | relative_url }}">{{ t.nav.blog | default: "Blog" }}</a></li>
                 
                 <li class="language-selector">
@@ -171,7 +177,7 @@
 
             <!-- Buttons Container -->
             <div class="header-buttons" style="text-align: left !important;">
-                <a href="{{ '/' | relative_url }}#contact" class="page-scroll btn btn-xl btn-header">
+                <a href="{{ home_prefix | relative_url }}#contact" class="page-scroll btn btn-xl btn-header">
                     {{ t.services.btn }}
                 </a>
                 <a href="https://tidycal.com/camilleleroy/free-15-minute-call" 
