@@ -16,9 +16,9 @@ en:
   empathy:
     headline: "You spent months in the lab or in the field, running experiments, debugging analyses, redoing what didn't work the first three times. Every data point cost you something. You've <em>earned</em> your results."
     sub-heading: "The tricky part isn't the science anymore. It's turning that pile of hard-won results into something that reads like a clear, convincing story."
-    text_1: "Here's the thing: research is messy by nature. It's iterative, nonlinear, full of dead ends and unexpected turns. But a paper is expected to unfold like it was obvious all along. <strong style='color: #333;'> Making that leap — from 'what actually happened' to 'here's the story' — is genuinely hard. It has nothing to do with how good your science is. </strong>"
+    text_1: "Here's the thing: research is messy by nature. It's iterative, nonlinear, full of dead ends and unexpected turns. But a paper is expected to unfold like it was obvious all along. <strong style='color: #333;'> Turning your work into a publishable story is genuinely hard, and it's something you'r expected to learn on the way.</strong>"
     text_2: "Supervisor’s time is often stretched across many responsibilities. As a result, most of the PhD journey happens between meetings, when you're <strong style='color: #333;'>left navigating uncertainty on your own</strong> and trying to decide where your time and energy are best spent."
-    text_3: "Losing momentum on your own project is <em>normal</em> during a PhD. Feeling behind, stuck on the same paragraph for weeks, constantly questioning if you know what you're doing. None of that should be the entree fee for becoming a researcher."
+    text_3: "Losing momentum during a PhD is <em>very common</em>. Feeling behind, stuck on the same paragraph for weeks, constantly questioning if you know what you're doing. This should not be price for becoming a researcher."
     text_4: "<strong style='color: #333;'>I've been there</strong>. I've had the good data and the manuscript that didn't do it justice. A narrative pulling in five directions at once, staring at my own draft at 11pm wondering what the paper was even trying to say anymore. I know that feeling from the inside."
     text_5: "After years of turning research projects into top-tier publications and helping students do the same, <strong style='color: #333;'>I've learned this part gets dramatically easier with the right person next to you. That's what I offer.</strong>"
     text_6: "What if you could submit within few months, and feel the relief of moving on to your next, more exciting project?"
@@ -130,12 +130,18 @@ en:
     t1:
       quote: "With Camille's help, I went from being insecure about writing to genuinely enjoying it. At my current job as a researcher, I write many proposals and reports; my team lead was so impressed by my first report that he immediately alerted the director to my writing skills. Without Camille, I daresay that would not have happened! I would highly recommend Camille as a writing coach."
       name: "N.T. - Entomology Researcher"
-    t3:
-      quote: "Camille was very helpful. Even though my paper was outside his field, he provided valuable feedback and thoughtful suggestions."
-      name: "R.D. - grad student at UNC Chapel Hill"
     t2:
+      quote: "Camille is an excellent tutor! Very patient, explained things simply, didn't make me feel bad when I didn't understand, and adapted the session based on my needs and gaps. Will definitely be doing many more sessions."
+      name: "J.C. - PhD student at New York University"
+    t3:
+      quote: "A huge thank you to Camille, who helped me with the statistical analysis for my biology thesis. The explanations and video calls we had together were very clear. The sessions went really well—Camille was able to reassure me and answer all my questions, and much more! I highly recommend taking lessons with Camille!"
+      name: "P.P. - Grad student at Lyon University"
+    t4:
+      quote: "Camille was very helpful. Even though my paper was outside his field, he provided valuable feedback and thoughtful suggestions."
+      name: "R.D. - Grad student at UNC Chapel Hill"
+    t5:
       quote: "Having worked closely with Dr. Camille Le Roy for several years, I can confidently say he is both an outstanding scientist and an exceptionally skilled writer. Camille is patient, organized, and deeply supportive—qualities that make him a highly effective and trustworthy academic mentor. He has a systematic mindset and a deep understanding of how to structure scientific arguments and communicate complex ideas with absolute clarity. For anyone seeking expert guidance in academic writing, Camille is strongly recommended."
-      name: "F.M. - Researcher at Wageningen University"
+      name: "F.M. - Professor at Wageningen University"
 
   about:
     heading: "About Me"
