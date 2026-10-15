@@ -261,7 +261,7 @@ Some downsides exist, though. Generalist journals favor a short, efficient, stor
 </p>
 
 <div style="margin-top: 2.5em; margin-bottom: 2em;">
-  <a href="https://doi.org/10.1126/science.abh2620" target="_blank" style="display: flex; align-items: center; gap: 16px; text-decoration: none; color: inherit;">
+  <a href="{{ site.baseurl }}/pdfs/Le%20Roy%20et%20al.%202021%20Adaptive%20evolution%20of%20flight%20in%20Morpho%20butterflies.pdf" target="_blank" style="display: flex; align-items: center; gap: 16px; text-decoration: none; color: inherit;">
     <img src="{{ site.baseurl }}/img/blogpost_2 cover science.png" alt="Science magazine cover" style="width: 180px; height: auto; border-radius: 4px; flex-shrink: 0; box-shadow: 0 2px 6px rgba(0,0,0,0.15) !important;">
     <span style="font-size: 0.95em; line-height: 1.5;">
       <strong>Read the paper behind the story:</strong><br>
