@@ -127,6 +127,10 @@ date: 2026-09-12
   }
 </style>
 
+<p style="font-size: calc(var(--body-font-size) * 1.25); color: #3F6E93; font-weight: 700;">
+Have you ever stared at a published figure and thought: <em>how did they make it look that good?</em>
+</p>
+
 <!-- Intro Visual -->
 <div class="post-figure intro-fig" style="margin-top: 1em;">
   <img src="{{ site.baseurl }}/img/blogpost_1 intro visual.png" alt="Before and after example of a publication-ready scientific figure">
@@ -137,10 +141,6 @@ date: 2026-09-12
     </a>
   </div>
 </div>
-
-<p style="font-size: calc(var(--body-font-size) * 1.25); color: #3F6E93; font-weight: 700;">
-Have you ever stared at a published figure and thought: <em>how did they make it look that good?</em>
-</p>
 
 <p>
 No one actually nails a polished figure on the first try. The road from your slightly - or really - ugly plot fresh out of R to a polished figure often takes many trials and intermediary versions. Drawing on my own research experience, I’ve compiled six practical tips I always use to make figures clearer and impactful, helping you reach that final, publishable version.
@@ -184,7 +184,7 @@ If one of your plots is dead simple to interpret, it may only need two tick mark
 
 ## 5. Edit your figure outside of R or Python
 
-Stop adjusting font sizes and line weights line-by-line in code! Unless you genuinely enjoy that, my advice is to take your figure outside your programming environment. Then export it as a vector file (PDF or EPS) and finish the polish in design software (Illustrator, Affinity Designer, Inkscape). Vector format also means infinite scalability — your figure looks equally beautiful as a tiny panel or blown up on a poster. That said, if you're in a rush or prefer to avoid learning design tools, even basic tweaks in PowerPoint can significantly improve your raw figure.
+If you like tweaking axis fonts and border thickness in code, you may disagree with this one. But a fully coded approach tends to feel rigid to me. My preferred approach: build the core figure in your coding environment, then export it as a vector file (PDF or EPS) and finish the polish in a design software (Illustrator, Affinity Designer, Inkscape). Vector format also means infinite scalability — your figure looks equally beautiful as a tiny panel or blown up on a poster. That said, if you're in a rush or prefer to avoid learning design tools, even basic tweaks in PowerPoint can significantly improve your raw figure.
 
 Editing "by hand" lets you adjust almost anything (except the data, of course): element size and position, consistent fonts across panels, and refining colors. You can even draw custom schematics or illustrations to convey complementary details (see Figure 2A). Together, these small adjustments are what actually shape how clearly your result reads.
 
