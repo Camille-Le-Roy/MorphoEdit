@@ -305,16 +305,25 @@ fr:
     a5: "Des sessions de révision supplémentaires peuvent tout à fait être organisées selon vos besoins. Nous pouvons définir ensemble la meilleure approche avant de commencer le projet. Des frais supplémentaires peuvent s'appliquer."
 
   testimonials:
-    heading: "Leur expérience"
+    heading: "Ce que disent mes clients"
     t1:
-      quote: "L’accompagnement de Camille m’a permis de passer d’un manque de confiance en mon écriture à un véritable plaisir à écrire. Aujourd’hui, dans mon poste de chercheuse, je rédige régulièrement des rapports et des propositions. Mon responsable a été particulièrement impressionné par mon premier rapport et a mis en avant mes compétences rédactionnelles auprès de la direction. Je recommande vivement Camille."
-      name: "N.T. - chercheuse en entomologie"
-    t3:
-      quote: "Camille m’a été d’une grande aide. Même si mon article était en dehors de son domaine, il m’a apporté des retours précieux et des suggestions très pertinentes."
-      name: "R.D. - étudiante à UNC Chapel Hill"
+      quote: "Grâce à l'aide de Camille, je suis passée d'un sentiment d'insécurité face à l'écriture au plaisir d'écrire. Dans mon travail actuel de chercheuse, je rédige de nombreuses propositions et rapports ; mon chef d'équipe a été tellement impressionné par mon premier rapport qu'il a immédiatement signalé mes compétences rédactionnelles au directeur. Sans Camille, j'ose dire que cela n'aurait pas été possible ! Je recommande vivement Camille comme coach en rédaction."
+      name: "N.T. - Chercheuse en entomologie, ST Food & Flowers"
     t2:
-      quote: "J'ai travaillé en étroite collaboration avec le Dr Camille Le Roy pendant plusieurs années, et je peux affirmer qu'il est à la fois un scientifique remarquable et un rédacteur exceptionnellement talentueux. Camille est patient, organisé et d'un grand soutien — des qualités qui font de lui un mentor académique particulièrement efficace et digne de confiance. Il possède un esprit systématique et une profonde compréhension de la manière de structurer les arguments scientifiques et de communiquer des idées complexes avec une grande clarté. Pour quiconque recherche un accompagnement expert en rédaction académique, Camille est vivement recommandé."
-      name: "F.M. - chercheur à l'Université de Wageningen"
+      quote: "Camille a été formidable ! Il s'est montré professionnel, communicatif et ce fut un plaisir de travailler avec lui du début à la fin. Il a fait un travail magnifique pour mettre en forme ma thèse et a rendu toute l'expérience remarquablement simple. Je recommande absolument Camille à quiconque cherche une aide attentive pour la rédaction, la relecture ou la mise en forme."
+      name: "K.H. - Doctorante, Kansas State University"
+    t3:
+      quote: "Un grand merci à Camille, qui m'a aidé pour l'analyse statistique de mon mémoire de biologie. Les explications et les appels vidéo que nous avons eus ensemble étaient très clairs. Les séances se sont vraiment bien passées — Camille a su me rassurer et répondre à toutes mes questions, et bien plus encore ! Je recommande vivement de prendre des cours avec Camille !"
+      name: "P.P. - Étudiant en Master, Université de Lyon"
+    t4:
+      quote: "Camille est un excellent tuteur ! Très patient, il explique les choses simplement, ne me fait jamais me sentir mal quand je ne comprends pas, et adapte la séance en fonction de mes besoins et de mes lacunes. Je ferai définitivement appel à lui pour d'autres séances."
+      name: "J.C. - Doctorant, New York University"
+    t5:
+      quote: "Camille a été d'une grande aide. Même si mon article ne relevait pas directement de son domaine, il m'a fourni des retours précieux et des suggestions très judicieuses."
+      name: "A.L. - Étudiante en Master, UNC Chapel Hill"
+    t6:
+      quote: "Pour avoir travaillé étroitement avec le Dr Camille Le Roy pendant plusieurs années, je peux affirmer en toute confiance qu'il est à la fois un scientifique remarquable et un rédacteur exceptionnellement doué. Camille est patient, organisé et profondément bienveillant — des qualités qui font de lui un mentor académique particulièrement efficace et digne de confiance. Il possède un esprit méthodique et une compréhension approfondie de la structuration des arguments scientifiques pour communiquer des idées complexes avec une clarté absolue. Pour quiconque recherche un accompagnement expert en rédaction académique, je recommande vivement Camille."
+      name: "F.M. - Professeur, Wageningen University"
 
   about:
     heading: "À propos"
