@@ -19,10 +19,10 @@
                     
                     <div class="carousel-inner" role="listbox">
                         
-                        <!-- Slide 1: Testimonials 1 & 2 -->
+                        <!-- Slide 1: Testimonials 1, 2 & 3 -->
                         <div class="item active">
                             <div class="row">
-                                <div class="col-sm-6 text-center">
+                                <div class="col-sm-4 text-center">
                                     <div class="team-member testimonial-card">
                                         <i class="fa fa-quote-left fa-2x quote-icon"></i>
                                         <p class="large testimonial-text">
@@ -31,7 +31,7 @@
                                         <h4 class="testimonial-author">— {{ t.testimonials.t1.name }}</h4>
                                     </div>
                                 </div>
-                                <div class="col-sm-6 text-center">
+                                <div class="col-sm-4 text-center">
                                     <div class="team-member testimonial-card">
                                         <i class="fa fa-quote-left fa-2x quote-icon"></i>
                                         <p class="large testimonial-text">
@@ -40,13 +40,7 @@
                                         <h4 class="testimonial-author">— {{ t.testimonials.t2.name }}</h4>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-
-                        <!-- Slide 2: Testimonials 3 & 4 -->
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-sm-6 text-center">
+                                <div class="col-sm-4 text-center">
                                     <div class="team-member testimonial-card">
                                         <i class="fa fa-quote-left fa-2x quote-icon"></i>
                                         <p class="large testimonial-text">
@@ -55,7 +49,13 @@
                                         <h4 class="testimonial-author">— {{ t.testimonials.t3.name }}</h4>
                                     </div>
                                 </div>
-                                <div class="col-sm-6 text-center">
+                            </div>
+                        </div>
+
+                        <!-- Slide 2: Testimonials 4, 5 & 6 -->
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-sm-4 text-center">
                                     <div class="team-member testimonial-card">
                                         <i class="fa fa-quote-left fa-2x quote-icon"></i>
                                         <p class="large testimonial-text">
@@ -64,19 +64,22 @@
                                         <h4 class="testimonial-author">— {{ t.testimonials.t4.name }}</h4>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-
-                        <!-- Slide 3: Testimonial 5 (Centered) -->
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-sm-8 col-sm-offset-2 text-center">
+                                <div class="col-sm-4 text-center">
                                     <div class="team-member testimonial-card">
                                         <i class="fa fa-quote-left fa-2x quote-icon"></i>
                                         <p class="large testimonial-text">
                                             "{{ t.testimonials.t5.quote }}"
                                         </p>
                                         <h4 class="testimonial-author">— {{ t.testimonials.t5.name }}</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 text-center">
+                                    <div class="team-member testimonial-card">
+                                        <i class="fa fa-quote-left fa-2x quote-icon"></i>
+                                        <p class="large testimonial-text">
+                                            "{{ t.testimonials.t6.quote }}"
+                                        </p>
+                                        <h4 class="testimonial-author">— {{ t.testimonials.t6.name }}</h4>
                                     </div>
                                 </div>
                             </div>
@@ -104,9 +107,9 @@
     /* Fixed Heights Setup: Stops background popping/jumping */
     .testimonial-card {
         margin-bottom: 20px;
-        padding: 0 40px;
-        /* min-height ensures short reviews match long reviews, keeping the section completely static */
-        min-height: 240px; 
+        padding: 0 25px;
+        /* Balanced card height to keep 3-column layout aligned */
+        min-height: 260px; 
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -115,15 +118,15 @@
 
     .quote-icon {
         color: #3F6E93; 
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         flex-shrink: 0;
     }
 
     .testimonial-text {
         font-style: italic; 
         color: #333; 
-        font-size: 18px; 
-        line-height: 1.6;
+        font-size: 16px; 
+        line-height: 1.55;
         margin-bottom: 0;
     }
 
@@ -166,7 +169,7 @@
         .testimonial-control.left { left: -15px; }
         .testimonial-control.right { right: -15px; }
         .testimonial-card { 
-            padding: 0 20px !important;
+            padding: 0 15px !important;
             min-height: auto; /* Fallback to natural flow on mobile stacks */
         }
     }

@@ -14,26 +14,125 @@
         display: none !important;
       }
 
-      /* Desktop main heading size ("BLOG POSTS") */
+      /* Main heading style ("Blog Posts") */
       .blog-main-title {
         color: #333;
         margin-bottom: 10px;
         font-size: 2.2em;
+        font-weight: 700;
+        text-transform: none !important; /* Preserves standard natural casing */
       }
 
-      /* Post title size in the listing list */
+      /* Horizontal Post Card styling */
+      .post-card-link {
+        text-decoration: none !important;
+        color: inherit;
+        display: block;
+        margin-bottom: 30px;
+      }
+
+      .blog-post-card {
+        display: flex;
+        align-items: center;
+        background-color: #ffffff;
+        border: 1px solid #eef2f5;
+        border-radius: 12px;
+        overflow: hidden;
+        transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+      }
+
+      /* Hover "pop up" interaction */
+      .post-card-link:hover .blog-post-card {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 24px rgba(63, 110, 147, 0.12);
+        border-color: #d0dce5;
+      }
+
+      /* Enlarged Image container box */
+      .post-card-image {
+        width: 36%; /* Increased from 30% to make the image area wider */
+        min-width: 260px; /* Increased min-width */
+        height: 220px; /* Increased from 190px for extra height */
+        overflow: hidden;
+        background-color: #f8fafc;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px; /* Subtle inset padding */
+      }
+
+      /* Rounded corners & uncropped rendering */
+      .post-card-image img {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        object-fit: contain; /* Keeps full uncropped image visible */
+        border-radius: 8px; /* Adds rounded angles/corners to the image itself */
+        transition: transform 0.3s ease;
+      }
+
+      .post-card-link:hover .post-card-image img {
+        transform: scale(1.04);
+      }
+
+      /* Text content side of the card */
+      .post-card-content {
+        padding: 22px 28px;
+        flex-grow: 1;
+      }
+
+      /* Title font styling */
       .post-list-title {
-        font-size: 2.2em !important; /* Adjust the size of the blog post titles in the listing */
+        font-size: 1.8em !important;
         line-height: 1.3;
-        margin-bottom: 8px;
-        text-transform: none;
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #2C3E50;
+        font-weight: 700;
+        text-transform: none !important;
+        transition: color 0.2s ease;
+      }
+
+      .post-card-link:hover .post-list-title {
+        color: #3F6E93; /* Slate blue on hover */
+      }
+
+      .post-card-date {
+        color: #777;
+        font-size: 0.9em;
+        margin-bottom: 12px;
+      }
+
+      .post-card-excerpt {
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 0;
+        font-size: 0.98em;
       }
 
       /* Mobile adjustments */
       @media (max-width: 768px) {
         .blog-main-title {
-          font-size: 1.5em !important; /* Reduces the size of the text 'BLOG POSTS' on mobile */
+          font-size: 1.5em !important;
           margin-bottom: 8px !important;
+        }
+
+        .blog-post-card {
+          flex-direction: column; /* Stacks vertically on small screens */
+          align-items: stretch;
+        }
+
+        .post-card-image {
+          width: 100%;
+          min-width: 100%;
+          height: 200px;
+        }
+
+        .post-card-content {
+          padding: 20px;
         }
 
         .post-list-title {
@@ -48,22 +147,35 @@
 
       {{ content }}
 
-      <ul style="list-style: none; padding-left: 0; margin-top: 30px;">
+      <div style="margin-top: 30px;">
         {% for post in site.posts %}
-          <li style="margin-bottom: 35px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
-            <h2 class="post-list-title">
-              <a href="{{ post.url | relative_url }}" style="color: #2C3E50; text-decoration: none; text-transform: none;">{{ post.title }}</a>
-            </h2>
-            <p style="color: #777; font-size: 0.9em; margin-bottom: 12px;">
-              {{ post.date | date: "%B %d, %Y" }}
-            </p>
-            <p style="color: #555; line-height: 1.6;">{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
-            <a href="{{ post.url | relative_url }}" class="btn btn-sm" style="margin-top: 5px; background-color: #3F6E93; color: #ffffff; border-color: #3F6E93;">Read Article &rarr;</a>
-          </li>
+          <a href="{{ post.url | relative_url }}" class="post-card-link">
+            <article class="blog-post-card">
+              
+              <!-- Card Image Selection Logic -->
+              <div class="post-card-image">
+                {% if post.image %}
+                  <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                {% elsif post.title contains 'Science' or post.url contains 'science' %}
+                  <img src="{{ site.baseurl }}/img/blogpost_2 Science magazine image.png" alt="{{ post.title }}">
+                {% else %}
+                  <img src="{{ site.baseurl }}/img/blogpost_1 intro visual.png" alt="{{ post.title }}">
+                {% endif %}
+              </div>
+
+              <!-- Card Text Content -->
+              <div class="post-card-content">
+                <h2 class="post-list-title">{{ post.title }}</h2>
+                <p class="post-card-date">{{ post.date | date: "%B %d, %Y" }}</p>
+                <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+              </div>
+
+            </article>
+          </a>
         {% else %}
           <p>No posts published yet.</p>
         {% endfor %}
-      </ul>
+      </div>
     </div>
 
     {% include footer.html %}

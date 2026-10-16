@@ -129,19 +129,22 @@ en:
     heading: "What clients say"
     t1:
       quote: "With Camille's help, I went from being insecure about writing to genuinely enjoying it. At my current job as a researcher, I write many proposals and reports; my team lead was so impressed by my first report that he immediately alerted the director to my writing skills. Without Camille, I daresay that would not have happened! I would highly recommend Camille as a writing coach."
-      name: "N.T. - Entomology Researcher"
+      name: "N.T. - Entomology Researcher, ST Food & Flowers"
     t2:
       quote: "Camille is an excellent tutor! Very patient, explained things simply, didn't make me feel bad when I didn't understand, and adapted the session based on my needs and gaps. Will definitely be doing many more sessions."
-      name: "J.C. - PhD student at New York University"
+      name: "J.C. - PhD student, New York University"
     t3:
       quote: "A huge thank you to Camille, who helped me with the statistical analysis for my biology thesis. The explanations and video calls we had together were very clear. The sessions went really well—Camille was able to reassure me and answer all my questions, and much more! I highly recommend taking lessons with Camille!"
-      name: "P.P. - Grad student at Lyon University"
+      name: "P.P. - Grad student, Lyon University"
     t4:
-      quote: "Camille was very helpful. Even though my paper was outside his field, he provided valuable feedback and thoughtful suggestions."
-      name: "R.D. - Grad student at UNC Chapel Hill"
+      quote: "Camille was wonderful! He was professional, communicative, and a pleasure to work with from start to finish. He did a beautiful job formatting my dissertation and made the whole experience remarkably easy. I would absolutely recommend Camille to anyone looking for thoughtful assistance with writing, editing, or formatting."
+      name: "A.L. - PhD student, Kansas State University"
     t5:
+      quote: "Camille was very helpful. Even though my paper was outside his field, he provided valuable feedback and thoughtful suggestions."
+      name: "K.H. - Grad student, UNC Chapel Hill"
+    t6:
       quote: "Having worked closely with Dr. Camille Le Roy for several years, I can confidently say he is both an outstanding scientist and an exceptionally skilled writer. Camille is patient, organized, and deeply supportive—qualities that make him a highly effective and trustworthy academic mentor. He has a systematic mindset and a deep understanding of how to structure scientific arguments and communicate complex ideas with absolute clarity. For anyone seeking expert guidance in academic writing, Camille is strongly recommended."
-      name: "F.M. - Professor at Wageningen University"
+      name: "F.M. - Professor, Wageningen University"
 
   about:
     heading: "About Me"

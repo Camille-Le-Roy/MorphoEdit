@@ -127,7 +127,7 @@ date: 2026-09-12
   }
 </style>
 
-<p style="font-size: calc(var(--body-font-size) * 1.25); color: #3F6E93; font-weight: 700;">
+<p style="font-size: calc(var(--body-font-size) * 1.25); font-weight: 700;">
 Have you ever stared at a published figure and thought: <em>how did they make it look that good?</em>
 </p>
 
