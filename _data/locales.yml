@@ -9,14 +9,15 @@ en:
   header:
     heading_part1: "<strong>You've done<br>the hard work</strong>"
     heading_part2: "Getting it published shouldn't<br>be the part that breaks you"
-    lead_in: "Coaching and editing for early-career scientists who want steady guidance and personalized feedback — so you can stop losing time and finally get published."
+    #lead_in: "I help students grow into confident researchers"
+    lead_in: "Coaching and editing for early-career scientists who want steady guidance and personalized feedback, so you can stop losing time and finally get published."
     schedule_btn: "Book a Free Call"
     btn: "Message Me"
 
   empathy:
     headline: "You spent months in the lab or in the field, running experiments, debugging analyses, redoing what didn't work the first three times. Every data point cost you something. You've <em>earned</em> your results."
     sub-heading: "The tricky part isn't the science anymore. It's turning that pile of hard-won results into something that reads like a clear, convincing story."
-    text_1: "Here's the thing: research is messy by nature. It's iterative, nonlinear, full of dead ends and unexpected turns. But a paper is expected to unfold like it was obvious all along. <strong style='color: #333;'> Turning your work into a publishable story is genuinely hard, and it's something you'r expected to learn on the way.</strong>"
+    text_1: "Here's the thing: research is messy by nature! Things never go smoothly as we planned, the journey to your. results is full of unexpected turns. Yet, on paper is expected to unfold like a perfect story. <strong style='color: #333;'> Turning your work into a coherent narrative is genuinely hard, and it's something you'r expected to learn on the way.</strong>"
     text_2: "Supervisor’s time is often stretched across many responsibilities. As a result, most of the PhD journey happens between meetings, when you're <strong style='color: #333;'>left navigating uncertainty on your own</strong> and trying to decide where your time and energy are best spent."
     text_3: "Losing momentum during a PhD is <em>very common</em>. Feeling behind, stuck on the same paragraph for weeks, constantly questioning if you know what you're doing. This should not be price for becoming a researcher."
     text_4: "<strong style='color: #333;'>I've been there</strong>. I've had the good data and the manuscript that didn't do it justice. A narrative pulling in five directions at once, staring at my own draft at 11pm wondering what the paper was even trying to say anymore. I know that feeling from the inside."

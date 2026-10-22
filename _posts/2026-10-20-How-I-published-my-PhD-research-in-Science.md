@@ -3,7 +3,7 @@ layout: post
 title: "How I published my PhD research in <i>Science:</i> what helped, and what was just luck"
 description: "A behind-the-scenes look at the context, choices, and luck that led to publishing my PhD research in Science."
 keywords: "Science publication, PhD research, academic publishing, evolutionary biology, interdisciplinary research, Morpho butterflies"
-date: 2026-10-15
+date: 2026-10-22
 ---
 
 <style>
@@ -146,8 +146,10 @@ Many young researchers, including myself, start a PhD hoping to make a groundbre
 </p>
 
 <!-- Intro Visual / Image 1 -->
-<div class="post-figure intro-fig" style="margin-top: 1em;">
-  <img src="{{ site.baseurl }}/img/blogpost_2 Science magazine image 2.png" alt="Science magazine cover featuring Morpho butterfly research">
+<div class="post-figure intro-fig" style="margin-top: 1em; text-align: center;">
+  <img src="{{ site.baseurl }}/img/blogpost_2 Science magazine image 2.png" 
+       alt="Science magazine cover featuring Morpho butterfly research" 
+       style="max-width: 85%; height: auto; border-radius: 8px;">
 </div>
 
 <p>
