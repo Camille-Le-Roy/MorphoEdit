@@ -7,11 +7,11 @@ en:
     contact: "Contact"
 
   header:
-    heading_part1: "<strong>You've done<br>the hard work</strong>"
-    heading_part2: "Getting it published shouldn't<br>be the part that breaks you"
+    heading_part1: "<strong>Your PhD<br>is hard enough</strong>"
+    heading_part2: "You don't have to figure everything out alone"
     #lead_in: "I help students grow into confident researchers"
-    lead_in: "Coaching and editing for early-career scientists who want steady guidance and personalized feedback, so you can stop losing time and finally get published."
-    schedule_btn: "Book a Free Call"
+    lead_in: "Research and publication mentoring for early-career scientists who are tired of going in circles and ready to move their work forward."
+    schedule_btn: "Book a Discovery Call"
     btn: "Message Me"
 
   empathy:
@@ -21,7 +21,7 @@ en:
     text_2: "Supervisor’s time is often stretched across many responsibilities. As a result, most of the PhD journey happens between meetings, when you're <strong style='color: #333;'>left navigating uncertainty on your own</strong> and trying to decide where your time and energy are best spent."
     text_3: "Losing momentum during a PhD is <em>very common</em>. Feeling behind, stuck on the same paragraph for weeks, constantly questioning if you know what you're doing. This should not be price for becoming a researcher."
     text_4: "<strong style='color: #333;'>I've been there</strong>. I've had the good data and the manuscript that didn't do it justice. A narrative pulling in five directions at once, staring at my own draft at 11pm wondering what the paper was even trying to say anymore. I know that feeling from the inside."
-    text_5: "After years of turning research projects into top-tier publications and helping students do the same, <strong style='color: #333;'>I've seen how important it is to have the right support, so you can successfully finish your PhD and enjoy the process. That's what I offer.</strong>"
+    text_5: "After years of turning research projects into top-tier publications and helping students do the same, <strong style='color: #333;'>I know how important it is to have the right support, so you can successfully finish your PhD and enjoy the process. That's what I offer.</strong>"
     text_6: "What if you could submit within few months, and feel the relief of moving on to your next, more exciting project?"
     list_title: "What's it like to work with me?"
     bullet_1: "<strong>A fellow scientist who speaks your language.</strong> I've done the research, collected the data, revised, and published—I know how hard it is to publish a paper from start to finish."
@@ -65,7 +65,7 @@ en:
     dev_editing:
       badge: "Advanced"
       title: "Substantive editing"
-      desc: "Substantive editing is an advanced level of editing. I will help you turn your results into a clear scientific story, refining the structure, argument, figures, and language so your research reads as clearly as it deserves."
+      desc: "I'll provide personalized feedback and editing suggestions on structure, argumentation, and figures to make your scientific story clear, coherent, and compelling."
       points:
         pt1: "You’re submitting a thesis, manuscript, or grant proposal, and want the best chance of success"
         pt2: "Your results are solid, but the manuscript still feels unclear or difficult to structure."
@@ -75,7 +75,7 @@ en:
     copy_editing:
       badge: "Basic"
       title: "Copyediting"
-      desc: "Copyediting is a basic level of editing. I will smooth out awkward phrasing, repetition, inconsistencies, and language errors to make your manuscript clearer and easier to read."
+      desc: "I’ll refine the wording, coherence, language, and formatting to make your manuscript clearer and more enjoyable to read."
       points:
         pt1: "Your thesis, manuscript, or grant proposal is nearly there and only needs final refinements before submission."
         pt2: "Your ideas and results are well organized but need polishing for clarity and flow."
@@ -84,7 +84,7 @@ en:
 
     manuscript_eval:
       title: "Manuscript evaluation"
-      desc: "A manuscript evaluation is a detailed editorial review of your manuscript. I will read through the draft carefully and provide actionable feedback on the scientific narrative, structure, clarity, language, and overall flow of the paper."
+      desc: "I'll not edit your manuscript, but I will read through the draft carefully and provide feedback on the scientific narrative, structure, clarity, language, and overall flow of the paper."
       points:
         pt1: "You want to better understand the strengths and weaknesses of your draft."
         pt2: "You want detailed feedback before revising the manuscript yourself with confidence."
@@ -130,22 +130,22 @@ en:
     heading: "What clients say"
     t1:
       quote: "With Camille's help, I went from being insecure about writing to genuinely enjoying it. At my current job as a researcher, I write many proposals and reports; my team lead was so impressed by my first report that he immediately alerted the director to my writing skills. Without Camille, I daresay that would not have happened! I would highly recommend Camille as a writing coach."
-      name: "N.T. - Entomology Researcher, ST Food & Flowers"
+      name: "N.T. • Entomology Researcher, ST Food & Flowers"
     t2:
       quote: "Camille was wonderful! He was professional, communicative, and a pleasure to work with from start to finish. He did a beautiful job formatting my dissertation and made the whole experience remarkably easy. I would absolutely recommend Camille to anyone looking for thoughtful assistance with writing, editing, or formatting."
-      name: "K.H. - PhD student, Kansas State University"
+      name: "K.H. • PhD student, Kansas State University"
     t3:
       quote: "A huge thank you to Camille, who helped me with the statistical analysis for my biology thesis. The explanations and video calls we had together were very clear. The sessions went really well—Camille was able to reassure me and answer all my questions, and much more! I highly recommend taking lessons with Camille!"
-      name: "P.P. - Grad student, Lyon University"
+      name: "P.P. • Master student, Lyon University"
     t4:
       quote: "Camille is an excellent tutor! Very patient, explained things simply, didn't make me feel bad when I didn't understand, and adapted the session based on my needs and gaps. Will definitely be doing many more sessions."
-      name: "J.C. - PhD student, New York University"
+      name: "J.C. • PhD student, New York University"
     t5:
       quote: "Camille was very helpful. Even though my paper was outside his field, he provided valuable feedback and thoughtful suggestions."
-      name: "A.L. - Grad student, UNC Chapel Hill"
+      name: "A.L. • Grad student, UNC Chapel Hill"
     t6:
       quote: "Having worked closely with Dr. Camille Le Roy for several years, I can confidently say he is both an outstanding scientist and an exceptionally skilled writer. Camille is patient, organized, and deeply supportive—qualities that make him a highly effective and trustworthy academic mentor. He has a systematic mindset and a deep understanding of how to structure scientific arguments and communicate complex ideas with absolute clarity. For anyone seeking expert guidance in academic writing, Camille is strongly recommended."
-      name: "F.M. - Professor, Wageningen University"
+      name: "F.M. • Professor, Wageningen University"
 
   about:
     heading: "About Me"
@@ -187,21 +187,21 @@ fr:
     contact: "Contact"
 
   header:
-    heading_part1: "Vous avez fait<br>le plus dur"
-    heading_part2: "Publier ne devrait pas<br>être l'étape qui vous achève"
-    lead_in: "Accompagnement personalisé pour les doctorants qui souhaitent un suivi régulier et des retours adaptés — afin de ne plus perdre de temps et enfin publier."
+    heading_part1: "<strong>Un doctorat est<br>déjà assez difficile</strong>"
+    heading_part2: "Tu n’as pas à tout affronter toute seule"
+    lead_in: "Accompagnement personalisé pour les doctorants qui souhaitent un suivi régulier et des retours adaptés, pour ne plus perdre de temps et aller de l'avant."
     schedule_btn: "Book un appel gratuit"
     btn: "Envoyez-moi un message"
 
   empathy:
-    headline: "Vous avez passé des mois au labo ou sur le terrain, à mener des expériences et déboguer des analyses. Chaque donnée a demandé du temps, des efforts, et de la sueur. Vous avez <em>mérité</em> vos résultats."
+    headline: "Vous avez passé des mois au labo ou sur le terrain, à faire des manips et triturer des analyses. Chaque donnée a demandé du temps, des efforts, et de la sueur. Vous avez <em>mérité</em> vos résultats."
     subheadline: "La partie la plus difficile n’est plus la science. C’est de structurer votre travail en un récit clair et publiable."
     text_1: "La recherche est chaotique par nature : itérative, non linéaire, pleine d’impasses et de détours inattendus. Pourtant, les articles scientifiques sont censés se lire comme une histoire parfaitement construite. <strong style='color: #333;'>Raconter cette histoire est un vrai défi, et cela n’a rien à voir avec la qualité de votre science.</strong>"
     text_2: "Le temps des directeurs de thèse est souvent partagé entre de nombreuses responsabilités. En conséquence, l'essentiel du doctorat se déroule entre les réunions, vous laissant gérer l'incertitude seul et tenter de décider où consacrer au mieux votre temps et votre énergie."
-    text_3: "Perdre sa motivation et son enthousiasme pour son projet de recherche arrive souvent au cours du doctorat. Se sentir constamment en retard, bloquer sur le même brouillon pendant des semaines et porter le poids de l'incertitude ne devrait pas être le prix à payer pour devenir chercheur."
-    text_4: "<strong style='color: #333;'>Je suis passé par là.</strong> Je sais ce que c'est d'avoir des résultats solides mais un manuscrit qui ne leur rend pas justice. Un récit qui s'éparpille dans trois directions différentes, bugguer devant mon draft jusq'à 23 heures en me demandant ce que veut vraiment dire dans mon article. Ça m'est arrivé plus d'une fois."
+    text_3: "Perdre sa motivation et son enthousiasme au cours de son doctorat arrive souvent. Se sentir constamment en retard, bloquer sur le même draft pendant des semaines et être de plus en plus stressé ne devrait pas être le prix à payer pour devenir chercheur."
+    text_4: "<strong style='color: #333;'>Je suis passé par là.</strong> Je sais ce que c'est d'avoir des résultats solides mais un manuscrit qui ne leur rend pas justice. Un récit qui s'éparpille dans trois directions différentes, bugguer devant mon draft jusq'à 23 heures en me demandant ce que veut vraiment dire mon article. Ça m'est arrivé plus d'une fois."
     text_5: "Après des années passées à transformer des projets de recherche en publications et à aider des étudiants à faire de même, je sais à quel point ce parcours peut être difficile, et à quel point <strong style='color: #333;'>il devient plus facile avec la bonne personne à ses côtés. C'est ce que je vous propose.</strong>"
-    text_6: "Et si vous pouviez soumettre d'ici quelques mois,<br>et ressentir le soulagement de passer à votre prochain projet, bien plus stimulant ?"
+    text_6: "Et si vous pouviez soumettre d'ici quelques mois,<br>et être soulagé de passer à votre prochain projet, bien plus stimulant ?"
     list_title: "A quoi vous pouvez vous attendre :"
     bullet_1: "<strong>Un confrère scientifique qui parle votre langage.</strong> J’ai fait de la recherche, collecté des données, révisé et publié — je sais à quel point publier un article peut être difficile du début à la fin."
     bullet_2: "<strong>Aucun jugement.</strong> Un brouillon n'est jamais trop brouillon, et aucune question n'est trop basique. Amenez-moi votre chaos."
@@ -244,7 +244,7 @@ fr:
     dev_editing:
       badge: "Avancé"
       title: "Révision de fond"
-      desc: "La révision de fond correspond à un accompagnement éditorial approfondi. Je vous aide à transformer vos résultats en un récit scientifique clair et cohérent, en travaillant la structure, l’argumentation, les figures et le style afin que votre recherche soit présentée avec toute la clarté qu’elle mérite."
+      desc: "Je vous fais des retours et suggestions personnalisés sur la structure, l’argumentation, les figures, afin de rendre votre récit scientifique clair, cohérent, et convaincant."
       points:
         pt1: "Vous soumettez une thèse, un manuscrit ou une demande de financement et souhaitez maximiser vos chances de succès."
         pt2: "Vos résultats sont solides, mais le manuscrit vous semble encore flou ou difficile à structurer."
@@ -254,7 +254,7 @@ fr:
     copy_editing:
       badge: "Essentiel"
       title: "Copy-Editing"
-      desc: "Le Copy-Editing est un niveau de révision plus léger. Je corrigerai les formulations maladroites, les répétitions, les incohérences et les erreurs de langue afin de rendre votre manuscrit plus clair et plus agréable à lire."
+      desc: "Je retravaillerai la formulation, la cohérence, la langue, et la mise en forme, afin de rendre votre manuscrit plus clair et plus agréable à lire."
       points:
         pt1: "Votre thèse, manuscrit ou demande de subvention est presque finalisé et nécessite seulement les dernières corrections avant soumission."
         pt2: "Vos idées et résultats sont bien organisés mais ont besoin d’être peaufinés pour gagner en clarté et en fluidité."
@@ -263,7 +263,7 @@ fr:
 
     manuscript_eval:
       title: "Évaluation de manuscrit"
-      desc: "Une évaluation de manuscrit est une analyse éditoriale détaillée de votre document. Je lirai attentivement votre brouillon et fournirai des feedbacks concrets sur le récit scientifique, la structure, la clarté, la langue et la fluidité globale de l’article."
+      desc: "Je ne modifierais pas votre manuscript, mais le lirai attentivement et fournirai des feedbacks concrets sur le récit scientifique, la structure, la clarté, la langue et la fluidité globale de l’article."
       points:
         pt1: "Vous souhaitez mieux comprendre les forces et les faiblesses de votre brouillon."
         pt2: "Vous voulez des retours détaillés avant de réviser le manuscrit vous-même en toute confiance."
