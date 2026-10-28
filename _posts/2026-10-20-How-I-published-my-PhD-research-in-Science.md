@@ -147,7 +147,7 @@ Many young researchers, including myself, start a PhD hoping to make a groundbre
 
 <!-- Intro Visual / Image 1 -->
 <div class="post-figure intro-fig" style="margin-top: 1em; text-align: center;">
-  <img src="{{ site.baseurl }}/img/blogpost_2 Science magazine image 2.png" 
+  <img src="{{ site.baseurl }}/img/blogpost_2 Science magazine image 2.jpeg" 
        alt="Science magazine cover featuring Morpho butterfly research" 
        style="max-width: 85%; height: auto; border-radius: 8px;">
 </div>
